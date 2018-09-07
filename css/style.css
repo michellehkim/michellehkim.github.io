@@ -2,21 +2,36 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width:1440px) {
-  .container {
-    background-color: #FEE2DA;
-    width" 80%;
-  }
-}
-
 html {
   font-size: 10px;
 }
 body {
-  background-color: #FEE2DA;
+  background-color: teal;
+  font-family: Avenir;
 }
+
 p {
- font-size: 4rem;
+ font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.3rem;
+  font-family: PlayfairDisplay;
+}
+
+
+h2 {
+  font-size: 3.4rem;
+  font-family: PlayfairDisplay;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.project-title {
+  font-family: Avenir;
+  
 }
 
 .container {
@@ -24,11 +39,29 @@ p {
   height: 100vh;
   margin: 0 auto;
 }
-section {
-background-color:
+
+section.hero {
+  background-color: #FEE2DA;
+  margin:auto;
+  width: 100%;
+
+}
+section.work {
+background-color:#FF9272;
+width:100%;
 }
 
+footer {
+  background-color: #B7B3FF;
+}
 
-@media screen and (min-width: 110em) {
+/*@media screen and (min-width: 110em) {
 
+}
+
+@media screen and (min-width:1440px) {
+  .container {
+    background-color: #FEE2DA;
+    width" 80%;
+  }
 }
