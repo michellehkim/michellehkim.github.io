@@ -10,14 +10,31 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PlayfairDisplay">
-  </head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
+  </head>
+    <div class="container">
   <body>
     <header>
-        <img src= "logo_homepage.png" alt= "homepage logo">
-    </header>
+      <nav role='navigation'>
+      <div id="menuToggle">
 
-    <div class="container">
+    <input type="checkbox"/>
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+      <a href="#"><li><b>Work</b></li></a>
+      <a href="#"><li><b>Resume</b></li></a>
+      <a href="#"><li><b>About</b></li></a>
+      <a href="#"><li><b>Contact<b></li>
+        </ul>
+  </div>
+  <img class= "logo" src= "images/logo_homepage.png" alt= "homepage logo">
+  </nav>
+    </header>
 
       <!--hero unit -->
       <section class="hero">
@@ -29,12 +46,12 @@
 
       <!--other sections below -->
       <section class="work">
-          <h2 class= "project-title">CLOUDROP</h2>
+          <h2 class= "project-title"><b>CLOUDROP</b></h2>
           <div class="project-image">
-            <img src= "cloudrop_image.png" alt= "hero image">
+          <img src= "cloudrop_image.png" alt= "hero image">
           </div>
-            <div class="project-info">
-                <h3>Create, save and share ideas and inspiration.</h3>
+            <div>
+                <h3 class= "project-info">Create, save and share ideas and inspiration.</h3>
                 <div class= "case-study-button">
                 <a href="project.html"><button class= "case-study" type= "button">view case study
                 </button></a>
@@ -93,7 +110,7 @@
         </div>
 
           <div class= "copyright">
-          <p>Designed and developed by Michelle Kim <br>
+          <p class="copyright-text">Designed & coded by Michelle Kim <br>
             © 2018 Michelle Kim</p>
           </div>
       </footer>
