@@ -294,10 +294,19 @@ footer {
   letter-spacing: .1rem;
 }
 
-.linkedin {
-  position: absolute;
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.social-links a {
+  margin: 0 2rem;
+}
+
+
+.email {
+}
 .copyright-text {
   font-size: 1.4rem;
   letter-spacing: 0;
