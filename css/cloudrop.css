@@ -229,3 +229,16 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
 .footer-text{
   text-align: center;
 }
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a {
+  margin: 0 2rem;
+}
+.footer-text {
+
+}
