@@ -7,13 +7,13 @@ html {
 }
 
 body {
-background-color: #efefef;
-  font-family: "Avenir"; sans-serif;
+  background-color: #efefef;
+  font-family: "Avenir"; "Nunito"; sans-serif;
 }
 
 p {
- font-size: 1.6rem;
- color: #043043;
+  color: #043043;
+  font-size: 1.6rem;
 }
 
 h1 {
@@ -25,32 +25,25 @@ h1 {
 }
 
 h2 {
+  color: #2A4BC0;
   font-size: 3.4rem;
   font-family: "PlayfairDisplay";
-  color: #2A4BC0;
 }
 
 h3 {
-  font-size: 2rem;
   color:#043043;
+  font-size: 2rem;
 }
 
-.description {
-  color: #FA7446;
-  font-size: 1.8rem;
-  padding: 0 0 24rem 0;
-  line-height: 1.8;
-}
-
-.work-title {
-text-align: center;
-margin: auto;
-
-}
-
-header {
+.navigation {
   color: #FEE2DA;
+  margin-top: 2rem 4rem;
 }
+.logo {
+  hieght:4rem;
+  width: 5rem;
+}
+
 .container {
   background-color: white;
   height: 100vh;
@@ -62,39 +55,233 @@ header {
   width: 100%;
 }
 
-
-section {
+.section {
   color: #fff;
   padding: 10rem 0;
 }
 
-section.hero {
-  background-color: #FEE2DA;
-  width: 100%;
-  margin-top: 2rem;
-  padding: 2rem 1.8rem 1rem;
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
 }
 
+a:hover
+{
+  color: #2A4BC0;
+}
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #043043;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #043043;
+;
+}
+
+/*
+ * Bhide middle bar
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg)scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: auto;
+  margin: -100px 0 0 0;
+  padding: 4rem;
+  padding-top: 12.5rem;
+  right: -10rem;
+
+  background: #FEE2DA;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 1rem 0;
+  font-size: 5rem;
+}
+
+/*
+ * fade from right
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+/*-----hero unit -----*/
+
+.hero {
+  background-color: #FEE2DA;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.description {
+  color: #FA7446;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  padding: 0 0 20rem 0;
+}
+
+.work-title {
+  text-align: center;
+  margin: auto;
+}
+
+/*----- other sections -----*/
+
 section.work {
-background-color:#FF9272;
-width:100%;
-padding: 2rem 1.8rem;
+  background-color:#FF9272;
+  padding: 4rem 2rem;
+  width:100%;
 }
 
 .project-title{
   font-family: "Avenir";
+  font-weight: bold;
   text-align: center;
+  margin-top: 0;
+}
+
+.project-info {
+  font-style: italic;
 }
 
 .work h2 {
-  text-align: center;
-  letter-spacing: 1px;
   color: #043043;
   font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
 }
+
+.connect-button {
+  background-color: white;
+  border-radius: 30px;
+  color: yellow;
+  display:inline-block;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  width: 12rem;
+}
+
+.connect, .case-study {
+  color:#043043;
+  font-family: "Avenir";
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+.case-study-button {
+  background-color: white;
+  border-radius: 30px;
+  color: #043043;
+  margin: auto;
+  padding: 1rem 1rem;
+  width: 16.5rem;
+}
+/*----- footer -----*/
 
 footer {
   background-color: #B7B3FF;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -102,53 +289,20 @@ footer {
   font-weight: 800;
 }
 
-.connect-button {
-background-color: white;
-color: yellow;
-width: 12rem;
-padding: 1rem 1rem;
-border-radius: 30px;
-display:inline-block;
-}
-
-.connect {
-  font-size: 1.6rem;
-  letter-spacing: .2rem;
-  color:#043043;
-  font-family: "Avenir";
-  font-weight: bold;
-}
-
-.case-study-button {
-  background-color: white;
-  color: #043043;
-  padding: 1rem 1rem;
-  border-radius: 30px;
-  width: 16rem;
-  margin: 0 0 0 8rem;
-}
-
-.case-study {
-  font-size: 1.6rem;
-  color: #043043;
-  font-family: "Avenir";
-}
-
-
 .copyright{
-  letter-spacing: .1rem;
   font-size: 1.5rem;
-}
-
-footer {
-  padding: 2rem 1.8rem;
+  letter-spacing: .1rem;
 }
 
 .linkedin {
-position: absolute;
+  position: absolute;
 }
 
-
+.copyright-text {
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
+}
 
 /*@media screen and (min-width: 110em) {
 
