@@ -1,4 +1,4 @@
-* {
+  * {
   box-sizing: border-box;
 }
 
@@ -7,31 +7,225 @@ html {
 }
 
 body {
-background-color: #efefef;
+  color: #043043;
+  background-color: #efefef;
   font-family: "Avenir"; sans-serif;
 }
 
-h1, h2, h3 {
-  color: #043043;
-  font-family: "Avenir"; sans-serif'
-}
-
 h1{
-  font-size: 4rem;
+  font-size: 8rem;
   font-weight: 500;
+  letter-spacing: .1rem;
+  margin:1rem 0;
+  text-align: center;
 }
 
 h2{
-  font-style: italic;
-  font-size: 2rem;
-  letter-spacing: .2rem;
+  color: #FF9272;
+  font-size: 3.2rem
+  line-height: 6rem;
+  letter-spacing: .3rem;
+  padding-left: 4rem;
 }
 
 h3{
-font-size: 2rem;
-font-size: 1.8rem;
+  font-size: 1.8rem;
+  letter-spacing: .3rem;
+  padding: 5rem 4rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  padding: 0 4rem;
 }
 
 p {
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  line-height: 6rem;
+  padding: 0 4rem;
+}
 
+/******<!-- Project Intro -->*******/
+.container {
+  background-color: #fff;
+  display: grid;
+  /*grid-template-columns: 2rem 2rem 2rem 2rem;*/
+  justify-content: center;
+}
+
+.project-screens {
+  height: 30rem;
+  width: 30rem;
+}
+
+.snip {
+  color: #043043;
+  font-size: 1.8rem;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 3rem;
+  text-align: center;
+}
+
+/*--ROLES/DELIVERABLES/TOOLS/DURATION--*/
+
+.overview {
+  background-color: #FF9272;
+  padding: 9rem 0;
+}
+.overview-info {
+  padding: 7.5rem 4rem 9rem 0;
+}
+.subject-line {
+  text-decoration: underline;
+}
+
+.sub {
+  font-size: 1.6rem;
+}
+
+.problem-solution {
+  background-color: #EFEFEF;
+  padding: 9rem 0;
+}
+
+ .info-architecture {
+  background-color: #EFEFEF;
+  padding: 9rem 2rem;
+}
+
+.problem-solution-title {
+  margin: 0;
+  padding-top: 1rem 0 0 0;
+}
+
+/*****---research---*****/
+
+.research {
+  padding: 9rem 2rem;
+}
+
+.research-title, .branding-title {
+  font-size: 8rem;
+  padding: 3.5rem 0 0 2rem;
+}
+
+.research-goals {
+  padding-bottom: 6rem;
+}
+
+/****** --user research-- ******/
+.survey-button {
+  background-color: #FFCD49;
+  border-radius: 30px;
+  color: #043043;
+  margin: 5rem 10rem 0 10rem;
+  padding: 1rem 1rem;
+  width: 13rem;
+}
+
+/*****--user research--*****/
+
+.survey {
+  color: #043043;
+  font-size: 1.8rem;
+  font-family: "Avenir";
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #FF9272;
+  border-radius: 5px;
+  display: block;
+  height: 25rem;
+  margin: 4.5rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90rem;
+}
+
+p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
+  display: inline-block;
+  font-size: 5rem;
+  padding: 3rem 1rem 2rem 0;
+}
+
+.percent {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding-right: 6rem;
+}
+
+/*****---competitive analysis---*****/
+
+.dropbox-img {
+  display: block;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  }
+
+.icloud-img {
+  display: block;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+}
+
+.googledrive-img {
+  display:block;
+  height: 12rem;
+  width: 14rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-personas {
+  text-align: center;
+}
+
+.persona-name {
+  color: #043043;
+  font-size: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+.persona {
+  height: 15rem;
+  width: 15rem;
+}
+
+.persona-name {
+  text-align: center;
+}
+.persona-header {
+  padding: 2rem 0;
+}
+
+.occupation {
+  text-align: center;
+  margin-top: 0;
+}
+/*****--information architecture--*****/
+
+/*****--branding--*****/
+.colors {
+  height: 35rem;
+  padding: 4rem 4rem;
+  width: 35rem;
+}
+
+.type-image{
+  height: 60rem;
+  width:95rem;
+}
+
+.footer-text{
+  text-align: center;
 }
