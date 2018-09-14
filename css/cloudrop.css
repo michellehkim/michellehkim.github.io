@@ -22,8 +22,8 @@ h1{
 
 h2{
   color: #FF9272;
-  font-size: 3.2rem
-  line-height: 6rem;
+  font-size: 8rem;
+  line-height: 12rem;
   letter-spacing: .3rem;
   padding-left: 4rem;
 }
@@ -106,11 +106,6 @@ p {
   padding: 9rem 2rem;
 }
 
-.research-title, .branding-title {
-  font-size: 8rem;
-  padding: 3.5rem 0 0 2rem;
-}
-
 .research-goals {
   padding-bottom: 6rem;
 }
@@ -118,18 +113,19 @@ p {
 /****** --user research-- ******/
 .survey-button {
   background-color: #FFCD49;
-  border-radius: 30px;
+  border-radius: 50px;
   color: #043043;
-  margin: 5rem 10rem 0 10rem;
-  padding: 1rem 1rem;
-  width: 13rem;
+  margin: 5rem 10rem 0 15rem;
+  padding: 2rem 2rem;
+  width: 30rem;
+  align-items: center;
 }
 
 /*****--user research--*****/
 
 .survey {
   color: #043043;
-  font-size: 1.8rem;
+  font-size: 4rem;
   font-family: "Avenir";
   letter-spacing: .1rem;
   text-align: center;
@@ -155,7 +151,7 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
 .percent {
   display: inline-block;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 8rem;
   padding-right: 6rem;
 }
 
@@ -226,6 +222,23 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   width:95rem;
 }
 
+/*****--wireframes & testing--*****/
+
+.wireframes-testing {
+  background-color: #efefef;
+  padding: 9rem 2rem;
+}
+
+.insights {
+  padding: 9rem 2rem;
+}
+
+
+footer {
+  background-color: #B7B3FF;
+  padding: 2rem 2rem;
+  text-align: center;
+}
 .footer-text{
   text-align: center;
 }
@@ -240,5 +253,5 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   margin: 0 2rem;
 }
 .footer-text {
-
+line-height: 3rem;
 }
