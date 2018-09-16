@@ -35,13 +35,15 @@ h3 {
   font-size: 2rem;
 }
 
-.navigation {
+.nav {
   color: #FEE2DA;
   margin-top: 2rem 4rem;
 }
+
 .logo {
-  hieght:4rem;
-  width: 5rem;
+  height:auto;
+  width: 20%;
+  margin: 1rem 1rem;
 }
 
 .container {
@@ -60,7 +62,6 @@ h3 {
   padding: 10rem 0;
 }
 
-
 a
 {
   text-decoration: none;
@@ -78,11 +79,9 @@ a:hover
 {
   display: block;
   position: absolute;
-  top: 50px;
-  right: 50px;
-
+  top: 2rem;
+  right: 2rem;
   z-index: 1;
-
   -webkit-user-select: none;
   user-select: none;
 }
@@ -110,9 +109,9 @@ a:hover
 #menuToggle span
 {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 3.3rem;
+  height: .3rem;
+  margin-bottom: .5rem;
   position: relative;
   background: #043043;
   border-radius: 3px;
@@ -170,13 +169,14 @@ a:hover
  * Make this absolute positioned
  * at the top left of the screen
  */
+
 #menu
 {
   position: absolute;
   width: auto;
-  margin: -100px 0 0 0;
+  margin: -10rem 0 0 0;
   padding: 4rem;
-  padding-top: 12.5rem;
+  padding-top: 12rem;
   right: -10rem;
 
   background: #FEE2DA;
@@ -208,7 +208,7 @@ a:hover
 
 .hero {
   background-color: #FEE2DA;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   width: 100%;
 }
 
@@ -216,7 +216,7 @@ a:hover
   color: #FA7446;
   font-size: 1.8rem;
   line-height: 1.8;
-  padding: 0 0 20rem 0;
+  padding: 0 0 15rem 0;
 }
 
 .work-title {
@@ -226,9 +226,9 @@ a:hover
 
 /*----- other sections -----*/
 
-section.work {
+.work {
   background-color:#FF9272;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   width:100%;
 }
 
@@ -252,7 +252,7 @@ section.work {
 
 .connect-button {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 3rem;
   color: yellow;
   display:inline-block;
   margin-bottom: 4rem;
@@ -271,7 +271,7 @@ section.work {
 
 .case-study-button {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 3rem;
   color: #043043;
   margin: auto;
   padding: 1rem 1rem;
@@ -281,7 +281,7 @@ section.work {
 
 footer {
   background-color: #B7B3FF;
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
 

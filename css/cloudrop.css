@@ -8,12 +8,16 @@ html {
 
 body {
   color: #043043;
-  background-color: #efefef;
   font-family: "Avenir"; sans-serif;
+
+}
+
+header, .container, footer {
+  padding: 20px;
 }
 
 h1{
-  font-size: 8rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: .1rem;
   margin:1rem 0;
@@ -22,60 +26,67 @@ h1{
 
 h2{
   color: #FF9272;
-  font-size: 8rem;
-  line-height: 12rem;
+  font-size: 3.3rem;
+  line-height: 5rem;
   letter-spacing: .3rem;
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 
 h3{
-  font-size: 1.8rem;
-  letter-spacing: .3rem;
-  padding: 5rem 4rem;
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  letter-spacing: .1rem;
 }
 
 h4 {
   font-size: 1.8rem;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 p {
   font-size: 1.8rem;
-  letter-spacing: .1rem;
-  line-height: 6rem;
-  padding: 0 4rem;
+  line-height: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-/******<!-- Project Intro -->*******/
+/******<!-- PROJECT INTRO -->*******/
 .container {
   background-color: #fff;
   display: grid;
   /*grid-template-columns: 2rem 2rem 2rem 2rem;*/
+  height: 100vh;
   justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-left:2rem;
+  padding-right: 2rem;
 }
 
 .project-screens {
-  height: 30rem;
-  width: 30rem;
+  height: auto;
+  width: 5rem;
 }
 
 .snip {
   color: #043043;
   font-size: 1.8rem;
   font-style: italic;
+  line-height: 2rem;
   letter-spacing: 0;
-  line-height: 3rem;
   text-align: center;
+
 }
 
 /*--ROLES/DELIVERABLES/TOOLS/DURATION--*/
 
 .overview {
   background-color: #FF9272;
-  padding: 9rem 0;
+  /*padding: 4.2rem 0 4.2rem 2rem;*/
 }
+
 .overview-info {
-  padding: 7.5rem 4rem 9rem 0;
+  padding: 3.6rem 0 4.4rem 2rem;;
 }
 .subject-line {
   text-decoration: underline;
@@ -83,102 +94,119 @@ p {
 
 .sub {
   font-size: 1.6rem;
+
 }
 
 .problem-solution {
   background-color: #EFEFEF;
-  padding: 9rem 0;
+  padding: 2rem 0 4.2rem 2rem;
 }
 
  .info-architecture {
   background-color: #EFEFEF;
-  padding: 9rem 2rem;
+  padding: 3.26rem 0 4rem 2rem;
 }
 
-.problem-solution-title {
-  margin: 0;
-  padding-top: 1rem 0 0 0;
-}
-
-/*****---research---*****/
+/*****---RESEARCH---*****/
 
 .research {
-  padding: 9rem 2rem;
+  padding: 3.26rem 0 4.2rem 2rem;
 }
 
-.research-goals {
-  padding-bottom: 6rem;
-}
-
-/****** --user research-- ******/
+/****** --USER RESEARCH -- ******/
 .survey-button {
-  background-color: #FFCD49;
-  border-radius: 50px;
-  color: #043043;
-  margin: 5rem 10rem 0 15rem;
-  padding: 2rem 2rem;
-  width: 30rem;
-  align-items: center;
+    /*color:#043043;
+    font-family: "Avenir";
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    background-color:
+    border-color: 'yellow';*/
+    background-color: #efefef;
+    border-radius: 3rem;
+    color: yellow;
+    display: inline-block;
+    border-color: #FFCD49;
+    border-width: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    width: 14rem;
 }
-
-/*****--user research--*****/
 
 .survey {
   color: #043043;
-  font-size: 4rem;
+  font-size: 1.6rem;
   font-family: "Avenir";
   letter-spacing: .1rem;
   text-align: center;
+
 }
 
 .highlight {
   background-color: #FF9272;
   border-radius: 5px;
   display: block;
-  height: 25rem;
-  margin: 4.5rem 2rem;
+  height: 9rem;
+  margin: 2rem 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 90rem;
+  width: 30rem;
 }
 
 p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   display: inline-block;
-  font-size: 5rem;
-  padding: 3rem 1rem 2rem 0;
+  font-size: 2rem;
+  padding: 2rem 1rem 2rem 0;
 }
 
 .percent {
   display: inline-block;
   font-weight: 500;
-  font-size: 8rem;
-  padding-right: 6rem;
+  font-size: 2.5rem;
+  padding-right: 1rem;
 }
 
-/*****---competitive analysis---*****/
+/*****---COMPETITIVE ANALYSIS---*****/
 
 .dropbox-img {
   display: block;
-  height: 20rem;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 20rem;
+  padding-top: 3rem;
+  padding-bottom:3rem;
+  width: 10rem;
   }
 
 .icloud-img {
   display: block;
-  height: 15rem;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 15rem;
+  width: 12rem;
 }
 
 .googledrive-img {
   display:block;
-  height: 12rem;
-  width: 14rem;
+  height: auto;
+  width: 10rem;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom:3rem;
+}
+
+/*****---USER PERSONAS---*****/
+
+.hr {
+    color: #FF9272;
+    display: block;
+    height: .2rem;
+    border: 0;
+    border-top: 1rem solid ##FF9272;
+    margin: 4rem 0;
+    padding: 0;
+    width: 20rem;
 }
 
 .user-personas {
@@ -193,12 +221,14 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
 }
 
 .persona {
-  height: 15rem;
+  height: auto;
   width: 15rem;
 }
 
 .persona-name {
   text-align: center;
+  font-size: 2.6rem;
+  padding-left: 0;
 }
 .persona-header {
   padding: 2rem 0;
@@ -208,39 +238,75 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   text-align: center;
   margin-top: 0;
 }
-/*****--information architecture--*****/
+/*****--INFO ARCHITECTURE--*****/
 
-/*****--branding--*****/
+.info-architecture {
+  padding: 2rem 0 4.2rem 2rem;
+}
+/*****--BRANDING--*****/
+
+.branding {
+  padding: 3.26rem 0 3.26rem 2rem;;
+}
 .colors {
-  height: 35rem;
-  padding: 4rem 4rem;
-  width: 35rem;
+  height: 15rem;
+  padding: 2rem 2rem;
+  width: 15rem;
 }
 
 .type-image{
-  height: 60rem;
-  width:95rem;
+  height: 20rem;
+  width:auto;
 }
 
-/*****--wireframes & testing--*****/
+/*****--WIREFRAMES & TESTING--*****/
 
 .wireframes-testing {
   background-color: #efefef;
-  padding: 9rem 2rem;
+  /* padding: 3.26rem 0 3.26 2rem; */
+
 }
+/*****-- INSIGHTS --*****/
+
 
 .insights {
-  padding: 9rem 2rem;
+  padding: 3.26rem 0;
 }
 
+/*----- FOOTER -----*/
 
 footer {
   background-color: #B7B3FF;
   padding: 2rem 2rem;
   text-align: center;
 }
-.footer-text{
-  text-align: center;
+
+.footer-message {
+  font-weight: 800;
+}
+
+.connect-button {
+  background-color: white;
+  border-radius: 3rem;
+  color: yellow;
+  display:inline-block;
+  margin-bottom: 4rem;
+  margin-top: 0;
+  padding: 1rem 1rem;
+  width: 12rem;
+}
+
+.connect {
+  color:#043043;
+  font-family: "Avenir";
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+.copyright{
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
 }
 
 .social-links {
@@ -252,6 +318,10 @@ footer {
 .social-links a {
   margin: 0 2rem;
 }
-.footer-text {
-line-height: 3rem;
+
+
+.copyright-text {
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
 }
