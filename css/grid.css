@@ -1,82 +1,83 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-size: 10px;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(Avenir-85-Heavy_5167.ttf) format('truetype');
+  font-style: 'normal';
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Medium.otf) format('opentype'),
+  font-style: 'normal';
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Roman.otf) format('opentype'),
+  font-style: 'normal';
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Book.otf) format('opentype')
+  font-style: 'normal';
+  font-weight: 200;
 }
 
 body {
   background-color: #efefef;
   font-family: "Avenir"; "Nunito"; sans-serif;
+  font-family:
 }
-
 p {
   color: #043043;
   font-size: 1.6rem;
 }
-
 h1 {
   color: #2A4BC0;
-  font-size: 4.3rem;
+  font-size: 4rem;
   font-family: PlayfairDisplay;
-  font-weight:900;
+  font-weight:800;
   letter-spacing: .1rem;
 }
 
 h2 {
   color: #2A4BC0;
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   font-family: "PlayfairDisplay";
 }
-
 h3 {
   color:#043043;
   font-size: 2rem;
+  font-weight: 400;
 }
-
+header {
+  background-color: #FEE2DA;
+}
+/*------ header ------*/
 .nav {
   color: #FEE2DA;
   margin-top: 2rem 4rem;
 }
-
 .logo {
   height:auto;
-  width: 20%;
+  width: 17%;
   margin: 1rem 1rem;
 }
-
-.container {
-  background-color: white;
-  height: 100vh;
-  /*display: grid;
-  grid-gap: 1rem;
-  grid-template-columns:
-  grid-template-rows:*/
-  margin: 0 auto;
-  width: 100%;
-}
-
-.section {
-  color: #fff;
-  padding: 10rem 0;
-}
-
-a
-{
+a {
   text-decoration: none;
   color: #232323;
-
   transition: color 0.3s ease;
 }
-
-a:hover
-{
+a:hover {
   color: #2A4BC0;
 }
-
-#menuToggle
-{
+#menuToggle{
   display: block;
   position: absolute;
   top: 2rem;
@@ -85,7 +86,6 @@ a:hover
   -webkit-user-select: none;
   user-select: none;
 }
-
 #menuToggle input
 {
   display: block;
@@ -102,10 +102,7 @@ a:hover
 
   -webkit-touch-callout: none;
 }
-
-/*
- * Just a quick hamburger
- */
+/*hamburger*/
 #menuToggle span
 {
   display: block;
@@ -124,52 +121,34 @@ a:hover
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
-
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+/*hamburger to crossmark*/
 #menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #043043;
-;
 }
-
-/*
- * Bhide middle bar
- */
+/* hide middle bar*/
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg)scale(0.2, 0.2);
 }
-
-/*
- * Ohyeah and the last one should go the other direction
- */
+/*bar going other direction */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-
+/* Make this absolute positioned at the top left of the screen*/
 #menu
 {
   position: absolute;
@@ -189,133 +168,126 @@ a:hover
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menu li
 {
   padding: 1rem 0;
   font-size: 5rem;
 }
-
-/*
- * fade from right
- */
+/* fade from right */
 #menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
 }
-/*-----hero unit -----*/
-
-.hero {
-  background-color: #FEE2DA;
-  padding: 6rem 2rem;
+.container {
+  background-color: white;
+  height: 100vh;
+  /*display: grid;
+  grid-gap: 1rem;
+  grid-template-columns:
+  grid-template-rows:*/
   width: 100%;
 }
-
+ /* .section {
+  color: #fff;
+  padding: 10rem 0;
+} */
+/*-----hero section -----*/
+.hero {
+  background-color: #FEE2DA;
+  padding: 2rem 1.6rem;
+  width: 100%;
+}
 .description {
   color: #FA7446;
   font-size: 1.8rem;
-  line-height: 1.8;
-  padding: 0 0 15rem 0;
+  line-height: 3rem;
+  padding-bottom:19rem;
+  margin-top: 0;
 }
-
 .work-title {
   text-align: center;
   margin: auto;
 }
-
-/*----- other sections -----*/
-
+/*----- otehr sections -----*/
 .work {
   background-color:#FF9272;
-  padding: 6rem 2rem;
+  padding: 6rem 1.6rem;
   width:100%;
 }
-
 .project-title{
+  color: #043043;
   font-family: "Avenir";
-  font-weight: bold;
-  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
   margin-top: 0;
+  text-align: center;
 }
-
 .project-info {
   font-style: italic;
 }
 
-.work h2 {
-  color: #043043;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.connect-button {
+button {
   background-color: white;
+  border: none;
   border-radius: 3rem;
-  color: yellow;
-  display:inline-block;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+  color: #043043;
+  margin: auto;
   padding: 1rem 1rem;
-  width: 12rem;
+  text-align: center;
 }
 
 .connect, .case-study {
   color:#043043;
   font-family: "Avenir";
+  font-weight: 400;
   font-size: 1.6rem;
-  font-weight: bold;
   letter-spacing: .1rem;
 }
 
+.connect-button {
+  padding: 3rem 0;
+}
 .case-study-button {
-  background-color: white;
-  border-radius: 3rem;
-  color: #043043;
-  margin: auto;
-  padding: 1rem 1rem;
-  width: 16.5rem;
+  text-align: center;
 }
 /*----- footer -----*/
-
 footer {
   background-color: #B7B3FF;
-  padding: 4rem 2rem;
+  padding: 2rem 1.6rem;
   text-align: center;
 }
 
-.footer-message h3 {
-  font-weight: 800;
-}
+.footer-message {
+  font-weight: 600;
+  margin: 0;
+  font-style: normal;
 
+
+}
 .copyright{
   font-size: 1.5rem;
   letter-spacing: .1rem;
 }
-
 .social-links {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .social-links a {
   margin: 0 2rem;
 }
 
-
-
 .copyright-text {
   font-size: 1.4rem;
-  letter-spacing: 0;
+  font-weight: 400;
+  letter-spacing: .05rem;
   margin-bottom: 0;
 }
 
 /*@media screen and (min-width: 110em) {
 
 }
-
 @media screen and (min-width:1440px) {
   .container {
     background-color: #FEE2DA;
