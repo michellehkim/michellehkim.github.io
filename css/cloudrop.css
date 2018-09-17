@@ -28,7 +28,6 @@ html {
   font-style: 'normal';
   font-weight: 200;
 }
-
  body {
   color: #043043;
   font-family: "Avenir"; sans-serif
@@ -36,7 +35,7 @@ html {
 }
 h1{
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: .1rem;
   margin:1rem 0;
   text-align: center;
@@ -44,45 +43,50 @@ h1{
 h2{
   color: #FF9272;
   font-family: 'Avenir';
-  font-weight: 800;
-  font-size: 3.3rem;
+  font-weight: 600;
+  font-size: 3.1rem;
   line-height: 5rem;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
 }
-
 h3{
   font-size: 2rem;
   font-family: 'Avenir'
   letter-spacing: .1rem;
-  font-weight:
-
+  font-weight: 600;
+  padding: 1.5rem 0;
 }
-
 h4 {
   font-size: 1.8rem;
 }
-
 p {
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
 
+/*++++-- NAV BAR-- *****/
+.nav {
+  color: #FF9272;
+  margin-top: 2rem 4rem;
+}
+.logo {
+  height:auto;
+  width: 17%;
+  margin: 1rem 1rem;
+}
 /******<!-- PROJECT INTRO -->*******/
 .container {
-  background-color: #fff;
-  display: grid;
+  /* background-color: #fff; */
+  /* display: grid; */
   /*grid-template-columns: 2rem 2rem 2rem 2rem;*/
   height: 100vh;
   justify-content: center;
   margin: 0 auto;
   width: 100%;
 }
-
 .project-screens {
   height: auto;
   width: 5rem;
 }
-
 .snip {
   color: #043043;
   font-size: 1.8rem;
@@ -90,51 +94,60 @@ p {
   line-height: 2rem;
   letter-spacing: 0;
   text-align: center;
-
 }
-
 /*--ROLES/DELIVERABLES/TOOLS/DURATION--*/
-
 .overview {
   background-color: #FF9272;
-  /*padding: 4.2rem 0 4.2rem 2rem;*/
+  padding: 4rem 1.6rem 3.2rem 1.6rem;
+}
+.roles {
+  padding: 3rem 2rem 3.2rem 2rem;
 }
 subject-line {
   text-decoration: underline;
+  margin: 1rem 0;
 }
 .sub {
   font-size: 1.6rem;
 }
 .problem-solution {
   background-color: #EFEFEF;
-  padding: 2rem 0 4.2rem 2rem;
+  padding: 2rem 1.6rem 2.2rem 1.6rem;
 }
-
- .info-architecture {
-  background-color: #EFEFEF;
-  padding: 3.26rem 0 4rem 2rem;
+.problem-solution-title {
+  padding: 1rem 0;
 }
 /*****---RESEARCH---*****/
 .research {
+  padding:3rem 1.6rem;
+}
+.research-title {
+  margin-top: 2rem;
 }
 /****** --USER RESEARCH -- ******/
-.survey-button {
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 3rem;
+    color: #043043;
+    margin: auto;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+ .survey-button {
     background-color: #efefef;
     border-radius: 3rem;
-    color: yellow;
-    display: inline-block;
-    border-color: #FFCD49;
-    border-width: 1rem;
+    text-align: center;
     margin-top: 2rem;
     padding: 1rem 1rem;
     width: 14rem;
 }
-.survey {
+ .survey {
   color: #043043;
   font-size: 1.6rem;
   font-family: "Avenir";
+  font-weight: 400;
   letter-spacing: .1rem;
-  text-align: center;
 }
 .highlight {
   background-color: #FF9272;
@@ -146,18 +159,15 @@ subject-line {
   margin-right: auto;
   width: 30rem;
 }
-
-p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
+.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   display: inline-block;
   font-size: 2rem;
-  padding: 2rem 1rem 2rem 0;
 }
-
 .percent {
   display: inline-block;
   font-weight: 500;
   font-size: 2.5rem;
-  padding-right: 1rem;
+  padding: 1rem 1rem;
 }
 /*****---COMPETITIVE ANALYSIS---*****/
 .dropbox-img {
@@ -176,7 +186,6 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   margin-right: auto;
   width: 12rem;
 }
-
 .googledrive-img {
   display:block;
   height: auto;
@@ -185,6 +194,9 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   margin-right: auto;
   padding-top: 3rem;
   padding-bottom:3rem;
+}
+.comp-name {
+  font-weight: 600;
 }
 /*****---USER PERSONAS---*****/
 .hr {
@@ -197,55 +209,94 @@ p.highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
     padding: 0;
     width: 20rem;
 }
-
 .user-personas {
   text-align: center;
 }
-
 .persona-name {
   color: #043043;
   font-size: 3rem;
+  font-weight: 400;
   margin-bottom: 0;
+  letter-spacing: normal;
 }
-
 .persona {
   height: auto;
   width: 15rem;
 }
-
 .persona-name {
   text-align: center;
   font-size: 2.6rem;
-}
-.persona-header {
 }
 
 .occupation {
   text-align: center;
   margin-top: 0;
+  font-weight: 400;
 }
 /*****--INFO ARCHITECTURE--*****/
-
+.info-architecture {
+ background-color: #EFEFEF;
+ padding: 2.26rem 1.6rem 3.2rem 1.6rem;
+}
 /*****--BRANDING--*****/
+.branding{
+  padding: 2.26rem 1.6rem 3.2rem 1.6rem;
+}
+
+.blue-1 {
+  background-color: #0E5275;
+  width: 12rem;
+  height: 12rem;
+}
+.blue-2 {
+  background-color: #248199;
+  width: 12rem;
+  height: 12rem;
+}
+.blue-3 {
+  background-color: #489EB4;
+  width: 12rem;
+  height: 12rem;
+}
+.orange {
+  background-color: #F69B59;
+  width: 12rem;
+  height: 12rem;
+}
+.blue-4 {
+  background-color: #EAFBFF;
+  width: 12rem;
+  height: 12rem;
+}
+.grey-1 {
+  background-color: #EEEEEE;
+  width: 12rem;
+  height: 12rem;
+}
+.grey-2 {
+  background-color: #F8F8F8;
+  width: 12rem;
+  height: 12rem;
+}
 
 .colors {
   height: 15rem;
   padding: 2rem 2rem;
-  width: 15rem;
+  padding-left: 0;
+  width: 13rem;
 }
-
 .type-image{
   height: 20rem;
   width:auto;
 }
-
 /*****--WIREFRAMES & TESTING--*****/
-
 .wireframes-testing {
   background-color: #efefef;
+  padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
 /*****-- INSIGHTS --*****/
 .insights {
+  padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
 /*----- FOOTER -----*/
 footer {
@@ -256,7 +307,6 @@ footer {
 .footer-message {
   font-weight: 800;
 }
-
 .connect-button {
   background-color: white;
   border-radius: 3rem;
@@ -267,30 +317,25 @@ footer {
   padding: 1rem 1rem;
   width: 12rem;
 }
-
 .connect {
   color:#043043;
   font-family: "Avenir";
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: .1rem;
 }
-
 .copyright{
   font-size: 1.5rem;
   letter-spacing: .1rem;
 }
-
 .social-links {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .social-links a {
   margin: 0 2rem;
 }
-
 .copyright-text {
   font-size: 1.4rem;
   letter-spacing: 0;

@@ -28,7 +28,6 @@ html {
   font-style: 'normal';
   font-weight: 200;
 }
-
 body {
   background-color: #efefef;
   font-family: "Avenir"; "Nunito"; sans-serif;
@@ -45,7 +44,6 @@ h1 {
   font-weight:800;
   letter-spacing: .1rem;
 }
-
 h2 {
   color: #2A4BC0;
   font-size: 3.6rem;
@@ -212,21 +210,20 @@ a:hover {
 /*----- otehr sections -----*/
 .work {
   background-color:#FF9272;
-  padding: 6rem 1.6rem;
+  padding: 4rem 1.6rem;
   width:100%;
 }
 .project-title{
   color: #043043;
   font-family: "Avenir";
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: .2rem;
   margin-top: 0;
   text-align: center;
 }
 .project-info {
   font-style: italic;
 }
-
 button {
   background-color: white;
   border: none;
@@ -236,7 +233,6 @@ button {
   padding: 1rem 1rem;
   text-align: center;
 }
-
 .connect, .case-study {
   color:#043043;
   font-family: "Avenir";
@@ -244,7 +240,6 @@ button {
   font-size: 1.6rem;
   letter-spacing: .1rem;
 }
-
 .connect-button {
   padding: 3rem 0;
 }
@@ -257,13 +252,10 @@ footer {
   padding: 2rem 1.6rem;
   text-align: center;
 }
-
 .footer-message {
   font-weight: 600;
   margin: 0;
   font-style: normal;
-
-
 }
 .copyright{
   font-size: 1.5rem;
@@ -277,14 +269,12 @@ footer {
 .social-links a {
   margin: 0 2rem;
 }
-
 .copyright-text {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: .05rem;
   margin-bottom: 0;
 }
-
 /*@media screen and (min-width: 110em) {
 
 }
