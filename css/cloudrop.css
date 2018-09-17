@@ -247,11 +247,26 @@ subject-line {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .primary-colors-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.secondary-colors-1, .secondary-colors-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.secondary-colors-text, .secondary-text-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
 .blue-1 {
   background-color: #0E5275;
   width: 12rem;
@@ -296,6 +311,26 @@ subject-line {
   background-color: #efefef;
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  color: #043043;
+  margin: auto;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.mobile-wireframes {
+  color:#043043;
+  font-family: "Avenir";
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
 /*****-- INSIGHTS --*****/
 .insights {
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
