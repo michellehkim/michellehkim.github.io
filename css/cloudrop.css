@@ -242,7 +242,16 @@ subject-line {
 .branding{
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
-
+.primary-colors-1, .primary-colors-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.primary-colors-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .blue-1 {
   background-color: #0E5275;
   width: 12rem;
@@ -277,13 +286,6 @@ subject-line {
   background-color: #F8F8F8;
   width: 12rem;
   height: 12rem;
-}
-
-.colors {
-  height: 15rem;
-  padding: 2rem 2rem;
-  padding-left: 0;
-  width: 13rem;
 }
 .type-image{
   height: 20rem;
