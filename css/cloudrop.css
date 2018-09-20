@@ -156,7 +156,7 @@ subject-line {
   margin: 2rem 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 32rem;
+  width: 30rem;
 }
 .highlight-1, p.highlight-2, p.highlight-3, p.highlight-4, p.highlight-5 {
   display: inline-block;
@@ -229,6 +229,10 @@ subject-line {
   font-size: 2.6rem;
 }
 
+hr {
+  margin: 7rem 0;;
+  color: #FF9272
+}
 .occupation {
   text-align: center;
   margin-top: 0;
@@ -260,13 +264,15 @@ subject-line {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .secondary-colors-text, .secondary-text-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+.branding-image-1, .branding-image-2, .branding-image-3 {
+  height:auto;
+  width: 20rem;
+}
 
 .blue-1 {
   background-color: #0E5275;
@@ -313,7 +319,9 @@ subject-line {
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
 
-
+.wireframe-button {
+  align-items: center;
+}
 .mobile-wireframes {
   background-color: #FFCD49;
   border: none;
@@ -341,10 +349,16 @@ subject-line {
   text-align: center;
   width: 10rem;
 }
-
-.dropbox-buttons {
+.dropbox-buttons, .prototype-buttons {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  /* display: block; */
+}
+
+.landing-page, .home-page {
+  height: auto;
+  width: 27rem;
 }
 /*****-- INSIGHTS --*****/
 .insights {
