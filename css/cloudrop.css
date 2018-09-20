@@ -362,9 +362,13 @@ hr {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  /* display: block; */
 }
-.landing-page, .home-page {
+.landing-page {
+  height: auto;
+  width: 27rem;
+  padding-top: 3.5rem;
+}
+.home-page {
   height: auto;
   width: 27rem;
 }
