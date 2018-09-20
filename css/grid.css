@@ -191,6 +191,15 @@ a:hover {
   padding: 2rem 1.6rem;
   width: 100%;
 }
+.hero-image {
+  height: auto;
+  width: 32.5rem;
+}
+.project-screens {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .description {
   color: #FA7446;
   font-size: 1.8rem;

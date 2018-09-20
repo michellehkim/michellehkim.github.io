@@ -82,9 +82,14 @@ header {
   margin: 0 auto;
   width: 100%;
 }
-.project-screens {
+.hero-image {
   height: auto;
-  width: 5rem;
+  width: 32.5rem;
+}
+.project-screens {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .snip {
   color: #043043;
@@ -228,10 +233,10 @@ subject-line {
   text-align: center;
   font-size: 2.6rem;
 }
-
 hr {
-  margin: 7rem 0;;
-  color: #FF9272
+  margin: 7rem 0;
+  /* color: #FF9272; */
+  border-top: 1px solid ##FF9272;
 }
 .occupation {
   text-align: center;
@@ -252,13 +257,11 @@ hr {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .primary-colors-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .secondary-colors-1, .secondary-colors-2 {
   display: flex;
   flex-direction: row;
@@ -269,11 +272,15 @@ hr {
   flex-direction: row;
   justify-content: space-around;
 }
-.branding-image-1, .branding-image-2, .branding-image-3 {
+.b-1, .b-2, .b-3 {
   height:auto;
-  width: 20rem;
+  width: 32rem;
 }
-
+.branding-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .blue-1 {
   background-color: #0E5275;
   width: 12rem;
@@ -314,11 +321,14 @@ hr {
   width:auto;
 }
 /*****--WIREFRAMES & TESTING--*****/
+.desktop-sketch-1, .desktop-sketch-2 {
+  width: auto;
+  height: 22.5rem;
+}
 .wireframes-testing {
   background-color: #efefef;
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
-
 .wireframe-button {
   align-items: center;
 }
@@ -335,7 +345,6 @@ hr {
   text-align: center;
   width: 10rem;
 }
-
 .mobile-hifis, .desktop-hifis, .mobile-prototype, .desktop-prototype {
   background-color: #FFCD49;
   border: none;
@@ -355,11 +364,20 @@ hr {
   justify-content: space-around;
   /* display: block; */
 }
-
 .landing-page, .home-page {
   height: auto;
   width: 27rem;
 }
+.p-1, .p-2 {
+  width: auto;
+  height: 32rem;
+}
+.landing-page-class, .home-page-class, .pref-1, .pref-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
 /*****-- INSIGHTS --*****/
 .insights {
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
