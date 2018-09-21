@@ -127,7 +127,7 @@ a:hover {
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  /* transform: rotate(45deg) translate(-2px, -1px); */
   background: #043043;
 }
 /* hide middle bar*/
@@ -193,7 +193,7 @@ a:hover {
 }
 .hero-image {
   height: auto;
-  width: 32.5rem;
+  width: 28rem;
 }
 .project-screens {
   align-items: center;
@@ -227,6 +227,7 @@ a:hover {
 }
 .project-info {
   font-style: italic;
+  text-align: center;
 }
 button {
   background-color: white;
