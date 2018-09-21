@@ -127,7 +127,7 @@ a:hover {
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  /* transform: rotate(45deg) translate(-2px, -1px); */
+  transform: rotate(45deg) translate(-2px, -1px);
   background: #043043;
 }
 /* hide middle bar*/
@@ -305,6 +305,3 @@ h1 {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue */
-  }
