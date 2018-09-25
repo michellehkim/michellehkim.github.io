@@ -60,7 +60,7 @@ header {
 /*------ header ------*/
 .logo {
   height:auto;
-  width: 17%;
+  width: 6%;
   margin: 1rem 1rem;
 }
 a {
@@ -119,20 +119,17 @@ a:hover {
 {
   transform-origin: 0% 0%;
 }
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2){
   transform-origin: 0% 100%;
 }
 /*hamburger to crossmark*/
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span{
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #043043;
 }
 /* hide middle bar*/
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3){
   opacity: 0;
   transform: rotate(0deg)scale(0.2, 0.2);
 }
@@ -181,10 +178,6 @@ a:hover {
   grid-template-rows:*/
   width: 100%;
 }
- /* .section {
-  color: #fff;
-  padding: 10rem 0;
-} */
 /*-----hero section -----*/
 .hero {
   background-color: #FEE2DA;
@@ -207,9 +200,30 @@ a:hover {
   padding-bottom:19rem;
   margin-top: 0;
 }
+.work-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow {
+  box-sizing: border-box;
+  height: 2rem;
+  width: 2rem;
+  border-style: solid;
+  border-color: #043043;
+  border-width: 0px 3px 3px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+.arrow:hover {
+  border-bottom-width: .3rem;
+  border-right-width: .3rem;
+}
 .work-title {
   text-align: center;
   margin: auto;
+  padding-top: 3rem;
 }
 /*----- otehr sections -----*/
 .work {
@@ -232,7 +246,7 @@ a:hover {
 button {
   background-color: white;
   border: none;
-  border-radius: 3rem;
+  border-radius: 5rem;
   color: #043043;
   margin: auto;
   padding: 1rem 1rem;
@@ -280,28 +294,145 @@ footer {
   letter-spacing: .05rem;
   margin-bottom: 0;
 }
-/*@media screen and (min-width: 110em) {
-
-}
-@media screen and (min-width:1440px) {
-  .container {
-    background-color: #FEE2DA;
-    width" 80%;
+  /*
+    ##Device = Desktops; 1281px to higher resolution desktops
+  */
+@media (min-width: 1281px) {
+    h1 {
+      font-size: 6.5rem;
+    }
+    h2 {
+      font-size: 4.5rem;
+    }
+    h3 {
+      font-size: 3rem;
+      padding: 2rem 0;
+    }
+    .description {
+      font-size: 2.8rem;
+      line-height: 5rem;
+      padding-bottom: 25rem;
+      padding-top: 0;
+    }
+    .hero {
+      padding: 5rem 20rem;
+    }
+    .hero-image {
+      width:auto;
+      height: 55rem;
+    }
+    .connect, .case-study {
+      font-size: 2rem;
+    }
+    button {
+      padding: 1rem 2rem;
+    }
+    .work {
+      padding: 7rem 3rem;
+    }
+    .copyright-text {
+      font-size: 1.6rem;
+      padding-top: 1rem;
+    }
+    footer {
+      padding: 3rem 2rem;
+    }
   }
-}
-
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
+  /*
+  ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
+  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  h1 {
+    font-size: 6.5rem;
   }
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-h1 {
-  font-size:5rem;
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
+  h2 {
+    font-size: 4.2rem;
+  }
+  h3 {
+    font-size: 3rem;
+    padding: 2.5rem 0;
+  }
+  .description {
+    font-size: 2.8rem;
+    line-height: 4.5rem;
+    padding-bottom: 30rem;
+    padding-top: 0;
+  }
+  .hero {
+    padding: 4rem 14rem;
+  }
+  .hero-image {
+    width:auto;
+    height: 45rem;
+  }
+  .work {
+    padding: 6.5rem 2rem;
+  }
+  .connect, .case-study {
+    font-size: 2rem;
+  }
+  button {
+    padding: 1rem 2rem;
+  }
+  .copyright-text {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+  }
+  .footer-message {
+    padding-bottom: 0;
+  }
+  footer {
+    padding-bottom: 4rem;
+  }
+  }
+  /*
+  ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width:1024px) {
+  h1 {
+    font-size: 6rem;
+    }
+  h2 {
+    font-size: 4rem;
+    }
+  h3 {
+    font-size: 3rem;
+    padding: 2.5rem 0;
+    }
+    /* hero section */
+  .hero {
+    padding: 5rem 8rem;
+    }
+  .description {
+    font-size: 2.8rem;
+    line-height: 5rem;
+    padding-bottom: 42rem;
+    padding-top: 0;
+    }
+  .hero-image {
+    height: auto;
+    width: 60rem;
+    }
+  .work {
+    padding: 5rem 2rem;
+    }
+    /* work section  */
+  .case-study, .connect {
+    font-size: 2rem;
+    }
+    button {
+    button-radius: 5rem;
+    padding: 1rem 2rem;
+    }
+    /* footer */
+  .copyright-text {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    }
+    .footer-message {
+      padding: 0 0;
+    }
+    footer {
+    padding: 4rem 2rem 4rem 2rem;
+    }
+  }

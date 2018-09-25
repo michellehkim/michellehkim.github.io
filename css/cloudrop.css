@@ -69,7 +69,7 @@ header {
 }
 .logo {
   height:auto;
-  width: 17%;
+  width: 6%;
   margin: 1rem 1rem;
 }
 /******<!-- PROJECT INTRO -->*******/
@@ -100,11 +100,11 @@ header {
   text-align: center;
 }
 /*--ROLES/DELIVERABLES/TOOLS/DURATION--*/
-.overview {
+.overview-section {
   background-color: #FF9272;
   padding: 4rem 1.6rem 3.2rem 1.6rem;
 }
-.roles {
+.roles-etc {
   padding: 3rem 2rem 3.2rem 2rem;
 }
 subject-line {
@@ -136,7 +136,6 @@ subject-line {
     margin: auto;
     text-align: center;
 }
-
  .survey-button {
     background-color: #efefef;
     border-radius: 3rem;
@@ -431,17 +430,37 @@ footer {
   margin-bottom: 0;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-h1 {
-  font-size:5rem;
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
+/*
+##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width:1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .snip {
+    padding: 3rem 0;
+  }
+  .hero-image {
+    width: auto;
+    height: 36rem;
+  }
+  .overview {
+    text-align: center;
+  }
+  .roles-etc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .deliverables {
+    padding: 0 3rem;
+  }
+  .problem-solution {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .problem {
+    padding-right: 4rem;
+    width: 300rem;
+  }
