@@ -390,13 +390,13 @@ footer {
   */
 @media (min-width: 768px) and (max-width:1024px) {
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     }
   h2 {
     font-size: 4rem;
     }
   h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 2.5rem 0;
     }
     /* hero section */
@@ -406,7 +406,7 @@ footer {
   .description {
     font-size: 2.8rem;
     line-height: 5rem;
-    padding-bottom: 42rem;
+    padding-bottom: 48rem;
     padding-top: 0;
     }
   .hero-image {
@@ -418,7 +418,7 @@ footer {
     }
     /* work section  */
   .case-study, .connect {
-    font-size: 2rem;
+    font-size: 1.6rem;
     }
     button {
     button-radius: 5rem;
@@ -426,13 +426,13 @@ footer {
     }
     /* footer */
   .copyright-text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-top: 1rem;
     }
-    .footer-message {
+  .footer-message {
       padding: 0 0;
     }
-    footer {
+  footer {
     padding: 4rem 2rem 4rem 2rem;
-    }
+  }
   }
