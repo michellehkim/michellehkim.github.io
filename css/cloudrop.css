@@ -201,9 +201,9 @@ subject-line {
 .comp-name {
   font-weight: 600;
 }
-.comp-analysis {
+/* .comp-analysis {
   padding:2rem 3rem;
-}
+} */
 /*****---USER PERSONAS---*****/
 /* .hr {
     color: #FF9272;
@@ -395,6 +395,10 @@ footer {
 }
 .footer-message {
   font-weight: 800;
+}
+.footer-text {
+  margin: 0;
+  padding-bottom:3rem;
 }
 .connect-button {
   background-color: white;
