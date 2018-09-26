@@ -28,7 +28,7 @@ html {
   font-style: 'normal';
   font-weight: 200;
 }
- body {
+body {
   color: #043043;
   font-family: "Avenir"; sans-serif
   margin: 2rem 2rem;
@@ -62,7 +62,6 @@ p {
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
-
 /*++++-- NAV BAR-- *****/
 header {
   background-color: #FF9272;
@@ -122,7 +121,7 @@ subject-line {
   padding: 1rem 0;
 }
 /*****---RESEARCH---*****/
-.research {
+.research, .user-persona, .comp-analysis-all {
   padding:3rem 1.6rem;
 }
 .research-title {
@@ -136,21 +135,21 @@ subject-line {
     margin: auto;
     text-align: center;
 }
- .survey-button {
+.survey-button {
     background-color: #efefef;
     border-radius: 3rem;
     text-align: center;
     margin-top: 2rem;
     padding: 1rem 1rem;
     width: 14rem;
-}
- .survey {
+  }
+.survey {
   color: #043043;
   font-size: 1.6rem;
   font-family: "Avenir";
   font-weight: 400;
   letter-spacing: .1rem;
-}
+  }
 .highlight {
   background-color: #FF9272;
   border-radius: 5px;
@@ -173,7 +172,6 @@ subject-line {
   font-size: 2.5rem;
   padding: 0 1rem;
 }
-
 /*****---COMPETITIVE ANALYSIS---*****/
 .dropbox-img {
   display: block;
@@ -203,8 +201,11 @@ subject-line {
 .comp-name {
   font-weight: 600;
 }
+.comp-analysis {
+  padding:2rem 3rem;
+}
 /*****---USER PERSONAS---*****/
-.hr {
+/* .hr {
     color: #FF9272;
     display: block;
     height: .2rem;
@@ -213,7 +214,7 @@ subject-line {
     margin: 4rem 0;
     padding: 0;
     width: 20rem;
-}
+} */
 .user-personas {
   text-align: center;
 }
@@ -233,9 +234,9 @@ subject-line {
   font-size: 2.6rem;
 }
 hr {
-  margin: 7rem 0;
+  margin: 6rem 0;
   /* color: #FF9272; */
-  border-top: 1px solid ##FF9272;
+  border-top: 1px solid #FF9272;
 }
 .occupation {
   text-align: center;
@@ -434,9 +435,13 @@ footer {
 ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width:1024px) {
+  /* .container {
+    margin: 0 5rem;
+  } */
   h1 {
     font-size: 4rem;
   }
+  /******<!-- PROJECT INTRO (tablet)-->*******/
   .snip {
     padding: 3rem 0;
   }
@@ -447,20 +452,103 @@ footer {
   .overview {
     text-align: center;
   }
+  .overview-text {
+    padding: 0 7rem;
+  }
+  .overview-section {
+    padding: 3.2rem 5rem;
+  }
+  .titles, .problem-solution-text, .research-overall, .research-goals{
+    display:flex;
+    flex-direction: row;
+  }
+  .problem-solution {
+    padding:3.2rem 5rem;
+  }
+  .problem-title {
+    padding-top: 0;
+    padding-right: 4.8rem;
+    width: 90rem;
+  }
+  .solution-title {
+    padding-top: 0;
+    padding-right: 5.4rem;
+    width: 105rem;
+  }
+  .titles {
+    padding-bottom: 3rem;
+  }
+  /*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
   .roles-etc {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 2.6rem 5rem 3.4rem 5rem;
   }
   .deliverables {
     padding: 0 3rem;
   }
-  .problem-solution {
+  /*****---RESEARCH (tablet)---*****/
+  .icloud {
+    padding: 0 3rem;
+  }
+  .research {
+    padding: 3rem 5rem 3.2rem 5rem;
+  }
+  .user-persona {
+    padding: 3rem 5rem;
+  }
+  .user-research {
+    display:flex;
+    flex-direction: row;
+  }
+  .user-research-title  {
+    padding-top:0;
+    padding-right: 4rem;
+    width: 70rem;
+  }
+  .overall-title {
+    padding-top:0;
+    padding-right: 9.5rem;
+    width: 70rem;
+  }
+  /*****---COMPETITIVE-ANALYSIS (tablet)---*****/
+  .competitive-analysis {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    padding-top: 2rem;
   }
-  .problem {
-    padding-right: 4rem;
-    width: 300rem;
+  .comp-analysis-all {
+    background-color: #EFEFEF;
+    padding: 3.2rem 5rem 3rem 5rem;
   }
+  .comp-analysis-title {
+    padding-top:0;
+    padding-right: 7rem;
+    width: 70rem;
+    line-height: 3rem;
+  }
+  .comp-analysis {
+    flex-direction: row;
+    display:flex;
+    padding:0;
+  }
+  /*****---USER-PERSONAS (tablet)---*****/
+  .user-persona {
+    padding: 1.5rem 5rem 3.2rem 5rem;
+  }
+ .persona-info {
+   padding : 0 15rem;
+ }
+ .persona-info-2 {
+   padding : 0 15rem 3rem 15rem;
+ }
+ .research-goals-title {
+   padding-top: 0;
+   padding-right: 8rem;
+   width: 55rem;
+ }
+
+ }
