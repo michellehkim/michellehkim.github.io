@@ -188,6 +188,8 @@ subject-line {
   margin-left: auto;
   margin-right: auto;
   width: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .googledrive-img {
   display:block;
@@ -203,17 +205,6 @@ subject-line {
 }
 /* .comp-analysis {
   padding:2rem 3rem;
-} */
-/*****---USER PERSONAS---*****/
-/* .hr {
-    color: #FF9272;
-    display: block;
-    height: .2rem;
-    border: 0;
-    border-top: 1rem solid ##FF9272;
-    margin: 4rem 0;
-    padding: 0;
-    width: 20rem;
 } */
 .user-personas {
   text-align: center;
@@ -233,7 +224,7 @@ subject-line {
   text-align: center;
   font-size: 2.6rem;
 }
-hr {
+ hr {
   margin: 6rem 0;
   /* color: #FF9272; */
   border-top: 1px solid #FF9272;
@@ -345,7 +336,7 @@ hr {
   text-align: center;
   width: 10rem;
 }
-.mobile-hifis, .desktop-hifis, .mobile-prototype, .desktop-prototype {
+.mobile-hifis, .desktop-hifis, .mobile-prototype, .desktop-prototype, {
   background-color: #FFCD49;
   border: none;
   border-radius: 3rem;
@@ -392,9 +383,6 @@ footer {
   background-color: #B7B3FF;
   padding: 2rem 2rem;
   text-align: center;
-}
-.footer-message {
-  font-weight: 800;
 }
 .footer-text {
   margin: 0;
@@ -462,7 +450,7 @@ footer {
   .overview-section {
     padding: 3.2rem 5rem;
   }
-  .titles, .problem-solution-text, .research-overall, .research-goals{
+  .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1 {
     display:flex;
     flex-direction: row;
   }
@@ -511,6 +499,11 @@ footer {
     padding-right: 4rem;
     width: 70rem;
   }
+  .research-goals-title {
+    padding-top: 0;
+    padding-right: 8rem;
+    width: 55rem;
+  }
   .overall-title {
     padding-top:0;
     padding-right: 9.5rem;
@@ -534,25 +527,75 @@ footer {
     width: 70rem;
     line-height: 3rem;
   }
-  .comp-analysis {
-    flex-direction: row;
-    display:flex;
-    padding:0;
-  }
   /*****---USER-PERSONAS (tablet)---*****/
   .user-persona {
     padding: 1.5rem 5rem 3.2rem 5rem;
   }
- .persona-info {
-   padding : 0 15rem;
- }
- .persona-info-2 {
-   padding : 0 15rem 3rem 15rem;
- }
- .research-goals-title {
+   .persona-info {
+     padding : 0 15rem;
+   }
+   .persona-info-2 {
+     padding : 0 15rem 3rem 15rem;
+   }
+ /*****---INFO-ARCHITECTURE (tablet)---*****/
+  .info-architecture, .wireframes-testing, .insights {
+    padding: 2.4rem 5rem 3.2rem 5rem;
+  }
+  .user-stories-title {
+    padding-top: 0;
+    padding-right: 5rem;
+    width: 60rem;
+  }
+  .user-flows-title {
+    padding-top:0;
+    padding-right: 3.3rem;
+    width: 90rem;
+    line-height: 3rem;
+  }
+  /*****---BRANDING (tablet)---*****/
+  .branding {
+    padding: 2.4rem 5rem 3.2rem 5rem;
+  }
+  .branding-subtitle {
+    line-height:3rem;
+    padding-top: 0;
+    padding-right: 4.9rem;
+    width: 110rem;
+  }
+  .branding-text2 {
+    padding-left: 20.2rem;
+  }
+  /*****---WIREFRAMES (tablet)---*****/
+ .wireframes-title {
    padding-top: 0;
-   padding-right: 8rem;
-   width: 55rem;
- }
+   padding-right: 7.3rem;
+   width: 90rem;
+}
+.wireframes-p2 {
+  padding-left: 20.4rem;
+}
+.hifi-title {
+  line-height: 3rem;
+  padding-top: 0;
+  padding-right: 5.8rem;
+  width: 100rem;
+}
 
- }
+.testing-title {
+  line-height: 3rem;
+  padding-top: 0;
+  padding-right: 12rem;
+  width: 60rem;
+}
+
+.testing-text {
+  padding-left: 20.3rem;
+}
+
+.preferences {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+   }
