@@ -260,7 +260,14 @@ button {
   letter-spacing: .1rem;
 }
 .connect-button {
-  padding: 3rem 0;
+  background-color: white;
+  border-radius: 3rem;
+  color: yellow;
+  display:inline-block;
+  margin-bottom: 4rem;
+  margin-top: 0;
+  /* padding: 1rem 1rem; */
+  width: 12rem;
 }
 .case-study-button {
   text-align: center;
@@ -268,13 +275,13 @@ button {
 /*----- footer -----*/
 footer {
   background-color: #B7B3FF;
-  padding: 2rem 1.6rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
-.footer-message {
-  font-weight: 600;
+
+.footer-text {
   margin: 0;
-  font-style: normal;
+  padding-bottom:3rem;
 }
 .copyright{
   font-size: 1.5rem;
@@ -290,10 +297,59 @@ footer {
 }
 .copyright-text {
   font-size: 1.4rem;
-  font-weight: 400;
-  letter-spacing: .05rem;
+  letter-spacing: 0;
+  line-height:2.5rem;
   margin-bottom: 0;
+  font-weight: 400;
 }
+
+/* footer {
+  background-color: #B7B3FF;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.footer-message {
+  font-weight: 800;
+}
+.footer-text {
+  margin: 0;
+  padding-bottom:3rem;
+}
+.connect-button {
+  background-color: white;
+  border-radius: 3rem;
+  color: yellow;
+  display:inline-block;
+  margin-bottom: 4rem;
+  margin-top: 0;
+  padding: 1rem 1rem;
+  width: 12rem;
+}
+.connect {
+  color:#043043;
+  font-family: "Avenir";
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+}
+.copyright{
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-links a {
+  margin: 0 2rem;
+}
+.copyright-text {
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
+} */
+
   /*
     ##Device = Desktops; 1281px to higher resolution desktops
   */
