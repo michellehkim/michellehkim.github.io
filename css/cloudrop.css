@@ -136,7 +136,7 @@ subject-line {
     text-align: center;
 }
 .survey-button {
-    background-color: #efefef;
+    background-color: #FFCD49;
     border-radius: 3rem;
     text-align: center;
     margin-top: 2rem;
@@ -498,7 +498,7 @@ p {
   .overview-section {
     padding: 3.2rem 5rem;
   }
-  .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1 {
+  .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
     display:flex;
     flex-direction: row;
   }
@@ -546,22 +546,17 @@ p {
   }
   .user-research-title  {
     padding-top:0;
-    /* padding-right: 4.1rem;
-    width: 70rem; */
     padding-right: 6rem;
     width: 75rem;
   }
   .research-goals-title {
     padding-top: 0;
-    /* padding-right: 8rem;
-    width: 55rem; */
+
     padding-right: 6rem;
     width: 75rem;
   }
   .overall-title {
     padding-top:0;
-    /* padding-right: 9.5rem;
-    width: 70rem; */
     padding-right: 6rem;
     width: 75rem;
   }
@@ -619,24 +614,29 @@ p {
     width: 75rem;
   }
   .branding-text2 {
-    padding-left: 15rem;
-    width: 220rem;
+    padding-left: 20rem;
   }
-
-.colors-text {
-  width: 220rem;
-}
 .type-image {
   width: auto;
   height: 35rem;
 }
-.all-primary-colotrs {
+.branding-image {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.all-primary-colors {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
-.primary-colors {
-  justify-content: space-between;
+.primary-colors-1 {
+  display: flex;
+  flex-flow: flex-direction;
+  justify-content: center;
 }
+
 .home-page {
   width: auto;
   height: 40rem;
@@ -652,8 +652,7 @@ p {
    width: 75rem;
 }
 .wireframes-p2 {
-  padding-left: 27rem;
-  width: 90rem;
+  padding-left: 20rem;
 }
 .desktop-sketch {
   display: flex;
@@ -666,7 +665,6 @@ p {
   padding-right: 6rem;
   width: 75rem;
 }
-
 .testing-title {
   line-height: 3rem;
   padding-top: 0;
@@ -676,11 +674,15 @@ p {
 .testing-text {
   padding-left: 20.3rem;
 }
-
 .preferences {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 3rem;
 }
+.insights-title {
+  padding-right: 6rem;
+  width: 75rem;
+}
+
    }

@@ -195,7 +195,7 @@ a:hover {
 }
 .description {
   color: #FA7446;
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 3rem;
   padding-bottom:19rem;
   margin-top: 0;
@@ -245,7 +245,7 @@ a:hover {
 }
 button {
   background-color: white;
-  border: none;
+  border-color: transparent;
   border-radius: 5rem;
   color: #043043;
   margin: auto;
@@ -461,7 +461,7 @@ footer {
     }
   .description {
     font-size: 2.8rem;
-    line-height: 5rem;
+    line-height: 4rem;
     padding-bottom: 48rem;
     padding-top: 0;
     }
