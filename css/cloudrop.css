@@ -128,21 +128,13 @@ subject-line {
   margin-top: 2rem;
 }
 /****** --USER RESEARCH -- ******/
-.button {
+/* .button {
     background-color: white;
-    border: none;
+    border: .2rem solid black;
     color: #FFCD49;
     margin: auto;
     text-align: center;
-}
-.survey-button {
-    background-color: #FFCD49;
-    border-radius: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem 1rem;
-    width: 14rem;
-  }
+} */
 .survey {
   color: #043043;
   font-size: 1.6rem;
@@ -239,6 +231,15 @@ subject-line {
  background-color: #EFEFEF;
  padding: 2.26rem 1.6rem 3.2rem 1.6rem;
 }
+
+a {
+  text-decoration: none;
+  color: #FF9272;
+}
+a:visited, a:hover {
+  text-decoration: none;
+  color: #2A4BC0;
+}
 /*****--BRANDING--*****/
 .branding{
   padding: 2.26rem 1.6rem 3.2rem 1.6rem;
@@ -324,32 +325,6 @@ subject-line {
 .wireframe-button {
   align-items: center;
 }
-.mobile-wireframes {
-  background-color: #FFCD49;
-  border: none;
-  border-radius: 3rem;
-  color:#043043;
-  font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .1rem;
-  padding: 1rem 1rem;
-  text-align: center;
-  width: 10rem;
-}
- .mobile-prototype, .desktop-prototype, {
-  background-color: #FFCD49;
-  border: none;
-  border-radius: 3rem;
-  color:#043043;
-  font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .1rem;
-  padding: 1rem 1rem;
-  text-align: center;
-  width: 10rem;
-  }
 .dropbox-buttons, .prototype-buttons {
   display:flex;
   flex-direction: row;
@@ -364,9 +339,10 @@ subject-line {
   height: auto;
   width: 27rem;
 }
-.mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis {
+.mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey-button {
   background-color: #FFCD49;
   border: none;
+  /* border-color: #FFCD49; */
   border-radius: 3rem;
   color: #043043;
   font-family: "Avenir";
@@ -375,8 +351,9 @@ subject-line {
   letter-spacing: .1rem;
   padding: 1rem 1rem;
   text-align: center;
-  width: 10rem;
+  width: 13rem;
 }
+
 .p-1, .p-2 {
   width: auto;
   height: 32rem;
@@ -551,7 +528,6 @@ p {
   }
   .research-goals-title {
     padding-top: 0;
-
     padding-right: 6rem;
     width: 75rem;
   }
@@ -582,10 +558,10 @@ p {
   .user-persona {
     padding: 1.5rem 5rem 3.2rem 5rem;
   }
-   .persona-info {
+  .persona-info {
      padding : 0 15rem;
    }
-   .persona-info-2 {
+  .persona-info-2 {
      padding : 0 15rem 3rem 15rem;
    }
  /*****---INFO-ARCHITECTURE (tablet)---*****/
@@ -616,48 +592,65 @@ p {
   .branding-text2 {
     padding-left: 20rem;
   }
-.type-image {
-  width: auto;
-  height: 35rem;
-}
-.branding-image {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.all-primary-colors {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.primary-colors-1 {
-  display: flex;
-  flex-flow: flex-direction;
-  justify-content: center;
-}
-
-.home-page {
-  width: auto;
-  height: 40rem;
-}
-.landing-page {
-  width: auto;
-  height: 46rem;
-}
+  .type-image {
+    width: auto;
+    height: 35rem;
+  }
+  .branding-image {
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding-left: 20rem;
+  }
+  .all-primary-colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .primary-colors-1 {
+    display: flex;
+    flex-flow: flex-direction;
+    justify-content: center;
+  }
+  .colors-text {
+    padding-left: 22rem;
+  }
+  .home-page {
+    width: auto;
+    height: 40rem;
+  }
+  .landing-page {
+    width: auto;
+    height: 46rem;
+  }
+  .type-image {
+    width: auto;
+    height: 40rem;
+    justify-content: center;
+  }
   /*****---WIREFRAMES (tablet)---*****/
- .wireframes-title {
+.wireframes-title {
    padding-top: 0;
    padding-right: 6rem;
    width: 75rem;
-}
-.wireframes-p2 {
+ }
+.wireframes-p2, .testing-text {
   padding-left: 20rem;
 }
 .desktop-sketch {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.wireframe-button {
+  padding-left: 20rem;
+}
+.survey-button {
+  margin-left: 20rem;
+}
+.dropbox-buttons, .prototype-buttons {
+  margin-left: 14rem;
 }
 .hifi-title {
   line-height: 3rem;
@@ -671,9 +664,6 @@ p {
   padding-right: 6rem;
   width: 75rem;
 }
-.testing-text {
-  padding-left: 20.3rem;
-}
 .preferences {
   display: flex;
   flex-direction: row;
@@ -683,6 +673,9 @@ p {
 .insights-title {
   padding-right: 6rem;
   width: 75rem;
+}
+.insight-info {
+  padding-left: 6.7rem;
 }
 
    }

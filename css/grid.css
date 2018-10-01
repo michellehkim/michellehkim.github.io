@@ -71,7 +71,7 @@ a {
 a:hover {
   color: #2A4BC0;
 }
-#menuToggle{
+/* #menuToggle{
   display: block;
   position: absolute;
   top: 2rem;
@@ -168,7 +168,7 @@ a:hover {
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
-}
+} */
 .container {
   background-color: white;
   height: 100vh;
