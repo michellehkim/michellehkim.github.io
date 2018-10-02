@@ -68,8 +68,9 @@ a {
   color: #232323;
   transition: color 0.3s ease;
 }
-a:hover {
-  color: #2A4BC0;
+a.case-study:hover {
+  background-color: #DFDFDF;
+  color: #DFDFDF;
 }
 /* #menuToggle{
   display: block;
@@ -266,7 +267,6 @@ button {
   display:inline-block;
   margin-bottom: 4rem;
   margin-top: 0;
-  /* padding: 1rem 1rem; */
   width: 12rem;
 }
 .case-study-button {
@@ -394,6 +394,7 @@ footer {
       padding: 3rem 2rem;
     }
   }
+
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */
@@ -419,7 +420,7 @@ footer {
   }
   .hero-image {
     width:auto;
-    height: 45rem;
+    height: 50rem;
   }
   .work {
     padding: 6.5rem 2rem;
