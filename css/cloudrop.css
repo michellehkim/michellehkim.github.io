@@ -494,12 +494,6 @@ h3 {
 .problem-solution {
   padding:5.2rem 5rem;
   }
-.problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title {
-  padding-top: 0;
-  padding-right: 12rem;
-  letter-spacing: .1rem;
-  width: 75rem;
-  }
 .titles {
   padding-bottom: 3rem;
   }
@@ -532,7 +526,7 @@ h3 {
   background-color: #EFEFEF;
   padding: 5.2rem 5rem 5.2rem 5rem;
   }
-.comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title  {
+.comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
   padding-top:0;
   padding-right: 12rem;
   width: 75rem;
@@ -547,10 +541,10 @@ h3 {
   padding: 3.5rem 5rem 5.2rem 5rem;
   }
 .persona-info {
- padding : 0 25rem;
+ padding : 0 30rem;
 }
 .persona-info-2 {
- padding : 0 25rem 3rem 25rem;
+ padding : 0 30rem 3rem 30rem;
 }
 /*****---INFO-ARCHITECTURE (tablet)---*****/
 .wireframes-testing, .insights {
@@ -589,17 +583,24 @@ flex-flow: flex-direction;
 justify-content: center;
 }
 .colors-text {
-padding-left: 29.5rem;
-}
+  padding-left: 29.5rem;
+  }
 .home-page {
-width: auto;
-height: 40rem;
-}
+  width: auto;
+  height: 31rem;
+  }
 .landing-page {
-width: auto;
-height: 46rem;
-display: flex;
-flex-direction: row;
+  width: auto;
+  height: 31rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  }
+.hifi-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 4rem;
 }
 .type-image {
   width: auto;
@@ -623,19 +624,18 @@ flex-direction: row;
   margin-left: 17.7rem;
   }
 .preferences {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-padding-top: 3rem;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+  }
 .insight-info {
-padding-left: 6.7rem;
-}
+  padding-left: 6.7rem;
+  }
 /*
 ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width:1024px) {
-
   h1 {
     font-size: 4rem;
   }
@@ -710,11 +710,6 @@ padding-left: 6.7rem;
   padding-right: 6rem;
   width: 75rem;
 }
-.research-goals-title {
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-}
 .overall-title {
   padding-top:0;
   padding-right: 6rem;
@@ -732,12 +727,19 @@ padding-left: 6.7rem;
   background-color: #EFEFEF;
   padding: 3.2rem 5rem 3rem 5rem;
 }
-.comp-analysis-title {
+/* .comp-analysis-title {
   padding-top:0;
   padding-right: 6rem;
   width: 75rem;
   line-height: 3rem;
-}
+} */
+.comp-analysis-title, .user-flows-title, .branding-subtitle, .research-goals-title, .wireframes-title, .hifi-title, .testing-title, .insights-title  {
+  padding-top:0;
+  padding-right: 12rem;
+  width: 75rem;
+  line-height: 3rem;
+  letter-spacing: .1rem;
+  }
   /*****---USER-PERSONAS (tablet)---*****/
 .user-persona {
   padding: 1.5rem 5rem 3.2rem 5rem;
@@ -757,22 +759,22 @@ padding-left: 6.7rem;
   padding-right: 6rem;
   width: 75rem;
 }
-.user-flows-title {
+/* .user-flows-title {
   padding-top:0;
   padding-right: 6rem;
   width: 75rem;
   line-height: 3rem;
-}
+} */
 /*****---BRANDING (tablet)---*****/
 .branding {
   padding: 2.4rem 5rem 3.2rem 5rem;
 }
-.branding-subtitle {
+/* .branding-subtitle {
   line-height:3rem;
   padding-top: 0;
   padding-right: 6rem;
   width: 75rem;
-}
+} */
 .branding-text2 {
   padding-left: 20rem;
 }
@@ -814,11 +816,11 @@ padding-left: 6.7rem;
     justify-content: center;
   }
   /*****---WIREFRAMES (tablet)---*****/
-.wireframes-title {
+/* .wireframes-title {
    padding-top: 0;
    padding-right: 6rem;
    width: 75rem;
- }
+ } */
 .wireframes-p2, .testing-text {
   padding-left: 20rem;
 }
@@ -836,7 +838,7 @@ padding-left: 6.7rem;
 .dropbox-buttons, .prototype-buttons {
   margin-left: 14rem;
 }
-.hifi-title {
+/* .hifi-title {
   line-height: 3rem;
   padding-top: 0;
   padding-right: 6rem;
@@ -847,17 +849,17 @@ padding-left: 6.7rem;
   padding-top: 0;
   padding-right: 6rem;
   width: 75rem;
-}
+} */
 .preferences {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 3rem;
 }
-.insights-title {
+/* .insights-title {
   padding-right: 6rem;
   width: 75rem;
-}
+} */
 .insight-info {
   padding-left: 6.7rem;
 }
