@@ -99,6 +99,9 @@ header {
   text-align: center;
 }
 /*--ROLES/DELIVERABLES/TOOLS/DURATION--*/
+.overview {
+  text-align: center;
+}
 .overview-section {
   background-color: #FF9272;
   padding: 4rem 1.6rem 3.2rem 1.6rem;
@@ -416,451 +419,570 @@ footer {
   ##Device = Desktops; 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
-
-h1 {
-  font-size: 6rem;
-}
-p {
-  font-size: 2rem;
-}
-.snip {
-  font-size: 2.5rem;
-  padding: 2rem 0 4rem 0;
-}
-.hero-image {
-  width: auto;
-  height: 55rem;
-}
-.overview-text {
-  padding: 0 20rem;
-}
-.overview-title {
-  text-align: center;
-}
-.overview-section {
-  padding: 3.2rem 5rem;
-}
-.titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
-  display:flex;
-  flex-direction: row;
-}
-}
-
-/*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
-*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-h1 {
-  font-size: 4rem;
-}
-h3 {
-  letter-spacing: .1rem;
-}
-.info {
-  width: 220rem;
-  }
-/******<!-- PROJECT INTRO (tablet)-->*******/
-.snip {
-  padding-bottom: 3rem;
-  padding-top: 1rem;
-  }
-.hero-image {
-  width: auto;
-  height: 36rem;
-  }
-.overview {
-  text-align: center;
-  }
-.overview-text {
-  padding: 0 13rem;
-  }
-.overview-section {
-  padding: 3rem 5rem 5.2rem 5rem;;
-  }
-.titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
-  display:flex;
-  flex-direction: row;
-  }
-/*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
-.roles-etc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 4.6rem 5rem 5.4rem 5rem;
-  }
-.deliverables {
-  padding: 0 5rem;
-  }
-.problem-solution {
-  padding:5.2rem 5rem;
-  }
-.titles {
-  padding-bottom: 3rem;
-  }
-/*****---RESEARCH (tablet)---*****/
-.research {
-  padding: 5rem 5rem 5.2rem 5rem;
-  }
-.survey-button {
-  margin-left: 29rem;
-  margin-top: 2rem;
-  }
-.user-persona {
-  padding: 3rem 5rem;
-  }
-.user-research {
-  display:flex;
-  flex-direction: row;
-  }
-/*****---COMPETITIVE-ANALYSIS (tablet)---*****/
-.competitive-analysis {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  }
-.comp-analysis-all {
-  background-color: #EFEFEF;
-  padding: 5.2rem 5rem 5.2rem 5rem;
-  }
-.comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
-  padding-top:0;
-  padding-right: 12rem;
-  width: 75rem;
-  line-height: 3rem;
-  letter-spacing: .1rem;
-  }
-.icloud {
-  padding: 0 3rem;
-  }
-/*****---USER-PERSONAS (tablet)---*****/
-.user-persona {
-  padding: 3.5rem 5rem 5.2rem 5rem;
-  }
-.persona-info {
- padding : 0 30rem;
-}
-.persona-info-2 {
- padding : 0 30rem 3rem 30rem;
-}
-/*****---INFO-ARCHITECTURE (tablet)---*****/
-.wireframes-testing, .insights {
-padding: 4.4rem 5rem 5.2rem 5rem;
-}
-.info-architecture {
-  padding: 4.4rem 5rem 4.4rem 5.2rem;
-}
-
-/*****---BRANDING (tablet)---*****/
-.branding {
-padding: 4.4rem 5rem 5.2rem 5rem;
-}
-.branding-text2 {
-padding-left: 29.5rem;
-}
-.type-image {
-width: auto;
-height: 35rem;
-}
-.branding-image {
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-padding-left: 26rem;
-}
-.all-primary-colors {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-}
-.primary-colors-1 {
-display: flex;
-flex-flow: flex-direction;
-justify-content: center;
-}
-.colors-text {
-  padding-left: 29.5rem;
-  }
-.home-page {
-  width: auto;
-  height: 31rem;
-  }
-.landing-page {
-  width: auto;
-  height: 31rem;
-  display: flex;
-  flex-direction: row;
-  padding-top: 0;
-  }
-.hifi-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 4rem;
-}
-.type-image {
-  width: auto;
-  height: 40rem;
-  justify-content: center;
-}
-/*****---WIREFRAMES (tablet)---*****/
-.wireframes-p2, .testing-text {
-  padding-left: 29.5rem;
-  }
-.desktop-sketch {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-left: 20rem;
-  }
-.wireframe-button {
-  padding-left: 29.5rem;
-  }
-.dropbox-buttons, .prototype-buttons {
-  margin-left: 17.7rem;
-  }
-.preferences {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 3rem;
-  }
-.insight-info {
-  padding-left: 6.7rem;
-  }
-/*
-##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width:1024px) {
   h1 {
+    font-size: 6rem;
+  }
+  h2 {
     font-size: 4rem;
   }
-.info {
-  width: 220rem;
+  p {
+    font-size: 2rem;
   }
+  h3 {
+    font-size: 2.8rem;
+    letter-spacing: .1rem;
+  }
+.subject-line {
+    font-size: 2.2rem;
+  }
+  .info {
+    width: 220rem;
+    line-height: 3.3rem;
+    }
   /******<!-- PROJECT INTRO (tablet)-->*******/
-.snip {
-  padding: 3rem 0;
-}
-.hero-image {
-  width: auto;
-  height: 36rem;
-}
-.overview {
-  text-align: center;
-}
-.overview-text {
-  padding: 0 7rem;
-}
-.overview-section {
-  padding: 3.2rem 5rem;
-}
-.titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
-  display:flex;
-  flex-direction: row;
-}
-/*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
-.roles-etc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 2.6rem 5rem 3.4rem 5rem;
-}
-.deliverables {
-  padding: 0 3rem;
-}
-.problem-solution {
-  padding:3.2rem 5rem;
-}
-.problem-title {
-  padding-top: 0;
-  /* padding-right: 4.8rem;
-  width: 90rem; */
-  padding-right: 6rem;
-  width: 75rem;
-}
-.solution-title {
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-}
-.titles {
-  padding-bottom: 3rem;
-}
-  /*****---RESEARCH (tablet)---*****/
-.icloud {
-  padding: 0 3rem;
-}
-.research {
-  padding: 3rem 5rem 3.2rem 5rem;
-}
-.user-persona {
-  padding: 3rem 5rem;
-}
-.user-research {
-  display:flex;
-  flex-direction: row;
-}
-.user-research-title  {
-  padding-top:0;
-  padding-right: 6rem;
-  width: 75rem;
-}
-.overall-title {
-  padding-top:0;
-  padding-right: 6rem;
-  width: 75rem;
-}
-/*****---COMPETITIVE-ANALYSIS (tablet)---*****/
-.competitive-analysis {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 2rem;
-}
-.comp-analysis-all {
-  background-color: #EFEFEF;
-  padding: 3.2rem 5rem 3rem 5rem;
-}
-/* .comp-analysis-title {
-  padding-top:0;
-  padding-right: 6rem;
-  width: 75rem;
-  line-height: 3rem;
-} */
-.comp-analysis-title, .user-flows-title, .branding-subtitle, .research-goals-title, .wireframes-title, .hifi-title, .testing-title, .insights-title  {
-  padding-top:0;
-  padding-right: 12rem;
-  width: 75rem;
-  line-height: 3rem;
-  letter-spacing: .1rem;
+  .snip {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    font-size: 2.7rem;
+    }
+  .sub {
+    font-size: 1.8rem;
+    letter-spacing: .05rem;
+    line-height: 2.5rem;
   }
+  .deliverables {
+    padding: 0 4.5rem;
+  }
+  .hero-image {
+    width: auto;
+    height: 40rem;
+    }
+  .overview {
+    text-align: center;
+    }
+  .overview-text {
+    line-height: 3.3rem;
+    padding: 0 13rem;
+    }
+  .overview-section {
+    padding: 3rem 5rem 5.2rem 5rem;;
+    }
+  .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
+    display:flex;
+    flex-direction: row;
+    }
+  /*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
+  .roles-etc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4.6rem 5rem 5.4rem 5rem;
+    }
+  .deliverables {
+    padding: 0 5rem;
+    }
+  .problem-solution {
+    padding:5.2rem 5rem;
+    }
+  .titles {
+    padding-bottom: 3rem;
+    }
+  /*****---RESEARCH (tablet)---*****/
+  .research {
+    padding: 5rem 5rem 5.2rem 5rem;
+    }
+    .survey-button {
+      margin-left: 40rem;
+      margin-top: 2rem;
+      }
+  .user-persona {
+    padding: 3rem 5rem;
+    }
+  .user-research {
+    display:flex;
+    flex-direction: row;
+    }
+  /*****---COMPETITIVE-ANALYSIS (tablet)---*****/
+  .competitive-analysis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    }
+  .comp-analysis-all {
+    background-color: #EFEFEF;
+    padding: 5.2rem 5rem 5.2rem 5rem;
+    }
+  .comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
+    padding-top:0;
+    padding-right: 16rem;
+    width: 85rem;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+    }
+  .icloud {
+    padding: 0 3rem;
+    }
   /*****---USER-PERSONAS (tablet)---*****/
-.user-persona {
-  padding: 1.5rem 5rem 3.2rem 5rem;
-}
-.persona-info {
-   padding : 0 15rem;
- }
-.persona-info-2 {
-   padding : 0 15rem 3rem 15rem;
- }
-/*****---INFO-ARCHITECTURE (tablet)---*****/
-.info-architecture, .wireframes-testing, .insights {
-  padding: 2.4rem 5rem 3.2rem 5rem;
-}
-.user-stories-title {
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-}
-/* .user-flows-title {
-  padding-top:0;
-  padding-right: 6rem;
-  width: 75rem;
-  line-height: 3rem;
-} */
-/*****---BRANDING (tablet)---*****/
-.branding {
-  padding: 2.4rem 5rem 3.2rem 5rem;
-}
-/* .branding-subtitle {
-  line-height:3rem;
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-} */
-.branding-text2 {
-  padding-left: 20rem;
-}
-.type-image {
-  width: auto;
-  height: 35rem;
-}
-.branding-image {
-  display:flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  justify-content: space-around;
-  padding-left: 20rem;
-}
-.all-primary-colors {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.primary-colors-1 {
-  display: flex;
-  flex-flow: flex-direction;
-  justify-content: center;
-}
-.colors-text {
-  padding-left: 22rem;
-}
-.home-page {
-  width: auto;
-  height: 40rem;
-}
-.landing-page {
-  width: auto;
-  height: 46rem;
-}
-.type-image {
+  .user-persona {
+    padding: 3.5rem 5rem 5.2rem 5rem;
+    }
+  .persona-info {
+   padding : 0 30rem;
+  }
+  .persona-info-2 {
+   padding : 0 30rem 3rem 30rem;
+  }
+  /*****---INFO-ARCHITECTURE (tablet)---*****/
+  .wireframes-testing, .insights {
+    padding: 4.4rem 5rem 5.2rem 5rem;
+    }
+  .info-architecture {
+    padding: 4.4rem 5rem 4.4rem 5.2rem;
+  }
+  /*****---BRANDING (tablet)---*****/
+  .branding {
+    padding: 4.4rem 5rem 5.2rem 5rem;
+    }
+  .branding-text2 {
+    padding-left: 29.5rem;
+    }
+  .type-image {
+    width: auto;
+    height: 35rem;
+    }
+  .branding-image {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 26rem;
+    }
+  .all-primary-colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+  .primary-colors-1 {
+    display: flex;
+    flex-flow: flex-direction;
+    justify-content: center;
+    }
+  .colors-text {
+    padding-left: 29.5rem;
+    }
+  .home-page {
+    width: auto;
+    height: 31rem;
+    }
+  .landing-page {
+    width: auto;
+    height: 31rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    }
+  .hifi-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+  }
+  .type-image {
     width: auto;
     height: 40rem;
     justify-content: center;
   }
   /*****---WIREFRAMES (tablet)---*****/
-/* .wireframes-title {
-   padding-top: 0;
-   padding-right: 6rem;
-   width: 75rem;
- } */
-.wireframes-p2, .testing-text {
-  padding-left: 20rem;
+  .wireframes-p2, .testing-text {
+    padding-left: 29.5rem;
+    }
+  .desktop-sketch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20rem;
+    }
+  .wireframe-button {
+    padding-left: 29.5rem;
+    }
+  .dropbox-buttons, .prototype-buttons {
+    margin-left: 17.7rem;
+    }
+  .preferences {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    }
+  .insight-info {
+    padding-left: 6.7rem;
+    }
+  }
 }
-.desktop-sketch {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.wireframe-button {
-  padding-left: 20rem;
-}
-.survey-button {
-  margin-left: 20rem;
-}
-.dropbox-buttons, .prototype-buttons {
-  margin-left: 14rem;
-}
-/* .hifi-title {
-  line-height: 3rem;
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-}
-.testing-title {
-  line-height: 3rem;
-  padding-top: 0;
-  padding-right: 6rem;
-  width: 75rem;
-} */
-.preferences {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 3rem;
-}
-/* .insights-title {
-  padding-right: 6rem;
-  width: 75rem;
-} */
-.insight-info {
-  padding-left: 6.7rem;
-}
+/*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    letter-spacing: .1rem;
+  }
+  .info {
+    width: 220rem;
+    }
+  /******<!-- PROJECT INTRO (tablet)-->*******/
+  .snip {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    }
+  .hero-image {
+    width: auto;
+    height: 36rem;
+    }
+  .overview {
+    text-align: center;
+    }
+  .overview-text {
+    padding: 0 13rem;
+    }
+  .overview-section {
+    padding: 3rem 5rem 5.2rem 5rem;;
+    }
+  .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
+    display:flex;
+    flex-direction: row;
+    }
+  /*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
+  .roles-etc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4.6rem 5rem 5.4rem 5rem;
+    }
+  .deliverables {
+    padding: 0 5rem;
+    }
+  .problem-solution {
+    padding:5.2rem 5rem;
+    }
+  .titles {
+    padding-bottom: 3rem;
+    }
+  /*****---RESEARCH (tablet)---*****/
+  .research {
+    padding: 5rem 5rem 5.2rem 5rem;
+    }
+  .survey-button {
+    margin-left: 29rem;
+    margin-top: 2rem;
+    }
+  .user-persona {
+    padding: 3rem 5rem;
+    }
+  .user-research {
+    display:flex;
+    flex-direction: row;
+    }
+  /*****---COMPETITIVE-ANALYSIS (tablet)---*****/
+  .competitive-analysis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    }
+  .comp-analysis-all {
+    background-color: #EFEFEF;
+    padding: 5.2rem 5rem 5.2rem 5rem;
+    }
+  .comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
+    padding-top:0;
+    padding-right: 12rem;
+    width: 75rem;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+    }
+  .icloud {
+    padding: 0 3rem;
+    }
+  /*****---USER-PERSONAS (tablet)---*****/
+  .user-persona {
+    padding: 3.5rem 5rem 5.2rem 5rem;
+    }
+  .persona-info {
+   padding : 0 30rem;
+  }
+  .persona-info-2 {
+   padding : 0 30rem 3rem 30rem;
+  }
+  /*****---INFO-ARCHITECTURE (tablet)---*****/
+  .wireframes-testing, .insights {
+    padding: 4.4rem 5rem 5.2rem 5rem;
+    }
+  .info-architecture {
+    padding: 4.4rem 5rem 4.4rem 5.2rem;
+  }
+  /*****---BRANDING (tablet)---*****/
+  .branding {
+    padding: 4.4rem 5rem 5.2rem 5rem;
+    }
+  .branding-text2 {
+    padding-left: 29.5rem;
+    }
+  .type-image {
+    width: auto;
+    height: 35rem;
+    }
+  .branding-image {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 26rem;
+    }
+  .all-primary-colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+  .primary-colors-1 {
+    display: flex;
+    flex-flow: flex-direction;
+    justify-content: center;
+    }
+  .colors-text {
+    padding-left: 29.5rem;
+    }
+  .home-page {
+    width: auto;
+    height: 31rem;
+    }
+  .landing-page {
+    width: auto;
+    height: 31rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    }
+  .hifi-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+  }
+  .type-image {
+    width: auto;
+    height: 40rem;
+    justify-content: center;
+  }
+  /*****---WIREFRAMES (tablet)---*****/
+  .wireframes-p2, .testing-text {
+    padding-left: 29.5rem;
+    }
+  .desktop-sketch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20rem;
+    }
+  .wireframe-button {
+    padding-left: 29.5rem;
+    }
+  .dropbox-buttons, .prototype-buttons {
+    margin-left: 17.7rem;
+    }
+  .preferences {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    }
+  .insight-info {
+    padding-left: 6.7rem;
+    }
+  }
+/*
+##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width:1024px) {
+   h1 {
+     font-size: 4rem;
+   }
+   h3 {
+     letter-spacing: .1rem;
+   }
+   .info {
+     width: 200rem;
+     }
+   /******<!-- PROJECT INTRO (tablet)-->*******/
+   .snip {
+     padding-bottom: 3rem;
+     padding-top: 1rem;
+     }
+   .hero-image {
+     width: auto;
+     height: 40rem;
+     }
+   .overview-text {
+     padding: 0 5rem;
+     }
+   .overview-section {
+     padding: 3rem 2rem 5.2rem 2rem;
+     }
+   .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
+     display:flex;
+     flex-direction: row;
+     }
+   /*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
+   .roles-etc {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 2.6rem 2rem 3.4rem 2rem;
+     }
+   .deliverables {
+     padding: 0 5rem;
+     }
+   .problem-solution {
+     padding: 3.2rem 2rem;
+     }
+   .titles {
+     padding-bottom: 3rem;
+     }
+   /*****---RESEARCH (tablet)---*****/
+   .research {
+     padding: 3rem 2rem 2.2rem 2rem;
+     }
+   .survey-button {
+     margin-left: 22rem;
+     margin-top: 1rem;
+     }
+   .user-research {
+     display:flex;
+     flex-direction: row;
+     }
+   /*****---COMPETITIVE-ANALYSIS (tablet)---*****/
+   .competitive-analysis {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 2rem 2rem 0 2rem;
+     }
+   .comp-analysis-all {
+     background-color: #EFEFEF;
+     padding: 3.2rem 2rem;
+     }
+   .comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
+     padding-top:0;
+     padding-right: 3rem;
+     width: 80rem;
+     line-height: 3rem;
+     letter-spacing: .1rem;
+     }
+   .icloud {
+     padding: 0 2rem;
+     }
+   /*****---USER-PERSONAS (tablet)---*****/
+   .user-persona {
+     padding: 1.5rem 5rem 3.2rem 5rem;
+     }
+   .persona-info {
+    padding : 0 15rem;
+   }
+   .persona-info-2 {
+    padding : 0 15rem 3rem 15rem;
+   }
+   /*****---INFO-ARCHITECTURE (tablet)---*****/
+   .info-architecture {
+     padding: 2.4rem 2rem 3.2rem 2rem;
+   }
+   /*****---BRANDING (tablet)---*****/
+   .branding {
+     padding: 2.4rem 2rem 3.2rem 2rem;
+     }
+   .branding-text2, .colors-text, .wireframes-p2, .testing-text {
+     padding-left: 22rem;
+     }
+   .type-image {
+     width: auto;
+     height: 35rem;
+     }
+   .branding-image {
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding-left: 26rem;
+     }
+   .all-primary-colors {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     }
+   .primary-colors-1 {
+     display: flex;
+     flex-flow: flex-direction;
+     justify-content: center;
+     }
+   .type-image {
+     width: auto;
+     height: 40rem;
+     justify-content: center;
+   }
+   /*****---WIREFRAMES (tablet)---*****/
+   .wireframes-testing, .insights {
+     padding: 2.4rem 2rem 3.2rem 2rem;
+     }
+  .wireframe-button {
+    padding: 1rem 0 1rem 22rem;
+    }
+   .desktop-sketch {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     }
+   .desktop-sketch-1, .desktop-sketch-2 {
+      width: auto;
+      height: 28rem;
+    }
+   .home-page {
+     width: auto;
+     height: 25rem;
+     }
+   .landing-page {
+     width: auto;
+     height: 25rem;
+     display: flex;
+     flex-direction: row;
+     padding-top: 0;
+     }
+   .hifi-images {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 2rem;
+   }
+   .dropbox-buttons, .prototype-buttons {
+     margin-left: 14rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     }
+   .preferences {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 2rem;
+     }
+   .insight-info {
+     padding-left: 8.6rem;
+     }
    }
