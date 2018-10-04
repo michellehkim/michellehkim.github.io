@@ -436,10 +436,10 @@ footer {
     font-size: 2.2rem;
   }
   .info {
-    width: 220rem;
+    width: 140rem;
     line-height: 3.3rem;
     }
-  /******<!-- PROJECT INTRO (tablet)-->*******/
+  /******<!-- PROJECT INTRO (desktop)-->*******/
   .snip {
     padding-bottom: 3rem;
     padding-top: 1rem;
@@ -465,35 +465,35 @@ footer {
     padding: 0 13rem;
     }
   .overview-section {
-    padding: 3rem 5rem 5.2rem 5rem;;
+    padding: 4rem 3rem 6rem 5rem;
     }
   .titles, .problem-solution-text, .research-overall, .research-goals, .comp-analysis, .user-stories, .user-flows-site-maps, .branding-pt1, .wireframes, .hifi-mockups, .testing-p1, .insight-text {
     display:flex;
     flex-direction: row;
     }
-  /*--ROLES/DELIVERABLES/TOOLS/DURATION (tablet)--*/
+  /*--ROLES/DELIVERABLES/TOOLS/DURATION (desktop)--*/
   .roles-etc {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 4.6rem 5rem 5.4rem 5rem;
+    padding: 7rem 5rem 6.2rem 5rem;
     }
   .deliverables {
     padding: 0 5rem;
     }
   .problem-solution {
-    padding:5.2rem 5rem;
+    padding:6rem 5rem;
     }
   .titles {
     padding-bottom: 3rem;
     }
-  /*****---RESEARCH (tablet)---*****/
+  /*****---RESEARCH (desktop)---*****/
   .research {
-    padding: 5rem 5rem 5.2rem 5rem;
+    padding: 6rem 5rem;
     }
-    .survey-button {
-      margin-left: 40rem;
-      margin-top: 2rem;
+  .survey-button {
+      margin-left: 49rem;
+      margin-top: 1rem;
       }
   .user-persona {
     padding: 3rem 5rem;
@@ -502,7 +502,7 @@ footer {
     display:flex;
     flex-direction: row;
     }
-  /*****---COMPETITIVE-ANALYSIS (tablet)---*****/
+  /*****---COMPETITIVE-ANALYSIS (desktop)---*****/
   .competitive-analysis {
     display: flex;
     flex-direction: row;
@@ -514,53 +514,60 @@ footer {
     }
   .comp-analysis-all {
     background-color: #EFEFEF;
-    padding: 5.2rem 5rem 5.2rem 5rem;
+    padding: 6rem 5rem 3.2rem 5rem;
     }
   .comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
     padding-top:0;
     padding-right: 16rem;
     width: 85rem;
-    line-height: 3rem;
+    line-height: 4rem;
     letter-spacing: .1rem;
     }
   .icloud {
     padding: 0 3rem;
     }
-  /*****---USER-PERSONAS (tablet)---*****/
+  /*****---USER-PERSONAS (desktop)---*****/
   .user-persona {
-    padding: 3.5rem 5rem 5.2rem 5rem;
+    padding: 3.7rem 5rem 5.2rem 5rem;
     }
-  .persona-info {
-   padding : 0 30rem;
+
+  .user-personas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3rem;
   }
-  .persona-info-2 {
+  .persona-info, .persona-info-2 {
+   padding : 0 10rem;
+  }
+  /* .persona-info-2 {
    padding : 0 30rem 3rem 30rem;
-  }
-  /*****---INFO-ARCHITECTURE (tablet)---*****/
+  } */
+  /*****---INFO-ARCHITECTURE (desktop)---*****/
   .wireframes-testing, .insights {
     padding: 4.4rem 5rem 5.2rem 5rem;
     }
   .info-architecture {
-    padding: 4.4rem 5rem 4.4rem 5.2rem;
+    padding: 3.7rem 5rem 4.4rem 5.2rem;
   }
-  /*****---BRANDING (tablet)---*****/
+  /*****---BRANDING (desktop)---*****/
   .branding {
     padding: 4.4rem 5rem 5.2rem 5rem;
     }
+  .branding-image {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
   .branding-text2 {
-    padding-left: 29.5rem;
+    padding-left: 49.1rem;
+    line-height: 3.3rem;
     }
   .type-image {
     width: auto;
     height: 35rem;
     }
-  .branding-image {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 26rem;
-    }
+
   .all-primary-colors {
     display: flex;
     flex-direction: row;
@@ -572,7 +579,9 @@ footer {
     justify-content: center;
     }
   .colors-text {
-    padding-left: 29.5rem;
+    padding-left: 49.1rem;
+    line-height: 3.3rem;
+
     }
   .home-page {
     width: auto;
@@ -596,7 +605,7 @@ footer {
     height: 40rem;
     justify-content: center;
   }
-  /*****---WIREFRAMES (tablet)---*****/
+  /*****---WIREFRAMES (desktop)---*****/
   .wireframes-p2, .testing-text {
     padding-left: 29.5rem;
     }
