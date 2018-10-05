@@ -573,9 +573,14 @@ footer {
     }
   .branding-image {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    padding-left: 25rem;
     }
+  .b-1, .b-2, .b-3 {
+    width: auto;
+    height: 40rem;
+  }
   .branding-text2 {
     padding-left: 49.1rem;
     line-height: 3.3rem;
@@ -666,13 +671,14 @@ footer {
   }
   .insight-info {
     line-height: 3.3rem;
-    padding-left: 19.4rem;
+    /* padding-left: 19.4rem; */
     }
   .insights {
     padding: 3.7rem 5rem 6rem 5rem;
   }
   .insights-title {
-    width: 100rem;
+    width: 200rem;
+    padding-right: 20rem;
   }
   }
 }
