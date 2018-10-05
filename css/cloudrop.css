@@ -73,9 +73,7 @@ header {
 }
 /******<!-- PROJECT INTRO -->*******/
 .container {
-  /* background-color: #fff; */
-  /* display: grid; */
-  /*grid-template-columns: 2rem 2rem 2rem 2rem;*/
+  display: grid;
   height: 100vh;
   justify-content: center;
   margin: 0 auto;
@@ -198,9 +196,13 @@ subject-line {
 .comp-name {
   font-weight: 600;
 }
-/* .comp-analysis {
-  padding:2rem 3rem;
-} */
+.comp-analysis-all {
+background-color: #eeeeee;
+padding-bottom: 2rem;
+}
+.comp-text {
+  padding: 0 2rem;
+}
 .user-personas {
   text-align: center;
 }
@@ -331,12 +333,13 @@ a:visited, a:hover {
 .dropbox-buttons, .prototype-buttons {
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 1rem;
 }
 .landing-page {
   height: auto;
   width: 27rem;
-  padding-top: 3.5rem;
+  padding-top: 4rem;
 }
 .home-page {
   height: auto;
@@ -345,7 +348,6 @@ a:visited, a:hover {
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey-button {
   background-color: #FFCD49;
   border: none;
-  /* border-color: #FFCD49; */
   border-radius: 3rem;
   color: #043043;
   font-family: "Avenir";
@@ -435,10 +437,10 @@ footer {
 .subject-line {
     font-size: 2.2rem;
   }
-  .info {
-    width: 140rem;
-    line-height: 3.3rem;
-    }
+.info {
+  width: 140rem;
+  line-height: 3.3rem;
+  }
   /******<!-- PROJECT INTRO (desktop)-->*******/
   .snip {
     padding-bottom: 3rem;
@@ -640,6 +642,8 @@ footer {
   .wireframes-p2, .testing-text {
     line-height: 3.3rem;
     padding-left: 49rem;
+    /* width: 140rem; */
+
     }
   .desktop-sketch {
     display: flex;
