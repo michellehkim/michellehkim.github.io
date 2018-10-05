@@ -54,13 +54,31 @@ h3 {
   font-size: 2rem;
   font-weight: 400;
 }
+h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #043043;
+}
+.nav {
+  display: flex;
+justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.work-button {
+  padding-right: 4rem;
+  padding-top: 0;
+}
 header {
   background-color: #FEE2DA;
 }
 /*------ header ------*/
 .logo {
   height:auto;
-  width: 6%;
+  width: 12rem;;
   margin: 1rem 1rem;
 }
 a {
@@ -393,6 +411,81 @@ footer {
     footer {
       padding: 3rem 2rem;
     }
+
+    #contact-form {
+/*    background-color:rgba(72,72,72,0.7); */
+   padding: 10px 20px 30px 20px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:30px;
+   margin-left: -260px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+   font-size: 15px;
+   margin-bottom: 2px;
+   font-family: avenir, san-serif;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+   width:100%;
+   background: #fff;
+   border: 0;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   margin-bottom: 25px;
+   padding: 5px;
+}
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+   background-color: #E5E6E7;
+}
+#contact-form textarea {
+   width:100%;
+   height: 150px;
+}
+ #contact-form button[type="submit"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+/*    background:#991D57; */
+/*    background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+   background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+   background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+   color:#FFF;
+   margin:0 0 5px;
+   padding:10px;
+   border-radius:5px;
+} 
+#contact-form button[type="submit"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+input:required, textarea:required {
+   box-shadow: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+}
+#contact-form .required {
+   font-weight:bold;
+   color: #043043;
+}
+/* Hide success/failure message
+   (especially since the php is missing) */
+#failure, #success {
+   color: #6EA070;
+   display:none;
+}
   }
 
   /*
