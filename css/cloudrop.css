@@ -240,7 +240,7 @@ a {
   color: #FF9272;
 }
 a:visited, a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #2A4BC0;
 }
 /*****--BRANDING--*****/
@@ -478,8 +478,12 @@ footer {
     justify-content: space-around;
     padding: 7rem 5rem 6.2rem 5rem;
     }
+  .roles, .deliverables, .tools {
+    width: 30rem;
+  }
   .deliverables {
-    padding: 0 5rem;
+    margin: 0 5rem;
+    padding: 0;
     }
   .problem-solution {
     padding:6rem 5rem;
@@ -514,7 +518,7 @@ footer {
     }
   .comp-analysis-all {
     background-color: #EFEFEF;
-    padding: 6rem 5rem 3.2rem 5rem;
+    padding: 6rem 5rem 5rem 5rem;
     }
   .comp-analysis-title, .user-flows-title, .branding-subtitle, .wireframes-title, .hifi-title, .testing-title, .insights-title, .problem-title, .solution-title, .user-research-title, .highlight-title, .overall-title, .research-goals-title, .user-stories-title  {
     padding-top:0;
@@ -523,14 +527,29 @@ footer {
     line-height: 4rem;
     letter-spacing: .1rem;
     }
+  .dropbox, .google-drive {
+    width:70rem;
+    }
+  .dropbox-img {
+    width: auto;
+    height: 20rem;
+    }
+  .icloud-img {
+    width: auto;
+    height:22rem;
+  }
+  .googledrive-img {
+    width: auto;
+    height: 20rem;
+  }
   .icloud {
-    padding: 0 3rem;
+    padding: 0 5rem;
+    width: 70rem;
     }
   /*****---USER-PERSONAS (desktop)---*****/
   .user-persona {
     padding: 3.7rem 5rem 5.2rem 5rem;
     }
-
   .user-personas {
     display: flex;
     flex-direction: row;
@@ -540,9 +559,7 @@ footer {
   .persona-info, .persona-info-2 {
    padding : 0 10rem;
   }
-  /* .persona-info-2 {
-   padding : 0 30rem 3rem 30rem;
-  } */
+
   /*****---INFO-ARCHITECTURE (desktop)---*****/
   .wireframes-testing, .insights {
     padding: 4.4rem 5rem 5.2rem 5rem;
@@ -552,7 +569,7 @@ footer {
   }
   /*****---BRANDING (desktop)---*****/
   .branding {
-    padding: 4.4rem 5rem 5.2rem 5rem;
+    padding: 3.7rem 5rem 5rem 5rem;
     }
   .branding-image {
     display:flex;
@@ -567,12 +584,20 @@ footer {
     width: auto;
     height: 35rem;
     }
-
   .all-primary-colors {
     display: flex;
-    flex-direction: row;
+    flex-direction: rows;
     justify-content: space-evenly;
     }
+  /* .secondary-colors {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30rem;
+  } */
+  /* .orange, .blue-4, grey-1, grey-2 {
+    width: auto;
+    height: 40rem;
+  } */
   .primary-colors-1 {
     display: flex;
     flex-flow: flex-direction;
@@ -585,20 +610,21 @@ footer {
     }
   .home-page {
     width: auto;
-    height: 31rem;
+    height: 38rem;
     }
   .landing-page {
     width: auto;
-    height: 31rem;
+    height: 40rem;
     display: flex;
     flex-direction: row;
     padding-top: 0;
     }
   .hifi-images {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    padding-top: 4rem;
+    padding-left: 43rem;
+    padding-top: 3rem;
   }
   .type-image {
     width: auto;
@@ -607,29 +633,47 @@ footer {
   }
   /*****---WIREFRAMES (desktop)---*****/
   .wireframes-p2, .testing-text {
-    padding-left: 29.5rem;
+    line-height: 3.3rem;
+    padding-left: 49rem;
     }
   .desktop-sketch {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    padding-left: 20rem;
+    padding-left: 55rem;
     }
+
+  .desktop-sketch-1, .desktop-sketch-2 {
+    width: 50rem;
+    height: 45rem;
+  }
   .wireframe-button {
-    padding-left: 29.5rem;
+    padding-left: 49rem;
     }
   .dropbox-buttons, .prototype-buttons {
-    margin-left: 17.7rem;
-    }
+    margin-left: 35rem;
+}
   .preferences {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 3rem;
+    padding-left: 50rem;
     }
+  .p-1, .p-2 {
+    width: auto;
+    height: 48rem;
+  }
   .insight-info {
-    padding-left: 6.7rem;
+    line-height: 3.3rem;
+    padding-left: 19.4rem;
     }
+  .insights {
+    padding: 3.7rem 5rem 6rem 5rem;
+  }
+  .insights-title {
+    width: 100rem;
+  }
   }
 }
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
