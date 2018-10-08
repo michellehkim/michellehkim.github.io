@@ -36,7 +36,7 @@ h1{
   color: #043043;
   font-size: 4rem;
   font-weight: 600;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
   margin:1rem 0;
   text-align: center;
   }
@@ -63,9 +63,12 @@ h4 {
   }
 p {
   font-size: 1.8rem;
-  line-height: 2.5rem;
+  line-height: 2.6rem;
   padding: 1rem 0;
   }
+b{
+  font-weight: 600;
+}
 .container {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
@@ -75,7 +78,7 @@ p {
   /* width: 100%; */
 }
 section {
-  padding: 4rem 2.2rem;
+  padding: 6rem 2.2rem;
 }
 /*++++-- NAV BAR-- *****/
 header {
@@ -89,7 +92,7 @@ header {
 /******<!-- PROJECT INTRO -->*******/
 .intro{
   background-color: #FF9272;
-  padding: 5rem 2.2rem 4rem 2.2rem;
+  padding: 7rem 2.2rem 6rem 2.2rem;
 }
 /* .hero {
   display: flex;
@@ -108,15 +111,16 @@ header {
 .hero-image {
   height: auto;
   width: 33rem;
-  padding:3rem 1rem 2rem 1rem;;
+  padding:3rem 1rem 2rem 1rem;
+  align-items: center;
 }
 .roles-etc {
-  padding-top: 3.5rem;
-  padding-bottom: 4rem;
+  padding-top: 5.5rem;
+  padding-bottom: 6rem;
 }
 .problem-solution {
   background-color: #efefef;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 /******<!-- RESEARCH SECTION-->*******/
 a :hover {
@@ -148,6 +152,9 @@ a :hover {
   text-align: center;
   width: 14rem;
   }
+.survey-button, .wireframe-button {
+  padding: 1.5rem 0;
+}
 .dropbox-buttons, .prototype-buttons {
   display: flex;
   display: column;
@@ -156,7 +163,7 @@ a :hover {
 }
 .competitive-analysis {
   background-color: #efefef;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .comp-text {
   padding: 1rem 2rem;
@@ -191,6 +198,9 @@ a :hover {
 /******<!-- USER PERSONAS -->*******/
 .user-personas-all {
   padding: 2rem 2rem 0 2rem;;
+}
+.user-personas {
+  padding-top: 4rem;
 }
 .persona-info {
   text-align: center;
@@ -284,6 +294,7 @@ hr {
 /* wireframes */
 .wireframes-testing {
   background-color: #efefef;
+  padding-bottom: 4rem;
 }
 .desktop-sketch-1, .desktop-sketch-2 {
   width: auto;
@@ -352,6 +363,9 @@ footer {
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width:1024px) {
+h2 {
+  padding-bottom: 5rem;
+}
 .container {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
@@ -363,19 +377,116 @@ footer {
 section {
   padding: 5rem 2.5rem;
 }
-.roles-etc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+/**** INTRO ****/
+.overview-title {
+  text-align: center;
 }
-
-
-
-
-
-
-
-
+.overview-text {
+  width: 60rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+.hero-image {
+  width: 60rem;
+}
+/* roles */
+.roles-etc {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+/* problem solution */
+ /* {
+  display:grid;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr 4fr;
+} */
+.titles {
+  width: 17rem;
+  height: auto;
+  padding: 1.5rem 0;
+  line-height: 3rem;
+}
+/**** RESEARCH ****/
+/* user research */
+.problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+  display: grid;
+  grid-gap: 4rem;
+  grid-column-gap: 7rem;
+  grid-template-columns: 1fr 3fr;
+}
+.survey-button {
+  grid-column: 2;
+  padding: 0;
+}
+/* competitive analysis */
+.comp-text {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 0;
+}
+.competitors {
+  display: grid;
+  /* grid-gap: 2rem; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+/* user persona  */
+.user-personas-all {
+  padding: 3rem 19rem 5rem 19rem;
+}
+.persona-name {
+  padding-bottom: 2.5rem;
+}
+/**** BRANDING ****/
+.branding-text {
+  display: grid;
+  grid-gap: 4rem;
+  grid-column-gap: 7rem;
+  grid-template-columns: 1fr 3fr;
+  grid-column: 2;
+}
+/**** WIREFRAMES & TESTING ****/
+.desktop-sketch {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
+/* .desktop-sketch-1, .desktop-sketch-2 {
+  align-items: center;
+} */
+/* hifi-mockups */
+.hifi-images {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 5rem 0;
+}
+.home-page {
+  grid-column: 2/ 3;
+}
+.dropbox-buttons {
+  grid-column: 2;
+  padding: 0;
+  justify-content: space-around;
+}
+.testing {
+display: grid;
+grid-gap: 4rem;
+grid-column-gap: 7rem;
+grid-template-columns: 1fr 3fr;
+grid-template-rows: 1 3fr;
+}
+.prototype-buttons, .testing-text{
+  grid-column: 2;
+  padding: 0;
+}
 
 
 

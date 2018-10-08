@@ -1,11 +1,9 @@
   * {
   box-sizing: border-box;
 }
-
 html {
   font-size: 10px;
 }
-
 @font-face {
   font-family: 'Avenir';
   src: url(Avenir-85-Heavy_5167.ttf) format('truetype');
@@ -32,7 +30,7 @@ html {
 }
 body {
   color: #043043;
-  font-family: "Avenir"; sans-serif
+  font-family: "Avenir"; sans-serif;
   margin: 2rem 2rem;
 }
 h1{
@@ -68,6 +66,7 @@ p {
   line-height: 2.5rem;
   padding: 1rem 0;
 }
+
 /*++++-- NAV BAR-- *****/
 header {
   background-color: #FF9272;
@@ -79,11 +78,15 @@ header {
 }
 /******<!-- PROJECT INTRO -->*******/
 .container {
-  /* display: grid; */
+  /* display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-column: 1fr;
+  grid-gap: 2rem; */
   height: 100vh;
   justify-content: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width: 100%;
+
 }
 .hero-image {
   height: auto;
@@ -713,6 +716,17 @@ footer {
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+  .container {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 100rem;
+  }
+
+  section {
+    margin:1%;
+    float: left;
+    width: 28%;
+  }
   h1 {
     font-size: 4rem;
   }
