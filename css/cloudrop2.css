@@ -237,6 +237,10 @@ hr {
 /* branding */
 .branding-image {
   padding: 1.8rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .b-1, .b-2, .b-3 {
   width: auto;
@@ -366,18 +370,18 @@ footer {
 h2 {
   padding-bottom: 5rem;
 }
+p {
+  line-height:2.8rem;
+}
 .container {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
   grid-template-columns: 1fr;
-  /* grid-gap: 1rem; */
   justify-content: center;
-  /* grid-auto-rows: repeat (8, 50px);  */
 }
 section {
   padding: 5rem 2.5rem;
 }
-
 /**** INTRO ****/
 .overview-title {
   text-align: center;
@@ -404,7 +408,7 @@ section {
   grid-template-columns: 1fr 4fr;
 } */
 .titles {
-  width: 17rem;
+  width: 18rem;
   height: auto;
   padding: 1.5rem 0;
   line-height: 3rem;
@@ -448,10 +452,16 @@ section {
   grid-gap: 4rem;
   grid-column-gap: 7rem;
   grid-template-columns: 1fr 3fr;
-  grid-column: 2;
+  /* grid-column-start: 2; */
+}
+.typography {
+  padding-top: 5rem;
 }
 /**** WIREFRAMES & TESTING ****/
-.desktop-sketch {
+.wireframes-testing {
+  padding-bottom: 0;
+}
+.desktop-sketch, .preferences, .hifi-images {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
@@ -461,13 +471,13 @@ section {
   align-items: center;
 } */
 /* hifi-mockups */
-.hifi-images {
+/* .hifi-images {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   padding: 5rem 0;
-}
+} */
 .home-page {
   grid-column: 2/ 3;
 }
@@ -487,10 +497,355 @@ grid-template-rows: 1 3fr;
   grid-column: 2;
   padding: 0;
 }
+}
 
+/*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  padding-bottom: 5rem;
+  font-size: 3.7rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+.snip {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+  line-height: 3.3rem;
+}
+.container {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+section, .problem-solution {
+  padding: 8rem 16rem;
+}
+/**** INTRO ****/
+.overview-title {
+  text-align: center;
+}
+.overview-text {
+  width: 80rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+.hero-image {
+  width: 60rem;
+  padding: 6rem 0;
+}
+/* roles */
+.roles-etc {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+.titles {
+  width: 20rem;
+  height: auto;
+  padding: 1.5rem 0;
+  line-height: 4rem;
+}
+/**** RESEARCH ****/
+/* user research */
+.mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes {
+  font-size: 1.8rem;
+  width: 13rem;
+  }
+.problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+  display: grid;
+  grid-gap: 4rem;
+  grid-column-gap: 7rem;
+  grid-template-columns: 1fr 3fr;
+}
+.survey-button {
+  grid-column: 2;
+  padding: 0;
+}
+.comp-text {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 0;
+}
+.competitors {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 4rem;
+}
+/* user persona  */
+.user-personas-all {
+  display: grid;
+  grid-column-gap: 4rem;
+  grid-template-columns: 6fr 1fr 6fr;
+  padding: 0;
+}
+hr {
+  height: 175vh;
+  width: 1px;
+  /* color: #FF9272; */
+  /* align-items: center; */
+}
+.persona-name {
+  padding-bottom: 2.5rem;
+}
+.research-goals {
+  padding-top: 5rem;
+}
+/**** BRANDING ****/
+.branding-text {
+  display: grid;
+  grid-column-gap: 7rem;
+  grid-template-columns: 1fr 3fr;
+}
+.branding-image {
+  padding: 5rem 0;
+}
+.typography {
+  padding-top: 5rem;
+}
+/**** WIREFRAMES & TESTING ****/
+.wireframes-testing {
+  padding-bottom: 0;
+}
+.desktop-sketch, .hifi-images {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
+.preferences {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 5rem;
+}
+.home-page {
+  width: auto;
+  height: 26rem;
+}
+ .dropbox-buttons {
+  grid-column: 2;
+  padding: 0;
+  justify-content: space-around;
+}
+.testing {
+  display: grid;
+  grid-gap: 4rem;
+  grid-column-gap: 7rem;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1 3fr;
+}
+.prototype-buttons, .testing-text{
+  grid-column: 2;
+  padding: 0;
+}
+}
 
+@media (min-width: 1281px) {
+  h1 {
+    font-size: 5.5rem;
+    letter-spacing: 2rem;
+  }
+  h2 {
+    padding-bottom: 5rem;
+    font-size: 3.7rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2.2rem;
+  }
+  .snip {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
+  .container {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  section, .intro, .problem-solution {
+    padding: 10rem 18rem;
+  }
+  /**** INTRO ****/
+  .overview-title {
+    text-align: center;
+  }
+  .overview-text {
+    width: 80rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  .hero-image {
+    width: 60rem;
+    padding: 6rem 0;
+  }
+  /* roles */
+  .roles-etc {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 10rem 18rem;
+  }
+  .titles {
+    width: 25rem;
+    height: auto;
+    padding: 1.5rem 0;
+    line-height: 4rem;
+    letter-spacing: .3rem;
+  }
+  /**** RESEARCH ****/
+  /* user research */
+  .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes {
+    font-size: 1.8rem;
+    width: 13rem;
+    }
+  .problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+    display: grid;
+    grid-gap: 4rem;
+    grid-column-gap: 12rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .survey-button {
+    grid-column: 2;
+    padding: 0;
+  }
+  .comp-text {
+    width: 25rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .competitors {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 4rem;
+  }
+  /* user persona  */
+  .user-personas-all {
+    display: grid;
+    grid-column-gap: 4rem;
+    grid-template-columns: 6fr 1fr 6fr;
+    padding: 0;
+  }
+  hr {
+    height: 175vh;
+    width: 1px;
+    /* color: #FF9272; */
+    /* align-items: center; */
+  }
+  .persona-name {
+    padding-bottom: 2.5rem;
+  }
+  .research-goals {
+    padding-top: 5rem;
+  }
+  /**** BRANDING ****/
+  .branding-text {
+    display: grid;
+    grid-column-gap: 7rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .branding-image {
+    padding: 5rem 0;
+  }
+  .typography {
+    padding-top: 5rem;
+  }
+  .b-1, .b-4 {
+    width: auto;
+    height: 40rem;
+    padding: 3rem 3rem;
+  }
+  .b-2 {
+    width: auto;
+    height: 40rem;
+    padding: 3rem 9rem 3rem 0;
+  }
+  .b-3 {
+    width: auto;
+    height: 50rem;
+    padding: 3rem 3rem;
 
+  }
+  /**** WIREFRAMES & TESTING ****/
+  .wireframes-testing {
+    padding-bottom: 0;
+  }
+  .desktop-sketch, .hifi-images {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 0;
+  }
+  .desktop-sketch-1, .desktop-sketch-2 {
+    width: auto;
+    height: 40rem;
+  }
+  .landing-page {
+    width: auto;
+    height: 38rem;
+  }
+  .preferences {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 5rem;
+  }
+  .home-page {
+    width: auto;
+    height: 38rem;
+  }
+  .hifi-images {
+    grid-gap:8rem;
+    padding: 10rem 0;
+  }
+  .desktop-sketch, .preferences {
+    padding: 10rem 0;
+  }
+  .dropbox-buttons {
+    grid-column: 2;
+    padding: 0;
+    justify-content: space-around;
+  }
+  .testing {
+    display: grid;
+    grid-gap: 4rem;
+    grid-column-gap: 7rem;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1 3fr;
+  }
+  .prototype-buttons, .testing-text{
+    grid-column: 2;
+    padding: 0;
+  }
+  /**** FOOTER ****/
 
-
-
+footer {
+  padding: 3rem 10rem;
+}
+.footer-text {
+  font-size: 3.5rem;
+}
+.copyright-text {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
 }
