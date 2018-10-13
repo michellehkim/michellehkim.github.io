@@ -78,7 +78,6 @@ b{
   grid-template-column: 1fr;
   /* grid-gap: 1rem; */
   justify-content: center;
-  /* width: 100%; */
 }
   section {
     padding: 6rem 2.2rem;
@@ -112,7 +111,6 @@ b{
     letter-spacing: .2rem;
     width: auto;
   }
-
   nav ul li:first-child {
     margin-right: auto;
   }
@@ -149,6 +147,9 @@ b{
   width: 33rem;
   padding:3rem 1rem 2rem 1rem;
   align-items: center;
+}
+.hero {
+text-align: center;
 }
 .roles-etc {
   padding-top: 5.5rem;
@@ -340,7 +341,7 @@ hr {
   width: auto;
   height: 27rem;
   padding: 1rem 1rem;
-  align-items: center;
+  /* text-align: center; */
 }
 /* hifi mockups */
 .hifi-images {
@@ -364,15 +365,13 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 .p-1, .p-2 {
   height:auto;
   width:20rem;
   text-align: center;
 }
-.pref-1-image, .pref-2-image {
+.pref-1-image, .pref-2-image, .landing-page-image, .home-page-image {
   padding: 2rem 2rem;
 
 }
@@ -407,153 +406,161 @@ footer {
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width:1024px) {
-h2 {
-  padding-bottom: 5rem;
-}
-p {
-  line-height:2.8rem;
-}
-.container {
-  display: grid;
-  grid-auto-rows: minmax(100px, auto);
-  grid-template-columns: 1fr;
-  justify-content: center;
-}
-section {
-  padding: 5rem 2.5rem;
-}
-/**** INTRO ****/
-.overview-title {
+  h2 {
+    padding-bottom: 5rem;
+  }
+  p {
+    line-height:2.8rem;
+  }
+  .container {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  section {
+    padding: 5rem 2.5rem;
+  }
+  /**** INTRO ****/
+  .overview-title {
+    text-align: center;
+  }
+  .overview-text {
+    width: 60rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  .hero-image {
+    width: 60rem;
+  }
+  /* roles */
+  .roles-etc {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+  }
+  /* problem solution */
+   /* {
+    display:grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 4fr;
+  } */
+  .titles {
+    width: 18rem;
+    height: auto;
+    padding: 1.5rem 0;
+    line-height: 3rem;
+  }
+  /**** RESEARCH ****/
+  /* user research */
+  .problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+    display: grid;
+    grid-gap: 7rem;
+    grid-column-gap: 7rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .survey-button {
+    grid-column: 2;
+    padding: 0;
+  }
+  /* competitive analysis */
+  .comp-text {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .dropbox-img {
+    width: auto;
+    height: 14rem;
+  }
+  .icloud-img {
+    width:auto;
+    height: 14rem;
+  }
+  .googledrive-img {
+    width: auto;
+    height: 14rem;
+  }
+  .competitors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+  /* user persona  */
+  .user-personas-all {
+    padding: 3rem 19rem 5rem 19rem;
+  }
+  .persona-name {
+    padding-bottom: 2.5rem;
+  }
+  /**** BRANDING ****/
+  .branding-text {
+    display: grid;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .typography {
+    padding-top: 5rem;
+  }
+  /**** WIREFRAMES & TESTING ****/
+  .wireframes-testing {
+    padding-bottom: 0;
+  }
+  .wireframe-text {
+    display: grid;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    height: auto;
+  }
+  .desktop-sketch, .preferences, .hifi-images {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 0;
+  }
+.landing-page-image, .home-page-image {
   text-align: center;
+
 }
-.overview-text {
-  width: 60rem;
-  padding: 0 2rem;
-  margin: 0 auto;
-}
-.hero-image {
-  width: 60rem;
-}
-/* roles */
-.roles-etc {
-  display: grid;
-  grid-gap: 5rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
-}
-/* problem solution */
- /* {
-  display:grid;
-  grid-gap: 5rem;
-  grid-template-columns: 1fr 4fr;
-} */
-.titles {
-  width: 18rem;
-  height: auto;
-  padding: 1.5rem 0;
-  line-height: 3rem;
-}
-/**** RESEARCH ****/
-/* user research */
-.problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+
+.desktop-sketch-1, .desktop-sketch-2 {
+    text-align: center;
+  }
+
+  /* hifi-mockups */
+  /* .hifi-images {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 5rem 0;
+  } */
+  .home-page {
+    grid-column: 2/ 3;
+  }
+  .dropbox-buttons {
+    grid-column: 2;
+    padding: 0;
+    justify-content: space-around;
+  }
+  .testing {
   display: grid;
   grid-gap: 4rem;
   grid-column-gap: 7rem;
   grid-template-columns: 1fr 3fr;
-}
-.survey-button {
-  grid-column: 2;
-  padding: 0;
-}
-/* competitive analysis */
-.comp-text {
-  width: 20rem;
-  margin: 0 auto;
-}
+  grid-template-rows: 1 3fr;
+  }
 
-.dropbox-img {
-  width: auto;
-  height: 14rem;
-}
-.icloud-img {
-  width:auto;
-  height: 14rem;
-}
+  .prototype-buttons, .testing-text{
+    grid-column: 2;
+    padding: 0;
+  }
+  .pref-1-image, .pref-2-image {
+    text-align: center;
+  }
 
-.googledrive-img {
-  width: auto;
-  height: 14rem;
-}
-.competitors {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
-  padding-top: 4rem;
-}
-/* user persona  */
-.user-personas-all {
-  padding: 3rem 19rem 5rem 19rem;
-}
-.persona-name {
-  padding-bottom: 2.5rem;
-}
-/**** BRANDING ****/
-.branding-text {
-  display: grid;
-  grid-column-gap: 10rem;
-  grid-template-columns: 1fr 3fr;
-}
-.typography {
-  padding-top: 5rem;
-}
-/**** WIREFRAMES & TESTING ****/
-.wireframes-testing {
-  padding-bottom: 0;
-}
-.wireframe-text {
-  display: grid;
-  grid-column-gap: 10rem;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr auto;
-  height: auto;
-}
-.desktop-sketch, .preferences, .hifi-images {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  padding: 5rem 0;
-}
-/* .desktop-sketch-1, .desktop-sketch-2 {
-  align-items: center;
-} */
-/* hifi-mockups */
-/* .hifi-images {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  padding: 5rem 0;
-} */
-.home-page {
-  grid-column: 2/ 3;
-}
-.dropbox-buttons {
-  grid-column: 2;
-  padding: 0;
-  justify-content: space-around;
-}
-.testing {
-display: grid;
-grid-gap: 4rem;
-grid-column-gap: 7rem;
-grid-template-columns: 1fr 3fr;
-grid-template-rows: 1 3fr;
-}
-
-.prototype-buttons, .testing-text{
-  grid-column: 2;
-  padding: 0;
-}
 }
 
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -653,8 +660,7 @@ section, .problem-solution {
 hr {
   height: 175vh;
   width: 1px;
-  /* color: #FF9272; */
-  /* align-items: center; */
+  text-align: center;
 }
 .persona-name {
   padding-bottom: 2.5rem;
@@ -697,6 +703,11 @@ hr {
   grid-template-columns: 1fr 1fr;
   padding: 5rem 5rem;
 }
+.pref-1-image, .pref-2-image {
+  display: grid;
+  justify-content: center;
+}
+
 .home-page {
   width: auto;
   height: 26rem;
@@ -823,8 +834,8 @@ hr {
     height: 175vh;
     width: 1px;
     /* color: #FF9272; */
-    /* align-items: center; */
-  }
+    text-align: center;
+    }
   .persona-name {
     padding-bottom: 2.5rem;
   }
@@ -910,6 +921,10 @@ hr {
     grid-column-gap: 7rem;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1 3fr;
+  }
+  .pref-1-image, .pref-2-image {
+    display: grid;
+    justify-content: center;
   }
   .prototype-buttons, .testing-text{
     grid-column: 2;
