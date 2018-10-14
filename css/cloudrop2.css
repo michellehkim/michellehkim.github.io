@@ -192,6 +192,27 @@ a :hover {
 .survey-button, .wireframe-button {
   padding: 1.5rem 0;
 }
+.highlight {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-gap: 1rem; */
+  padding: 0 6rem;
+}
+.percent {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.smile-icon, .pricing-icon, .collab-icon, .inbox-icon {
+  text-align: center;
+}
+.pricing, .collab, .inbox, .smile {
+  width: auto;
+  height:12rem;
+  padding:2rem 2rem;
+}
+/* .highlight-text {
+  padding: 0 3rem;
+} */
 .dropbox-buttons, .prototype-buttons {
   display: flex;
   display: column;
@@ -464,6 +485,15 @@ footer {
     grid-column: 2;
     padding: 0;
   }
+  .highlights-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 5rem 6rem;
+  }
+  .highlight {
+    padding: 0 2rem;
+  }
   /* competitive analysis */
   .comp-text {
     width: 20rem;
@@ -634,10 +664,33 @@ section, .problem-solution {
   grid-column: 2;
   padding: 0;
 }
+.highlights-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  padding: 3rem 4rem 5rem 4rem;
+}
+.highlight {
+  padding: 0 2rem;
+}
+.highlight-text {
+  font-size: 2.2rem;
+}
+.highlight-title {
+  padding-top: 6rem;
+}
+.pricing, .collab, .inbox, .smile {
+  width: auto;
+  height:16rem;
+  padding:2rem 2rem;
+}
 .comp-text {
   width: 24rem;
   margin: 0 auto;
   padding: 0;
+}
+.competitive-analysis {
+  padding-top: 8rem;
 }
 .competitors {
   display: grid;
@@ -804,6 +857,26 @@ hr {
   .survey-button {
     grid-column: 2;
     padding: 0;
+  }
+  .highlights-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 5rem 6rem;
+  }
+  .highlight {
+    padding: 0 4rem;
+  }
+  .highlight-text {
+    font-size: 2.4rem;
+  }
+  .highlight-title {
+    padding-top: 6rem;
+  }
+  .pricing, .collab, .inbox, .smile {
+    width: auto;
+    height:16rem;
+    padding:2rem 2rem;
   }
   .comp-text {
     width: 25rem;
