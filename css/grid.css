@@ -179,7 +179,7 @@ nav ul li:first-child {
   font-weight: 600;
   color: #2A4BC0;
 }
-/*----- otehr sections -----*/
+/*----- other sections -----*/
 .work {
   background-color:#FF9272;
   padding: 4rem 1.6rem;
@@ -303,55 +303,22 @@ footer {
     padding-top: 1em;
     text-align:center;
   }
+  .footer-message {
+    background-color: #B7B3FF;
+    padding: 3rem 3rem;
+  }
+  .footer-text {
+    text-align: center;
+  }
 .footer-text-2 {
   line-height: 2.5rem;
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
-  /*
-    ##Device = Desktops; 1281px to higher resolution desktops
-  */
-/* @media (min-width: 1281px) {
-    h1 {
-      font-size: 6.5rem;
-    }
-    h2 {
-      font-size: 4.5rem;
-    }
-    h3 {
-      font-size: 3rem;
-      padding: 2rem 0;
-    }
-    .description {
-      font-size: 2.8rem;
-      line-height: 5rem;
-      padding-bottom: 25rem;
-      padding-top: 0;
-    }
-    .hero {
-      padding: 5rem 20rem;
-    }
-    .hero-image {
-      width:auto;
-      height: 55rem;
-    }
-    .connect, .case-study {
-      font-size: 2rem;
-    }
-    button {
-      padding: 1rem 2rem;
-    }
-    .work {
-      padding: 7rem 3rem;
-    }
-    .copyright-text {
-      font-size: 1.6rem;
-      padding-top: 1rem;
-    }
-    footer {
-      padding: 3rem 2rem;
-    }
-
-  } */
+.footer-icon {
+  width: auto;
+  height:2.5rem;
+  padding: 0 1rem;
+}
 
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -439,23 +406,32 @@ footer {
     font-size: 1.4rem;
     padding-top: 1rem;
     }
+
   .footer-message {
     padding: 1.5rem 2rem;
   }
-  .footer-text {
-    font-size: 3.2rem;
-    padding: 2rem 0;
-  }
   .footer-text-2 {
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     text-align: left;
-    padding: 1rem 8rem 0 8rem;
-    font-size: 2rem;
+    padding:0 4rem;
   }
-  footer {
+  .footer-message {
+    background-color: #B7B3FF;
+    padding: 3rem 2rem;
+  }
+  .footer-text {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5rem 2rem 4rem 2rem;
+    grid-gap:
+    padding: 4rem 2rem 0 2rem;
+    background-color: #B7B3FF;
+  }
+  #contact-form {
+    padding: 5rem 5rem 3rem 1rem;
   }
   }
   /*
@@ -520,10 +496,24 @@ footer {
   .footer-text-2 {
     line-height: 2.3rem;
     text-align: left;
+    padding:0 4rem;
   }
-  footer {
+  .footer-message {
+    background-color: #B7B3FF;
+    padding: 3rem 2rem;
+  }
+  .footer-text {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .contact {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 4rem 2rem 4rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:
+    padding: 4rem 2rem 0 2rem;
+    background-color: #B7B3FF;
+  }
+  #contact-form {
+    padding: 5rem 5rem 3rem 1rem;
   }
   }
