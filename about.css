@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(Avenir-85-Heavy_5167.ttf) format('truetype');
+  font-style: 'normal';
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Medium.otf) format('opentype'),
+  font-style: 'normal';
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Roman.otf) format('opentype'),
+  font-style: 'normal';
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(AvenirLTStd-Book.otf) format('opentype')
+  font-style: 'normal';
+  font-weight: 200;
+}
+body {
+  background-color: #efefef;
+  font-family: "Avenir"; "Nunito"; sans-serif;
+  font-family:
+}
+p {
+  color: #043043;
+  font-size: 1.6rem;
+}
+
+/* header  */
+.container {
+  background-color: white;
+  height: 100vh;
+  display: grid;
+ }
+ .section {
+   padding: 3rem 3rem;
+ }
+.header {
+    background-color: #FEE2DA;
+}
+.nav {
+  background-color: #FEE2DA;
+  overflow: hidden;
+  padding: 1.5rem 1.5rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a {
+  float:right;
+  line-height: 3em;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #043043;
+}
+.about {
+  padding-right: 3rem;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+.logo {
+  height:auto;
+  width: 4rem;
+  float:left;
+  align-items: center;
+  padding-top: 1rem;
+}
+/* hero section */
+.confetti {
+  width: auto;
+  height: 20rem;
+}
+.me {
+  width: auto;
+  height: 5rem;
+}
+.extra-info {
+  display: grid;
+  line-height: 3rem;
+}
+h1 {
+  color: #387E84;
+  font-family: PlayfairDisplay;
+  font-size: 4rem;
+  font-weight:800;
+  padding: 4rem 0;
+  letter-spacing: .1rem;
+}
+h2 {
+  color: #FA7446;
+  font-size: 3rem;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-size: 1.6rem;
+}
+
+/* footer  */
+.form {
+    background-color:#B7B3FF;
+}
+.form h3 {
+ padding: 0em 4em;
+    font-size:2em;
+}
+#contact-form {
+   padding: 1em 2em;
+    width:100%
+}
+#contact-form input,
+#contact-form textarea  {
+    border-radius: .2em;
+    border:none;
+    width: 100%;
+    padding: .5em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: Avenir;
+    font-size: 1.3rem;
+}
+#contact-form textarea {
+   height: 5em;
+}
+#contact-form button[type="submit"]  {
+    background-color: #FFCD49;
+    border-radius: 3rem;
+    border: 1px solid #FFCD49;
+    color: #043043;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: .09rem;
+    padding: .8rem .5rem;
+    text-align: center;
+    width: 11rem;
+    float: right;
+}
+.copyright-text {
+    font-size: 1.3rem;
+    padding-top: 1em;
+    text-align:center;
+  }
+.footer-message {
+    background-color: #B7B3FF;
+    padding: 3rem 3rem;
+  }
+.footer-text {
+    text-align: center;
+  }
+.footer-text-2 {
+  line-height: 2.5rem;
+  padding: 3rem 0 0 0;
+}
+.footer-icon {
+  width: auto;
+  height:2.5rem;
+  padding: 0 1rem;
+}
