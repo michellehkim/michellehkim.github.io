@@ -252,13 +252,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
-/* .copyright-text { */
-  /* font-size: 1.5rem; */
-  /* letter-spacing: 0;
-  line-height:2rem;
-  margin-bottom: 0;
-  font-weight: 400;
-} */
+.contact {
+  background-color: #B7B3FF;
+}
 .form {
     background-color:#B7B3FF;
 }
@@ -272,14 +268,14 @@ footer {
 }
 #contact-form input,
 #contact-form textarea  {
-    border-radius: .2em;
-    border:none;
-    width: 100%;
-    padding: .5em;
-    margin-bottom: 2em;
-    box-sizing: border-box;
-    font-family: Avenir;
-    font-size: 1.3rem;
+  border-radius: .2em;
+  border:none;
+  width: 100%;
+  padding: .5em;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+  font-family: Avenir;
+  font-size: 1.3rem;
 }
 #contact-form textarea {
    height: 5em;
@@ -298,15 +294,15 @@ footer {
     width: 11rem;
     float: right;
 }
-  .copyright-text {
+.copyright-text {
     font-size: 1.3rem;
     padding-top: 1em;
     text-align:center;
   }
-  .footer-message {
-    background-color: #B7B3FF;
-    padding: 3rem 3rem;
-  }
+.footer-message {
+  background-color: #B7B3FF;
+  padding: 3rem 3rem;
+}
   .footer-text {
     text-align: center;
   }
@@ -319,7 +315,6 @@ footer {
   height:2.5rem;
   padding: 0 1rem;
 }
-
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */
@@ -509,7 +504,6 @@ footer {
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:
     padding: 4rem 2rem 0 2rem;
     background-color: #B7B3FF;
   }
