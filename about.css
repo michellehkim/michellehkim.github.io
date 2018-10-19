@@ -106,10 +106,6 @@ nav ul li:first-child {
 .logo-logo {
   float: left;
 }
-
-.logo-logo {
-  float: left;
-}
 /* hero section */
 .hero {
   background-color: #FEE2DA;
@@ -284,7 +280,7 @@ p {
   font-size: 2rem;
 }
 .about, .work {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .confetti {
     width: auto;

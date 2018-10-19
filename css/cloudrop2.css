@@ -74,10 +74,9 @@ b{
 }
 .container {
   display: grid;
-  grid-auto-rows: minmax(100px, auto);
+  /* grid-auto-rows: minmax(100px, auto);
   grid-template-column: 1fr;
-  /* grid-gap: 1rem; */
-  justify-content: center;
+  justify-content: center; */
 }
   section {
     padding: 6rem 2.2rem;
@@ -86,15 +85,10 @@ b{
 .header {
   background-color: #FF9272;
   }
-.logo {
-  height:auto;
-  width: 6%;
-  margin: 1rem 1rem;
-  }
   .nav {
     background-color: #FF9272;
     overflow: hidden;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
   }
   nav ul {
       list-style-type: none;
@@ -102,27 +96,49 @@ b{
   }
   nav ul li a {
     float:right;
-    line-height: 1em;
-    padding: 0em 2em;
+    /* line-height: 3em; */
+    /* padding: 0em 2em; */
     text-decoration: none;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
     color: #043043;
     letter-spacing: .2rem;
-    width: auto;
+    /* width: auto; */
   }
+/*
+  nav ul li a {
+    float:right;
+    line-height: 3em;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #043043;
+  } */
   nav ul li:first-child {
     margin-right: auto;
   }
   .logo {
     height:auto;
-    width: 6rem;;
+    width: 6rem;
     float:left;
+    align-items: center;
+    padding-top: 2rem;
   }
-  .sidebar.hero {
+
+  /* .about {
+    font-size: 2.5rem;
+    padding-right: 5rem;
+  } */
+   /* .work {
+     font-size: 2.5rem;
+   } */
+  .logo-logo {
+    float: left;
+  }
+  /* .sidebar.hero {
     background-color: #FEE2DA;
       padding: 3em 2em 3em 7em;
-  }
+  } */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
   background-color: #FF9272;
@@ -441,6 +457,9 @@ footer {
   section {
     padding: 5rem 2.5rem;
   }
+  .about, .work {
+    font-size: 1.7rem;
+  }
   /**** INTRO ****/
   .overview-title {
     text-align: center;
@@ -474,16 +493,23 @@ footer {
   }
   /**** RESEARCH ****/
   /* user research */
-  .problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
+  .problem-solution, .user-stories, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
     display: grid;
     grid-gap: 7rem;
     grid-column-gap: 7rem;
     grid-template-columns: 1fr 3fr;
   }
+   .user-research {
+     display: grid;
+     grid-gap: 4rem;
+     grid-column-gap: 7rem;
+     grid-template-columns: 1fr 3fr;
+   }
   .survey-button {
     grid-column: 2;
     padding: 0;
   }
+
   .highlights-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -492,6 +518,9 @@ footer {
   }
   .highlight {
     padding: 0 2rem;
+  }
+  .highlight-title {
+    padding-top: 5rem;
   }
   /* competitive analysis */
   .comp-text {
@@ -543,17 +572,15 @@ footer {
     grid-template-rows: 1fr auto;
     height: auto;
   }
-  .desktop-sketch, .preferences, .hifi-images {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    padding: 5rem 0;
-  }
+.desktop-sketch, .preferences, .hifi-images {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
 .landing-page-image, .home-page-image {
   text-align: center;
-
 }
-
 .desktop-sketch-1, .desktop-sketch-2 {
     text-align: center;
   }
@@ -590,6 +617,9 @@ footer {
     text-align: center;
   }
 
+}
+.wireframe-button {
+  padding: 3rem 0;
 }
 
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -631,7 +661,7 @@ section, .problem-solution {
   margin: 0 auto;
 }
 .hero-image {
-  width: 60rem;
+  width: 70rem;
   padding: 6rem 0;
 }
 /* roles */
@@ -743,6 +773,10 @@ hr {
   grid-template-rows: 1fr auto;
   height: auto;
 }
+.wireframe-button {
+  padding-bottom: 5rem 0;
+}
+
 .desktop-sketch, .hifi-images {
   display: grid;
   grid-gap: 2rem;
@@ -823,8 +857,12 @@ hr {
     margin: 0 auto;
   }
   .hero-image {
-    width: 60rem;
+    width: 90rem;
     padding: 6rem 0;
+  }
+  .nav {
+    padding: 1rem 2rem;
+    /* overflow: hidden; */
   }
   /* roles */
   .roles-etc {
