@@ -520,7 +520,7 @@ footer {
     padding: 0 2rem;
   }
   .highlight-title {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
   /* competitive analysis */
   .comp-text {
@@ -560,6 +560,14 @@ footer {
   }
   .typography {
     padding-top: 5rem;
+  }
+  .colors-text-1, .colors-text-2 {
+    display: grid;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .colors-text-2.1 {
+    grid-column-start: 3;
   }
   /**** WIREFRAMES & TESTING ****/
   .wireframes-testing {
@@ -710,7 +718,7 @@ section, .problem-solution {
 }
 .pricing, .collab, .inbox, .smile {
   width: auto;
-  height:16rem;
+  height:14rem;
   padding:2rem 2rem;
 }
 .comp-text {
@@ -740,7 +748,7 @@ section, .problem-solution {
   padding: 0;
 }
 hr {
-  height: 175vh;
+  /* height: 175vh; */
   width: 1px;
   text-align: center;
 }
@@ -762,6 +770,14 @@ hr {
 .typography {
   padding-top: 5rem;
 }
+.colors-text-1, .colors-text-2 {
+  display: grid;
+  grid-column-gap: 10rem;
+  grid-template-columns: 1fr 3fr;
+}
+.colors-text-2.1 {
+  grid-column-start: 3;
+}
 /**** WIREFRAMES & TESTING ****/
 .wireframes-testing {
   padding-bottom: 0;
@@ -776,7 +792,6 @@ hr {
 .wireframe-button {
   padding-bottom: 5rem 0;
 }
-
 .desktop-sketch, .hifi-images {
   display: grid;
   grid-gap: 2rem;
@@ -793,7 +808,6 @@ hr {
   display: grid;
   justify-content: center;
 }
-
 .home-page {
   width: auto;
   height: 26rem;
@@ -941,7 +955,7 @@ hr {
     padding: 0;
   }
   hr {
-    height: 175vh;
+    /* height: 175vh; */
     width: 1px;
     /* color: #FF9272; */
     text-align: center;
@@ -963,6 +977,14 @@ hr {
   }
   .typography {
     padding-top: 5rem;
+  }
+  .colors-text-1, .colors-text-2 {
+    display: grid;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 3fr;
+  }
+  .colors-text-2.1 {
+    grid-column-start: 3;
   }
   .b-1, .b-4 {
     width: auto;
@@ -1036,6 +1058,12 @@ hr {
     display: grid;
     justify-content: center;
   }
+
+  .p-1, .p-2 {
+    width: auto;
+    height: 50rem;
+  }
+
   .prototype-buttons, .testing-text{
     grid-column: 2;
     padding: 0;
