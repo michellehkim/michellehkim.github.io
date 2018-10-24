@@ -57,8 +57,7 @@ h3 {
   padding: 3rem 0;
   }
 h4 {
-  font-size: 1.8rem;
-  padding: 1.5rem 0;
+  font-size: 1.6rem;
   font-weight: 600;
   }
 h6 {
@@ -100,7 +99,7 @@ b{
     font-weight: 400;
     color: #043043;
     letter-spacing: .2rem;
-    padding: 3rem 3rem;
+    /* padding: 3rem 3rem; */
   }
 
   nav ul li:first-child {
@@ -112,51 +111,20 @@ b{
     float:left;
     align-items: center;
     padding-top: 2rem;
+    padding-left: 2rem;
   }
-
   .logo-logo {
     float: left;
+  }
+  .work-link, .about {
+    padding-top: 2rem;
+    padding-right: 2rem;
   }
   /* .sidebar.hero {
     background-color: #FEE2DA;
       padding: 3em 2em 3em 7em;
   } */
 
-
-  /* .nav {
-    background-color: #FEE2DA;
-    overflow: hidden;
-    padding: 1.5rem 1.5rem;
-  }
-  nav ul {
-      list-style-type: none;
-      margin: 0;
-  }
-  nav ul li a {
-    float:right;
-    line-height: 3em;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #043043;
-  }
-  .about {
-    padding-right: 3rem;
-  }
-  nav ul li:first-child {
-    margin-right: auto;
-  }
-  .logo {
-    height:auto;
-    width: 6rem;
-    float:left;
-    align-items: center;
-    padding-top: 2rem;
-  }
-
-  .logo-logo {
-    float: left;
-  } */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
   background-color: #FF9272;
@@ -589,6 +557,7 @@ footer {
     display: grid;
     grid-column-gap: 10rem;
     grid-template-columns: 1fr;
+
   }
 
   .colors-text-2.1 {
@@ -668,6 +637,7 @@ h2 {
 h3 {
   font-size: 2.5rem;
 }
+
 .snip {
   font-size: 3rem;
 }
@@ -795,14 +765,16 @@ hr {
 .typography {
   padding-top: 5rem;
 }
-.colors-text-1, .colors-text-2 {
+.colors-text-1 {
   display: grid;
   grid-column-gap: 10rem;
   grid-template-columns: 1fr 3fr;
 }
-.colors-text-2.1 {
-  grid-column-start: 3;
+.colors-text-2 {
+  display: grid;
+  grid-template-columns: 1fr;
 }
+
 /**** WIREFRAMES & TESTING ****/
 .wireframes-testing {
   padding-bottom: 0;

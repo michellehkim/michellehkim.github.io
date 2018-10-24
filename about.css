@@ -30,13 +30,12 @@ html {
 }
 /* @media (min-width: 1px) and (max-width:767px) { */
 body {
-  background-color: #efefef;
+  background-color: #FEE2DA;
   font-family: "Avenir"; "Nunito"; sans-serif;
 }
 
 /* header  */
 .container {
-  /* background-color: white; */
   height: 100vh;
   display: grid;
   /* padding: 2rem 1.6rem 2rem 1.6rem; */
@@ -64,6 +63,11 @@ body {
    font-size: 2rem;
    color: #043043;
  }
+ h4 {
+   font-size: 2rem;
+   font-weight: 400;
+   color: #043043;
+ }
  p {
    color: #043043;
    font-size: 2.4rem;
@@ -82,30 +86,30 @@ nav ul {
     margin: 0;
 }
 nav ul li a {
-  float:right;
+  float: right;
   line-height: 3em;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #043043;
 }
-.about {
-  padding-right: 3rem;
+.work-link, .about {
+  padding-top: 1rem;
+  padding-right: 2rem;
 }
+
 nav ul li:first-child {
   margin-right: auto;
 }
 .logo {
   height:auto;
-  width: 6rem;
+  width: 7rem;
   float:left;
   align-items: center;
   padding-top: 2rem;
+  padding-left: 2rem;
 }
 
-.logo-logo {
-  float: left;
-}
 /* hero section */
 .hero {
   background-color: #FEE2DA;
@@ -129,13 +133,13 @@ nav ul li:first-child {
   grid-template-columns: 1fr;
   background-color: #FEE2DA;
 }
-.about {
-  font-size: 2.5rem;
-  padding-right: 5rem;
+/* .about, .work-link {
+  padding-right: 2rem;
+} */
+.work-link, .about {
+  padding-right: 6rem;
+  padding-top: 2rem;
 }
- .work {
-   font-size: 2.5rem;
- }
 
 /* .about. .work {
   font-size: 3rem;
@@ -381,8 +385,16 @@ h2 {
 p {
 font-size: 2rem;
 }
-.about, .work {
-font-size: 2rem;
+.about {
+  padding-right: 5rem;
+  padding-top: 1rem;
+  color: #043043;
+  font-size: 2.3rem;
+}
+.work-link {
+  padding-right: 3rem;
+  padding-top: 1rem;
+  font-size: 2.3rem;
 }
 .confetti {
   width: auto;

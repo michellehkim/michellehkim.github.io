@@ -87,6 +87,12 @@ a.case-study:hover {
  }
 .header {
     background-color: #FEE2DA;
+    padding: 1rem 2rem;
+}
+.work-link, .about {
+  padding-right: 3rem;
+  padding-top: 1rem;
+  color: #043043;
 }
 .nav {
   background-color: #FEE2DA;
@@ -98,27 +104,26 @@ nav ul {
     margin: 0;
 }
 nav ul li a {
-    float:right;
+  float:right;
   line-height: 3em;
-  /* padding: 0em 2em; */
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #043043;
 }
-.about {
-  padding-right: 3rem;
-}
+
 nav ul li:first-child {
   margin-right: auto;
 }
 .logo {
-  height:auto;
-  width: 4rem;
-  float:left;
+  height: auto;
+  width: 7rem;
+  float: left;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
+
 /*-----hero section -----*/
 .sidebar.hero {
   background-color: #FEE2DA;
@@ -149,8 +154,11 @@ nav ul li:first-child {
   color: #FA7446;
   font-size: 2rem;
   line-height: 3rem;
-  /* padding-bottom:19rem; */
+  padding-bottom:2rem;
   margin-top: 0;
+}
+.confetti {
+  padding: 3rem 0 4rem 15rem;
 }
 .work-bottom {
   display: flex;
@@ -303,7 +311,7 @@ footer {
   background-color: #B7B3FF;
   padding: 3rem 3rem;
 }
-  .footer-text {
+.footer-text {
     text-align: center;
   }
 .footer-text-2 {
@@ -329,6 +337,22 @@ footer {
   h3 {
     font-size: 2rem;
     padding: 2.5rem 0;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+    .about {
+      padding-right: 5rem;
+      padding-top: 1rem;
+      color: #043043;
+      font-size: 2.3rem;
+    }
+
+    .work-link {
+      padding-right: 3rem;
+      padding-top: 1rem;
+      font-size: 2.3rem;
+
     }
     /* hero section */
   .hero {
@@ -361,19 +385,19 @@ footer {
     font-size: 1.6rem;
     }
     button {
-    button-radius: 5rem;
-    padding: 1rem 2rem;
+      button-radius: 5rem;
+      padding: 1rem 2rem;
     }
 
     #contact-form textarea  {
-        border-radius: .2em;
-        border:none;
-        width: 100%;
-        padding: .5em;
-        margin-bottom: 2em;
-        box-sizing: border-box;
-        font-family: Avenir;
-        font-size: 1.6rem;
+      border-radius: .2em;
+      border:none;
+      width: 100%;
+      padding: .5em;
+      margin-bottom: 2em;
+      box-sizing: border-box;
+      font-family: Avenir;
+      font-size: 1.6rem;
     }
 
     #contact-form input {
@@ -466,6 +490,15 @@ footer {
     .confetti {
       grid-column: 2;
     }
+  .about {
+    padding-right: 5rem;
+    padding-top: 1rem;
+    color: #043043;
+  }
+  .work-link {
+    padding-right: 3rem;
+    padding-top: 1rem;
+  }
   .work {
     padding: 5rem 2rem;
     }
