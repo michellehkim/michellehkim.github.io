@@ -96,24 +96,13 @@ b{
   }
   nav ul li a {
     float:right;
-    /* line-height: 3em; */
-    /* padding: 0em 2em; */
     text-decoration: none;
-    /* font-size: 1.5rem; */
     font-weight: 400;
     color: #043043;
     letter-spacing: .2rem;
-    /* width: auto; */
+    padding: 3rem 3rem;
   }
-/*
-  nav ul li a {
-    float:right;
-    line-height: 3em;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #043043;
-  } */
+
   nav ul li:first-child {
     margin-right: auto;
   }
@@ -125,19 +114,48 @@ b{
     padding-top: 2rem;
   }
 
-  /* .about {
-    font-size: 2.5rem;
-    padding-right: 5rem;
-  } */
-   /* .work {
-     font-size: 2.5rem;
-   } */
   .logo-logo {
     float: left;
   }
   /* .sidebar.hero {
     background-color: #FEE2DA;
       padding: 3em 2em 3em 7em;
+  } */
+
+
+  /* .nav {
+    background-color: #FEE2DA;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+  }
+  nav ul li a {
+    float:right;
+    line-height: 3em;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #043043;
+  }
+  .about {
+    padding-right: 3rem;
+  }
+  nav ul li:first-child {
+    margin-right: auto;
+  }
+  .logo {
+    height:auto;
+    width: 6rem;
+    float:left;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .logo-logo {
+    float: left;
   } */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
@@ -561,11 +579,18 @@ footer {
   .typography {
     padding-top: 5rem;
   }
-  .colors-text-1, .colors-text-2 {
+  .colors-text-1{
     display: grid;
     grid-column-gap: 10rem;
     grid-template-columns: 1fr 3fr;
   }
+
+  .colors-text-2  {
+    display: grid;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr;
+  }
+
   .colors-text-2.1 {
     grid-column-start: 3;
   }
