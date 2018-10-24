@@ -76,10 +76,6 @@ a {
   color: #232323;
   transition: color 0.3s ease;
 }
-a.case-study:hover {
-  background-color: #DFDFDF;
-  color: #DFDFDF;
-}
 .container {
   background-color: white;
   height: 100vh;
@@ -107,7 +103,6 @@ nav ul li a {
   float:right;
   line-height: 3em;
   text-decoration: none;
-  font-size: 1.6rem;
   font-weight: 400;
   color: #043043;
 }
@@ -216,17 +211,21 @@ button {
   text-align: center;
 }
 .case-study {
-  background-color: #FFCD49;
+  background-color: white;
   border-radius: 3rem;
-  border: 1.5px solid #FFCD49;
+  /* border: 1.5px solid #FFCD49; */
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: .09rem;
-  padding: .8rem .5rem;
+  padding: .9rem .5rem;
   text-align: center;
   width: 15rem;
+}
+.case-study:hover {
+ background-color: #FFCD49;
+ border: 1.5px solid #FFCD49;
 }
 .connect-button {
   background-color: white;
@@ -348,12 +347,6 @@ footer {
       font-size: 2.3rem;
     }
 
-    .work-link {
-      padding-right: 3rem;
-      padding-top: 1rem;
-      font-size: 2.3rem;
-
-    }
     /* hero section */
   .hero {
     padding: 7rem 8rem;
@@ -374,12 +367,22 @@ footer {
       display: grid;
       grid-template-columns: 2fr 1fr;
     }
+    .logo {
+      padding-left: 4rem;
+      width: auto;
+      height: 5rem;
+    }
     .confetti {
       grid-column: 2;
     }
-  .work {
-    padding: 7rem 2rem;
+    .work-link {
+      padding-right: 4rem;
+      padding-top: 1rem;
+      font-size: 2.3rem;
     }
+    .work {
+      padding: 5rem 2rem;
+      }
     /* work section  */
   .case-study, .connect {
     font-size: 1.6rem;
@@ -467,7 +470,15 @@ footer {
     font-size: 2rem;
     padding: 2.5rem 0;
     }
+    /* .nav {
+      padding: 0 4rem 0 4rem;
+    } */
     /* hero section */
+  .logo {
+    padding-left: 4rem;
+    width: auto;
+    height: 5rem;
+  }
   .hero {
     padding: 5rem 8rem;
     }
@@ -477,26 +488,26 @@ footer {
     padding-bottom: 48rem;
     padding-top: 0;
     grid-row: 2;
-    }
+  }
   .hero-image {
     height: auto;
     width: 60rem;
     padding-bottom: 1rem;
-    }
+  }
   .sidebar-hero {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
-    .confetti {
-      grid-column: 2;
-    }
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .confetti {
+    grid-column: 2;
+  }
   .about {
     padding-right: 5rem;
     padding-top: 1rem;
     color: #043043;
   }
   .work-link {
-    padding-right: 3rem;
+    padding-right: 4rem;
     padding-top: 1rem;
   }
   .work {

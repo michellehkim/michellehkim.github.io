@@ -286,6 +286,11 @@ p {
 .about, .work {
   font-size: 1.7rem;
 }
+.logo {
+  padding-left: 4rem;
+  width:auto;
+  height: 5rem;
+}
 .confetti {
     width: auto;
     height: 20rem;
