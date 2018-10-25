@@ -231,8 +231,8 @@ nav ul li:first-child {
     float: right;
 }
 .resume-button {
+  align-items: center;
   padding: 3rem 2rem 5rem 2rem;
-  text-align: center;
 }
 .button {
   text-align: center;
@@ -344,6 +344,9 @@ p {
   padding-left: 4rem;
   text-align: center;
   }
+.resume {
+  text-align: center;
+}
 .footer-message {
   padding: 1.5rem 2rem;
 }
@@ -367,6 +370,7 @@ p {
 .social-links {
   float: right;
   padding-top: 3rem;
+  padding-right: 6rem;
 }
 .contact {
   display: grid;
