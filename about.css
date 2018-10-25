@@ -33,7 +33,6 @@ body {
   background-color: #FEE2DA;
   font-family: "Avenir"; "Nunito"; sans-serif;
 }
-
 /* header  */
 .container {
   height: 100vh;
@@ -97,7 +96,6 @@ nav ul li a {
   padding-top: 1rem;
   padding-right: 2rem;
 }
-
 nav ul li:first-child {
   margin-right: auto;
 }
@@ -109,7 +107,6 @@ nav ul li:first-child {
   padding-top: 2rem;
   padding-left: 2rem;
 }
-
 /* hero section */
 .hero {
   background-color: #FEE2DA;
@@ -126,7 +123,6 @@ nav ul li:first-child {
 .me-me {
   text-align: center;
 }
-
 .extra-info {
   display: grid;
   line-height: 3rem;
@@ -140,10 +136,9 @@ nav ul li:first-child {
   padding-right: 6rem;
   padding-top: 2rem;
 }
-
-/* .about. .work {
-  font-size: 3rem;
-} */
+.about:hover,.work-link:hover {
+  color: #FFCD49;
+}
 /* about me text */
 .text {
   background-color: white;
@@ -162,7 +157,6 @@ nav ul li:first-child {
   padding: 4rem 0;
   font-size: 3rem;
   color: #043043;
-
 }
 .fav-tool, .for-fun {
   text-align: center;
@@ -172,7 +166,6 @@ nav ul li:first-child {
   text-align: center;
   padding: 2rem 5rem 8rem 5rem;
 }
-
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
   height: 8rem;
@@ -185,8 +178,6 @@ nav ul li:first-child {
 .resume-button {
   background-color: white;
 }
-
-
 /* footer  */
 .form {
     background-color:#B7B3FF;
@@ -216,10 +207,13 @@ nav ul li:first-child {
 #contact-form textarea {
    height: 5em;
 }
+/* a:hover {
+  background-color: #FFCD49;
+} */
 #contact-form button[type="submit"], .resume  {
-    background-color: #FFCD49;
+    background-color:white;
     border-radius: 3rem;
-    border: 1px solid #FFCD49;
+    /* border: 1px solid #FFCD49; */
     color: #043043;
     font-family: "Avenir";
     font-weight: 400;
@@ -229,10 +223,18 @@ nav ul li:first-child {
     text-align: center;
     width: 11rem;
     float: right;
+    cursor: pointer;
+}
+#contact-form button:hover {
+  cursor:pointer;
+  background-color: #FFCD49;
 }
 .resume-button {
   align-items: center;
   padding: 3rem 2rem 5rem 2rem;
+}
+.resume:hover {
+  background-color: #FFCD49;
 }
 .button {
   text-align: center;
@@ -268,7 +270,10 @@ nav ul li:first-child {
   width: auto;
   height:3rem;
   padding: 0 1rem;
-  /* float: right; */
+  transition: transform .2s;
+}
+.footer-icon:hover {
+  transform: scale(1.3);
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
