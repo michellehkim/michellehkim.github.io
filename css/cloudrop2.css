@@ -100,7 +100,6 @@ b{
     color: #043043;
     /* padding: 3rem 3rem; */
   }
-
   nav ul li:first-child {
     margin-right: auto;
   }
@@ -163,10 +162,10 @@ text-align: center;
 }
 /******<!-- RESEARCH SECTION-->*******/
 a :hover {
-  background-color: #FF9272;
+  background-color: #FFCD49;
 }
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes {
-  background-color: #FFCD49;
+  background-color: #efefef;
   border-radius: 3rem;
   border: 1.5px solid #FFCD49;
   color: #043043;
@@ -179,7 +178,7 @@ a :hover {
   width: 11rem;
   }
 .survey {
-  background-color: #FFCD49;
+  background-color: white;
   border: 1.5px solid #FFCD49;
   border-radius: 3rem;
   color: #043043;
@@ -601,7 +600,7 @@ footer {
   .dropbox-buttons {
     grid-column: 2;
     padding: 0;
-    justify-content: space-around;
+    /* justify-content: space-around; */
   }
   .testing {
   display: grid;
@@ -687,7 +686,7 @@ section, .problem-solution {
   margin: 0 auto;
 }
 .titles {
-  width: 20rem;
+  width: 18rem;
   height: auto;
   padding: 1.5rem 0;
   line-height: 4rem;
@@ -907,7 +906,7 @@ hr {
     padding: 10rem 18rem;
   }
   .titles {
-    width: 25rem;
+    width: 20rem;
     height: auto;
     padding: 1.5rem 0;
     line-height: 4rem;
