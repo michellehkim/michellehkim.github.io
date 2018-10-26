@@ -135,6 +135,7 @@ nav ul li:first-child {
 .work-link, .about {
   padding-right: 6rem;
   padding-top: 2rem;
+  font-size: 1.6rem;
 }
 .about:hover,.work-link:hover {
   color: #FFCD49;
