@@ -67,6 +67,14 @@ b {
   padding-right: 4rem;
   padding-top: 0;
 }
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
 /*------ header ------*/
 header {
   background-color: #FEE2DA;
