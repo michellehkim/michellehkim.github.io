@@ -40,7 +40,7 @@ p {
 h1 {
   color: #2A4BC0;
   font-size: 4rem;
-  font-family: PlayfairDisplay;
+  font-family: "PlayfairDisplay";
   font-weight:800;
   letter-spacing: .1rem;
   padding: 4rem 0;
@@ -87,7 +87,7 @@ a {
     padding: 1rem 2rem;
 }
 .work-link {
-  padding-right: 2rem;
+  padding-right: 4rem;
   font-size: 1.8rem;
 }
 .about {
@@ -122,7 +122,7 @@ nav ul li:first-child {
   float: left;
   align-items: center;
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 /*-----hero section -----*/
 .sidebar.hero {
@@ -218,7 +218,7 @@ button {
 .case-study {
   background-color: white;
   border-radius: 3rem;
-  border: 1.5px solid #efefef;
+  /* border: 1.5px solid #efefef; */
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
@@ -250,7 +250,7 @@ button {
 /*----- footer -----*/
 footer {
   background-color: #B7B3FF;
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 .footer-text {
@@ -286,10 +286,10 @@ footer {
   border:none;
   width: 100%;
   padding: .5em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   box-sizing: border-box;
   font-family: Avenir;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 #contact-form textarea {
    height: 5em;
@@ -297,11 +297,11 @@ footer {
 #contact-form button[type="submit"]  {
     background-color: white;
     border-radius: 3rem;
-    border: 1px solid #FFCD49;
+    /* border: 1px solid #FFCD49; */
     color: #043043;
     font-family: "Avenir";
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: .09rem;
     padding: .8rem .5rem;
     text-align: center;
@@ -313,16 +313,16 @@ footer {
   cursor:pointer;
   background-color: #FFCD49;
   transform: scale(1.1);
-
 }
 .copyright-text {
     font-size: 1.3rem;
     padding-top: 1em;
     text-align:center;
+    line-height: 1.8rem;
   }
 .footer-message {
   background-color: #B7B3FF;
-  padding: 3rem 3rem;
+  padding: 4rem 3rem 3rem 3rem;
 }
 .footer-text {
     text-align: center;
@@ -333,7 +333,7 @@ footer {
 }
 .footer-icon {
   width: auto;
-  height:2.5rem;
+  height:2rem;
   padding: 0 1rem;
   transition: transform .2s;
 }
@@ -391,7 +391,7 @@ footer {
     /* padding-top: 1rem; */
   }
   .work-link {
-    padding-right: 2rem;
+    padding-right: 4rem;
     /* padding-top: 1rem; */
   }
   .work {
@@ -401,10 +401,10 @@ footer {
   .case-study, .connect {
     font-size: 1.6rem;
     }
-    button {
+  button {
     button-radius: 5rem;
     padding: 1rem 2rem;
-    }
+  }
     /* footer */
   .case-study-button {
     padding-top: 1rem;
@@ -419,15 +419,14 @@ footer {
   .footer-text-2 {
     line-height: 2.3rem;
     text-align: left;
-    padding:0 4rem;
+    padding: 0 6rem 0 6rem;
   }
   .footer-message {
     background-color: #B7B3FF;
     padding: 3rem 2rem;
   }
   .footer-text {
-    text-align: center;
-    padding-top: 1em;
+    padding: 2.5rem 0;
   }
   .contact {
     display: grid;
@@ -438,6 +437,7 @@ footer {
   #contact-form {
     padding: 5rem 5rem 3rem 1rem;
   }
+
   }
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -486,11 +486,11 @@ footer {
       display: grid;
       grid-template-columns: 2fr 1fr;
     }
-    .logo {
+    /* .logo {
       padding-left: 3rem;
       width: auto;
       height: 4rem;
-    }
+    } */
     .confetti {
       grid-column: 2;
     }
