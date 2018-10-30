@@ -523,7 +523,7 @@ footer {
     #contact-form button[type="submit"]  {
         /* background-color: #FFCD49; */
         border-radius: 3rem;
-        border: 1px solid #FFCD49;
+        /* border: 1px solid #FFCD49; */
         color: #043043;
         font-family: "Avenir";
         font-weight: 400;
