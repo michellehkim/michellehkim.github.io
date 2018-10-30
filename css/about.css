@@ -46,14 +46,14 @@ body {
    font-family: PlayfairDisplay;
    font-size: 6rem;
    font-weight:800;
-   padding: 6rem 1.6rem 1rem 1.6rem;
+   padding: 6rem 2rem 1rem 2rem;
    letter-spacing: .1rem;
  }
  h2 {
    color: #FA7446;
-   font-size: 3rem;
+   font-size: 2.5rem;
    line-height: 4rem;
-   padding: 2rem 1.6rem 5rem 1.6rem;
+   padding: 2rem 2rem 5rem 2rem;
    font-style: italic;
  }
  h3 {
@@ -69,10 +69,11 @@ body {
  p {
    color: #043043;
    font-size: 2.4rem;
-   line-height: 3.4rem;
+   line-height: 3rem;
  }
 .header {
     background-color: #FEE2DA;
+    padding: 1rem 2rem;
 }
 .nav {
   background-color: #FEE2DA;
@@ -87,7 +88,6 @@ nav ul li a {
   float: right;
   line-height: 3em;
   text-decoration: none;
-  font-size: 1.8rem;
   font-weight: 400;
   color: #043043;
 }
@@ -99,7 +99,7 @@ nav ul li:first-child {
   width: 7rem;
   float:left;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-left: 2rem;
 }
 /* hero section */
@@ -129,7 +129,7 @@ nav ul li:first-child {
 } */
 .work-link, .about {
   padding-right: 6rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   font-size: 1.6rem;
 }
 .about:hover,.work-link:hover {
@@ -257,10 +257,8 @@ nav ul li:first-child {
   font-size: 2.5rem;
 }
 .social-links {
-  padding-right: 2rem;
-  padding-top: 1rem;
-  text-align: center;
-
+  display: flex;
+  justify-content: center;
 }
 .footer-icon {
   width: auto;
@@ -271,28 +269,63 @@ nav ul li:first-child {
 .footer-icon:hover {
   transform: scale(1.3);
 }
-/* @media (min-width: 320px) and (max-width:767px) {
+
+@media (min-width: 320px) and (max-width:767px) {
   .nav {
     background-color: #FEE2DA;
     overflow: hidden;
     padding: 1.5rem 1.5rem;
-  } */
-
+  }
+  .about {
+    font-size: 2rem;
+    padding-right: 7rem;
+  }
+  .work-link {
+    font-size: 2rem;
+    padding-right: 4rem;
+  }
+  h2 {
+    line-height: 5rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .main-1, .main-2, .main-3 {
+    line-height: 4rem;
+  }
+  .main-text {
+    padding: 3rem 3rem 3rem 3rem;
+  }
+.invision, .figma, .sketch, .museums, .concerts, .hiking {
+  width: auto;
+  height: 6rem;
+  padding: 1rem 2rem;
+  }
+.footer-icon {
+    width: auto;
+    height:2rem;
+  }
+.footer {
+    padding: 3rem 2rem 0 2rem;
+  }
+}
 @media (min-width: 768px) and (max-width:1024px) {
 h1 {
     line-height: 7rem;
-    padding: 7rem 4rem 0 4rem;
+    padding: 7rem 4rem 0 7rem;
   }
 h2 {
-    font-size: 2.5em;
-    padding: 2rem 4rem 7rem 4rem;
+    font-size: 2.3rem;
+    padding: 2rem 4rem 5rem 7rem;
   }
 p {
   font-size: 1.8rem;
 }
-.about, .work {
-  font-size: 1.7rem;
-}
+/* .about, .work {
+  font-size: 2rem;
+} */
 .logo {
   padding-left: 4rem;
   width:auto;
@@ -313,24 +346,26 @@ p {
   .main-text {
     padding: 3rem 7rem 0 7rem;
   }
+
   .extra-info {
     display: grid;
     line-height: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 8rem 0 8rem;
   }
   .info-title {
     padding: 3rem 0;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .fav-tool, .for-fun, .headphones {
-    padding: 7rem 3rem 7rem 3rem;
+    padding: 7rem 2rem 7rem 2rem;
   }
   .invision, .figma, .sketch, .museums, .concerts, .hiking {
     width: auto;
     height: 6rem;
     padding: 1rem 1rem;
   }
-/* footer */
+/* footer*/
 #contact-form input,
 #contact-form textarea  {
     border-radius: .2em;
@@ -374,11 +409,6 @@ p {
   width: auto;
   height: 2rem;
 }
-.social-links {
-  float: right;
-  padding-top: 3rem;
-  padding-right: 6rem;
-}
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -392,11 +422,11 @@ p {
 @media (min-width: 1025px)  {
 h1 {
   line-height: 7rem;
-  padding: 7rem 7rem 0 7rem;
+  padding: 7rem 7rem 0 10rem;
 }
 h2 {
   font-size: 2.8em;
-  padding: 3rem 7rem 10rem 7rem;
+  padding: 3rem 7rem 10rem 10rem;
 }
 p {
 font-size: 2rem;
@@ -405,12 +435,12 @@ font-size: 2rem;
   padding-right: 5rem;
   padding-top: 1rem;
   color: #043043;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 .work-link {
   padding-right: 3rem;
   padding-top: 1rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 .confetti {
   width: auto;
@@ -424,19 +454,20 @@ font-size: 2rem;
   height: 53rem;
 }
 .main-text {
-  padding: 7rem 7rem 0 7rem;
+  padding: 7rem 10rem 0 10rem;
 }
 .extra-info {
   display: grid;
   line-height: 3rem;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 8rem 0 8rem;
 }
 .info-title {
-  font-size: 2.8rem;
+  font-size: 2rem;
   padding: 5rem 0;
 }
 .fav-tool, .for-fun, .headphones {
-  padding: 2rem 6rem 13rem 6rem;
+  padding: 2rem 6rem 7rem 6rem;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
@@ -460,7 +491,6 @@ font-size: 2rem;
 }
 .copyright-text {
   font-size: 1.4rem;
-  padding-top: 3rem;
   padding-left: 4rem;
   text-align: center;
 }
@@ -483,10 +513,6 @@ font-size: 2rem;
 .footer-icon {
   width: auto;
   height: 2rem;
-}
-.social-links {
-  float: right;
-  padding-top: 3rem;
 }
 .contact {
   display: grid;
