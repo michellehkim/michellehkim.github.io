@@ -780,9 +780,8 @@ footer {
     font-size: 2rem;
   }
   section, .problem-solution {
-    padding: 8rem 16rem;
+    padding: 8rem 14rem;
   }
-
   /**** INTRO ****/
   .overview-title {
     text-align: center;
@@ -805,7 +804,7 @@ footer {
     margin: 0 auto;
   }
   .titles {
-    width: 18rem;
+    width: 25rem;
     height: auto;
     padding: 1.5rem 0;
     line-height: 4rem;
@@ -819,8 +818,8 @@ footer {
   .problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
     display: grid;
     grid-gap: 4rem;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 4rem;
+    grid-template-columns: 1fr 2fr;
   }
   .survey-button {
     grid-column: 2;
@@ -832,9 +831,9 @@ footer {
     grid-gap: 3rem;
     padding: 3rem 4rem 8rem 4rem;
   }
-  .highlight {
+  /* .highlight {
     padding: 0 2rem;
-  }
+  } */
   .highlight-text {
     font-size: 2.2rem;
   }
@@ -894,14 +893,27 @@ footer {
     grid-column-gap: 7rem;
     grid-template-columns: 1fr 3fr;
   }
+
   .branding-image {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 3fr;
-    /* padding: 5rem 0; */
-    grid-column-gap: 7rem;
+    grid-gap: 2rem;
+    grid-column-gap: 10rem;
+  }
+ .b-3, .b-4 {
+    width: auto;
+    height: 28rem;
+  }
+  .b-1, .b-2 {
+    width: auto;
+    height: 28rem;
   }
   .typography {
     padding-top: 5rem;
+  }
+  .type-image {
+    width: auto;
+    height:35rem;
   }
   .colors-text-1 {
     display: grid;
@@ -930,8 +942,13 @@ footer {
   .desktop-sketch, .hifi-images {
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     padding: 5rem 0;
+  }
+  .desktop-sketch-1, .desktop-sketch-2 {
+    width: auto;
+    height: 36rem;
+    padding: 1rem 1rem 1rem 4rem;
   }
   .preferences {
     display: grid;
@@ -958,7 +975,7 @@ footer {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1 3fr;
   }
-    .prototype-buttons, .testing-text{
+  .prototype-buttons, .testing-text{
       grid-column: 2;
       padding: 0;
     }
