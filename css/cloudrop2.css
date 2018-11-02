@@ -151,9 +151,9 @@ section {
     padding: 1.5rem 0 3rem 0;
   }
 .mobile-prototype-top {
-  background-color: white;
+  background-color: #FF9272;
   border-radius: 3rem;
-  border: 1.5px solid white;
+  border: 1.5px solid #043043;
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
@@ -501,14 +501,20 @@ footer {
   padding: 1rem 1rem;
   transition: transform .2s;
 }
-.footer-icon:hover {
+.email-icon {
+  width: auto;
+  height: 2.5rem;
+  padding: 0 2rem;
+  transition: transform .2s;
+}
+.footer-icon:hover, .email-icon: {
   transform: scale(1.3);
 }
 .copyright-text {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   letter-spacing: 0;
-  line-height: 1.8rem;
 }
+
 
 /* @media (min-width: 320) and (max-width:767px) {
   .container {
@@ -574,7 +580,7 @@ footer {
   /* user research */
   .problem-solution, .user-stories, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
     display: grid;
-    grid-gap: 4rem;
+    grid-gap: 3rem;
     grid-column-gap: 5rem;
     grid-template-columns: 1fr 3fr;
   }
@@ -631,16 +637,28 @@ footer {
   .persona-name {
     padding-bottom: 2.5rem;
   }
+  .user-flows-button {
+    padding:0;
+  }
   /**** BRANDING ****/
   .branding-text {
     display: grid;
-    grid-column-gap: 10rem;
+    grid-column-gap: 7rem;
     grid-template-columns: 1fr 3fr;
   }
   .branding-image {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-gap: 4rem;
+    grid-gap: 2rem;
+    grid-column-gap: 6rem;
+  }
+ .b-3, .b-4 {
+    width: auto;
+    height: 23rem;
+  }
+  .b-1, .b-2 {
+    width: auto;
+    height: 22rem;
   }
   .typography {
     padding-top: 5rem;
@@ -649,7 +667,7 @@ footer {
     width: auto;
     height: 28rem;
   }
-  .colors-text-1{
+  /* .colors-text-1{
     display: grid;
     grid-column-gap: 10rem;
     grid-template-columns: 1fr 3fr;
@@ -658,9 +676,13 @@ footer {
     display: grid;
     grid-column-gap: 10rem;
     grid-template-columns: 1fr;
-  }
-  .colors-text-2.1 {
+  } */
+  /* .colors-text-2.1 {
     grid-column-start: 3;
+  } */
+  .user-flows-button, .dropbox-buttons, .prototype-buttons {
+    display:grid;
+    grid-template-columns: 1fr;
   }
   /**** WIREFRAMES & TESTING ****/
   .wireframes-testing {
@@ -668,7 +690,7 @@ footer {
   }
   .wireframe-text {
     display: grid;
-    grid-column-gap: 10rem;
+    grid-column-gap: 7rem;
     grid-template-columns: 1fr 3fr;
     /* grid-template-rows: 1fr auto; */
     height: auto;
@@ -679,11 +701,11 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding: 5rem 0;
   }
-    .desktop-sketch, .hifi-images {
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      grid-column-gap: 5rem;
-    }
+  .desktop-sketch, .hifi-images {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 5rem;
+  }
   .landing-page-image, .home-page-image {
     text-align: center;
     }
@@ -694,21 +716,22 @@ footer {
     padding: 3rem 5rem;
   }
   /* hifi-mockups */
-  .prototype-buttons {
-    display: flex;
-    margin: 0;
-  }
+  /* .prototype-buttons {
+    grid-column: 2;
+    padding: 0;
+    justify-content: space-between;
+  } */
   .home-page {
     grid-column: 2/ 3;
   }
   .testing {
     display: grid;
-    grid-gap: 4rem;
-    grid-column-gap: 7rem;
+    /* grid-gap: 4rem; */
+    grid-column-gap: 5rem;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1 3fr;
   }
- .dropbox-buttons, .testing-text{
+ .testing-text{
     grid-column: 2;
     padding: 0;
   }
