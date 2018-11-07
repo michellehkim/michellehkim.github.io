@@ -168,11 +168,11 @@ section {
   .prototype-top {
     padding: 1rem 0;
   }
-.hero-image {
-  height: auto;
-  width: 33rem;
-  padding:3rem 1rem 2rem 1rem;
-  align-items: center;
+  .hero-image {
+    height: auto;
+    width: 33rem;
+    padding:3rem 1rem 2rem 1rem;
+    align-items: center;
 }
 .hero, .prototype-top {
   text-align: center;
@@ -514,12 +514,14 @@ footer {
   font-size: 1.4rem;
   letter-spacing: 0;
 }
-
-@media (min-width: 320) and (max-width:767px) {
+/* @media (min-width: 320) and (max-width:767px) {
   .dropbox-buttons, .prototype-buttons {
     padding-left: 4rem;
   }
+  h1 {
+    font-size: 8rem;
   }
+} */
 
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width:1024px) {
