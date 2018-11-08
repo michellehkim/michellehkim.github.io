@@ -41,10 +41,9 @@ h1 {
   /* color: #c4c4c4; */
   color: #000000;
   font-size: 4rem;
-  /* font-family: "PlayfairDisplay"; */
   font-weight:800;
   letter-spacing: .1rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
   /* text-align: center; */
   line-height: 5rem;
 }
@@ -85,10 +84,6 @@ a {
   height: 100vh;
   display: grid;
  }
-/* .header {
-  background-color: #FFDBBA;
-  padding: 1rem 2rem;
-} */
 .work-link {
   padding-right: 1.6rem;
   font-size: 1.5rem;
@@ -114,18 +109,17 @@ nav ul li a {
   line-height: 3em;
   text-decoration: none;
   font-weight: 400;
-  color: #043043;
 }
 nav ul li:first-child {
   margin-right: auto;
 }
 .logo {
-  height: 3rem;
+  height: 4.2rem;
   width: auto;
   float: left;
   align-items: center;
   padding-top: 1rem;
-  padding-left: 1.6rem;
+  padding-left: 2.6rem;
 }
 /*-----hero section -----*/
 .content-image {
@@ -143,15 +137,12 @@ b {
   font-weight: 600rem;
 }
 .snippet {
-  padding: 0 1rem 10rem 1rem;
+  /* padding: 0 1rem 10rem 1rem; */
   color: #FA7446;
-}
-b {
-  font-weight: 600;
 }
 .hero-image {
   height: auto;
-  width: 28rem;
+  width: 40rem;
   padding: 4rem 0;
 }
 .project-screens {
@@ -194,7 +185,7 @@ b {
   margin: auto;
   padding-top: 2rem;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: .1rem;
 }
 /*----- other sections -----*/
@@ -225,18 +216,6 @@ button {
   padding: 1rem 1rem;
   text-align: center;
 }
-/* .case-study {
-  background-color: white;
-  border-radius: 3rem;
-  color: #043043;
-  font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .09rem;
-  padding: .9rem .5rem;
-  text-align: center;
-  width: 15rem;
-} */
 .connect-button {
   background-color: white;
   border-radius: 3rem;
@@ -254,7 +233,7 @@ footer {
 }
 .footer-text {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align:center;
   color: #FFDBBA;
   letter-spacing: .2rem;
@@ -280,13 +259,13 @@ footer {
   }
 .footer-message {
   background-color: #3B515A;
-  padding: 4rem 3rem 0 3rem;
 }
 .footer-text-2 {
   line-height: 2.5rem;
   padding: 3rem 0 0 0;
   font-size: 1.5rem;
   color: white;
+  text-align: left;
 }
 .footer-icon {
   width: auto;
@@ -359,15 +338,23 @@ footer {
 }
 .content-details p{
   color: #000000;
-  font-size: 1em;
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 3rem;
+  padding: 0 2rem;
 }
 .fadeIn-top{
   top: 20%;
 }
-
 @media (min-width: 320px) and (max-width:767px) {
   h1 {
-    padding: 0 2.5rem 2rem 2.5rem;
+    padding: 0 1rem 2rem 1rem;
+  }
+  .snippet {
+  padding: 0 1rem 20rem 1rem;
+  }
+  footer-message {
+    padding: 2rem 2rem;
   }
 }
   /*
@@ -376,6 +363,7 @@ footer {
 @media (min-width: 768px) and (max-width:1024px) {
   h1 {
     font-size: 5rem;
+    padding-top: 2rem;
     }
   h2 {
     font-size: 4rem;
@@ -384,18 +372,18 @@ footer {
     font-size: 2rem;
     padding: 2.5rem 0;
     }
-    /* .nav {
-      padding: 0 4rem 0 4rem;
-    } */
     /* hero section */
   .logo {
     padding-left: 3rem;
     width: auto;
     height: 4rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .hero {
     padding: 5rem 8rem;
+    }
+    .snippet {
+    padding-bottom: 25rem;
     }
   .description {
     font-size: 2.3rem;
@@ -409,24 +397,16 @@ footer {
     width: 60rem;
     padding-bottom: 1rem;
   }
-  .sidebar-hero {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .confetti {
-    grid-column: 2;
-  }
   .about {
     padding-right: 4rem;
-    /* padding-top: 1rem; */
   }
   .work-link {
     padding-right: 4rem;
     /* padding-top: 1rem; */
   }
-  .work {
-    padding: 5rem 2rem;
-    }
+  .work-title {
+    font-size: 1.6rem;
+  }
     /* work section  */
   .case-study, .connect {
     font-size: 1.6rem;
@@ -444,28 +424,22 @@ footer {
     padding-top: 1rem;
     }
   .footer-message {
-    padding: 1.5rem 2rem;
+    padding: 0 2rem;
   }
   .footer-text-2 {
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     text-align: left;
-    padding: 0 6rem 0 6rem;
-  }
-  .footer-message {
-    background-color: #B7B3FF;
-    padding: 3rem 2rem;
+    padding: 0 20rem 2rem 20rem;
+    font-size: 2rem;
   }
   .footer-text {
-    padding: 2.5rem 0;
+    padding: 1.2rem 0 1.2rem 0;
   }
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4rem 2rem 0 2rem;
     background-color: #B7B3FF;
-  }
-  #contact-form {
-    padding: 5rem 5rem 3rem 1rem;
   }
 
   }
@@ -483,19 +457,27 @@ footer {
   h3 {
     font-size: 2rem;
     padding: 2.5rem 0;
-    }
-    h4 {
-      font-size: 2rem;
-    }
-    .about {
-      padding-right: 5rem;
-      font-size: 2rem;
-    }
-    .work-link {
-      padding-right: 4rem;
-      /* padding-top: 1rem; */
-      font-size: 2rem;
-    }
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  .about {
+    padding-right: 5rem;
+    font-size: 2rem;
+  }
+  .work-link {
+    padding-right: 4rem;
+    /* padding-top: 1rem; */
+    font-size: 2rem;
+  }
+  .snippet {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    padding: 0 10rem 20rem 0;
+  }
+  .work-title {
+    font-size: 2rem;
+  }
     /* hero section */
   .hero {
     padding: 7rem 8rem;
@@ -509,94 +491,34 @@ footer {
     }
   .hero-image {
     height: auto;
-    width: 40rem;
+    width: 50rem;
     padding-bottom: 1rem;
-    }
-  .sidebar-hero {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
-    /* .logo {
-      padding-left: 3rem;
-      width: auto;
-      height: 4rem;
-    } */
-    .confetti {
-      grid-column: 2;
-    }
-    .work {
-      padding: 5rem 2rem;
-      }
+  }
     /* work section  */
   .case-study, .connect {
     font-size: 1.6rem;
-    }
-    button {
-      button-radius: 5rem;
-      padding: 1rem 2rem;
-    }
-
-    #contact-form textarea  {
-      border-radius: .2em;
-      border:none;
-      width: 100%;
-      padding: .5em;
-      margin-bottom: 2em;
-      box-sizing: border-box;
-      font-family: Avenir;
-      font-size: 1.6rem;
-    }
-
-    #contact-form input {
-      font-size: 1.6rem;
-    }
-    #contact-form button[type="submit"]  {
-        /* background-color: #FFCD49; */
-        border-radius: 3rem;
-        /* border: 1px solid #FFCD49; */
-        color: #043043;
-        font-family: "Avenir";
-        font-weight: 400;
-        font-size: 1.5rem;
-        letter-spacing: .09rem;
-        padding: .8rem .5rem;
-        text-align: center;
-        width: 11rem;
-        float: right;
-    }
-    /* footer */
-  .case-study-button {
-    padding-top: 1rem;
   }
+  button {
+    button-radius: 5rem;
+    padding: 1rem 2rem;
+  }
+    /* footer */
   .copyright-text {
     font-size: 1.4rem;
     padding-top: 1rem;
     }
-
-  .footer-message {
-    padding: 1.5rem 2rem;
-  }
   .footer-text-2 {
-    line-height: 2.3rem;
-    text-align: left;
-    padding:0 4rem;
+    line-height: 3rem;
+    padding: 0 23rem;
+    text-align: center;
+    font-size: 2.5rem;
   }
   .footer-message {
-    background-color: #B7B3FF;
-    padding: 3rem 2rem;
+    background-color: #3B515A;
+    padding-bottom: 3rem;
   }
   .footer-text {
     text-align: center;
     padding-top: 1em;
-  }
-  .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:
-    padding: 4rem 2rem 0 2rem;
-    background-color: #B7B3FF;
-  }
-  #contact-form {
-    padding: 5rem 5rem 3rem 1rem;
   }
   }
