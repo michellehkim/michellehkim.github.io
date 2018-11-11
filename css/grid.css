@@ -142,7 +142,7 @@ b {
 }
 .hero-image {
   height: auto;
-  width: 30rem;
+  width: 32rem;
   margin: auto;
   /* padding: 4rem 0; */
 }
@@ -189,7 +189,7 @@ b {
 /*----- other sections -----*/
 .work {
   background-color:#E1F8FF;
-  /* padding: 4rem 1.6rem; */
+  padding: 4rem 1.6rem;
   width:100%;
 }
 .project-title{
@@ -291,14 +291,13 @@ button {
 }
 /*----- contact -----*/
 .contact {
-  padding: 3.5rem 2rem;
+  padding: 3.5rem 2rem 1rem 2rem;
   background-color: #181818;
-
 }
 /*----- footer -----*/
 footer {
-  background-color: #333333;
-  padding: 3rem 3rem;
+  background-color: #181818;
+  padding: 2rem 3rem;
   text-align: center;
 }
 .footer-text {
@@ -397,7 +396,7 @@ a {
   }
   .hero-image {
     height: auto;
-    width: 60rem;
+    width: 50rem;
     padding-bottom: 1rem;
   }
   .about {
@@ -437,9 +436,6 @@ a {
   }
   .footer-text {
     padding: 1.2rem 0 1.2rem 0;
-  }
-  .contact {
-    background-color: black;
   }
   }
   /*

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PlayfairDisplay">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <div class="container">
     <body>
@@ -30,15 +31,16 @@
     <!--hero section -->
     <section class="hero">
       <div class="sidebar-hero">
+        <div data-aos="fade-down" data-aos-duration="1500">
         <h1>HELLO, I'M MICHELLE KIM - </h1>
         <h3 class= "snippet">a <b>Los Angeles</b> based <b>user experience designer</b> focused on creating simple and intuitive solutions. </h3>
+        </div>
       </div>
       <div class= "work-bottom">
         <a data-scroll href="#full">
           <div class="arrow"></div>
         </a>
         <h2 class= "work-title">PEEP MY WORK</h2>
-        <!-- <img src= "images/squiggle.png"> -->
       </div>
       <!-- <div id="full"></div> -->
     </section>
@@ -47,7 +49,8 @@
       <div class= "project-screens">
         <a href="project2.html">
       <div class= "content-overlay"></div>
-      <img class= "hero-image" src="images/desktop-image.png" alt="hero image"></a>
+      <img class= "hero-image" src="images/screen1.png" alt="hero image"></a>
+      <!-- <img class= "hero-image" src="images/screens.png" alt="hero image"></a> -->
       <div class= "content-details fadeIn top">
         <h2 class= "project-title">CLOUDROP</h2>
         <p class= "prject info">Create, save and share ideas and inspiration.</p>
@@ -55,7 +58,9 @@
     </div>
     </section>
     <section class= "contact">
-      <p class = "footer-text-2">Have questions or want to talk UX? Send me a message at <a href= "mailto:mmichellekimm@gmail.com"><b>mmmmichellekimm@gmail.com</b></a> or add me on <a href= "https://www.linkedin.com/in/michellehjkim/"><b>LinkedIn</b></a>!</p>
+      <div data-aos="fade-down" <div data-aos="fade-down" data-aos-duration="800">
+        <p class = "footer-text-2">Have questions or want to talk UX? Send me a message at <a href= "mailto:mmichellekimm@gmail.com"><b>mmichellekimm@gmail.com</b></a> or add me on <a href= "https://www.linkedin.com/in/michellehjkim/"><b>LinkedIn</b></a>!</p>
+      </div>
     </section>
     <!-- <div class= "contact"> -->
         <footer class="footer">
@@ -86,6 +91,10 @@
         gtag('js', new Date());
         gtag('config', 'UA-128348791-2');
       </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     </body>
   </div>
 </html>

@@ -29,21 +29,20 @@ html {
   font-weight: 200;
 }
 body {
-  background-color: #FEE2DA;
+  background-color: #FFDBBA;
   font-family: "Avenir"; "Nunito"; sans-serif;
 }
 /* header  */
 .container {
   height: 100vh;
   display: grid;
-  /* padding: 2rem 1.6rem 2rem 1.6rem; */
  }
  .section {
    padding: 3rem 3rem;
  }
  h1 {
    color: #387E84;
-   font-family: PlayfairDisplay;
+   /* font-family: PlayfairDisplay; */
    font-size: 6rem;
    font-weight:800;
    padding: 6rem 2rem 1rem 2rem;
@@ -72,11 +71,11 @@ body {
    line-height: 3rem;
  }
 .header {
-    background-color: #FEE2DA;
+    background-color: #FFDBBA;
     padding: 1rem 2rem;
 }
 .nav {
-  background-color: #FEE2DA;
+  background-color: #FFDBBA;
   overflow: hidden;
   padding: 1.5rem 1.5rem;
 }
@@ -89,7 +88,6 @@ nav ul li a {
   line-height: 3em;
   text-decoration: none;
   font-weight: 400;
-  color: #043043;
 }
 nav ul li:first-child {
   margin-right: auto;
@@ -103,11 +101,7 @@ nav ul li:first-child {
 }
 /* hero section */
 .hero {
-  background-color: #FEE2DA;
-}
-.confetti {
-  width: auto;
-  height:21rem;
+  background-color: #FFDBBA;
 }
 .me {
   width: auto;
@@ -121,11 +115,12 @@ nav ul li:first-child {
   display: grid;
   line-height: 3rem;
   grid-template-columns: 1fr;
-  background-color: #FEE2DA;
+  background-color: #FFDBBA;
 }
 .work-link, .about {
   padding-right: 4rem;
   font-size: 1.8rem;
+  color: #000000;
 }
 .about:hover,.work-link:hover {
   color: #FFCD49;
@@ -135,7 +130,7 @@ nav ul li:first-child {
   background-color: white;
 }
 .intro {
-  background-color: #FEE2DA;
+  background-color: #FFDBBA;
 }
 .main-text {
   padding: 2rem 1.6rem 4rem 1.6rem;
@@ -147,7 +142,7 @@ nav ul li:first-child {
 .info-title {
   padding: 4rem 0;
   font-size: 2rem;
-  color: #043043;
+  color: #000000;
 }
 .fav-tool, .for-fun {
   text-align: center;
@@ -162,10 +157,6 @@ nav ul li:first-child {
   height: 8rem;
   padding: 1rem 2rem;
   }
-/* .iframe {
-  width:auto;
-  height: 8rem;
-} */
 .resume-button {
   background-color: white;
 }
@@ -473,7 +464,7 @@ font-size: 2rem;
 }
 .copyright-text {
   font-size: 1.4rem;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
 .footer {
   padding: 2rem 2rem;
