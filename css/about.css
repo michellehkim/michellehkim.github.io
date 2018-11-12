@@ -72,10 +72,10 @@ body {
  }
 .header {
     background-color: #FFDBBA;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
 }
 .nav {
-  background-color: #FFDBBA;
+  background-color: #FEE2DA;
   overflow: hidden;
   padding: 1.5rem 1.5rem;
 }
@@ -93,11 +93,12 @@ nav ul li:first-child {
   margin-right: auto;
 }
 .logo {
-  height:4rem;
+  height: 4.2rem;
   width: auto;
-  float:left;
-  padding-top: 2rem;
-  padding-left: 3rem;
+  float: left;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 2.6rem;
 }
 /* hero section */
 .hero {
@@ -117,13 +118,25 @@ nav ul li:first-child {
   grid-template-columns: 1fr;
   background-color: #FFDBBA;
 }
-.work-link, .about {
+/* .work-link, .about {
   padding-right: 4rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  color: #000000;
+} */
+.about {
+  padding-right: 4rem;
+  padding-top: .5rem;
+  font-size: 1.6rem;
+  color: #000000;
+}
+.work-link {
+  padding-right: 2.6rem;
+  padding-top: .5rem;
+  font-size: 1.6rem;
   color: #000000;
 }
 .about:hover,.work-link:hover {
-  color: #FFCD49;
+  color: #FA7446;
 }
 /* about me text */
 .text {
@@ -262,14 +275,7 @@ nav ul li:first-child {
     overflow: hidden;
     padding: 1.5rem 1.5rem;
   }
-  .about {
-    font-size: 1.8rem;
-    padding-right: 7rem;
-  }
-  .work-link {
-    font-size: 1.8rem;
-    padding-right: 4rem;
-  }
+
   h2 {
     line-height: 5rem;
     padding-bottom: 4rem;
@@ -297,6 +303,7 @@ nav ul li:first-child {
     padding: 2rem 2rem;
   }
 }
+
 @media (min-width: 768px) and (max-width:1024px) {
 h1 {
     line-height: 7rem;
@@ -309,13 +316,19 @@ h2 {
 p {
   font-size: 1.8rem;
 }
-.confetti {
-    width: auto;
-    height: 20rem;
-  }
-.confettti {
-  text-align: center;
-
+.logo {
+  padding-left: 4rem;
+  width: auto;
+  height: 5rem;
+  padding-top: 2rem;
+}
+.about {
+  padding-right: 4rem;
+  padding-top: .5rem;
+}
+.work-link {
+  padding-right: 4rem;
+  padding-top: .5rem;
 }
   .me {
     width: auto;
@@ -407,14 +420,14 @@ h2 {
 p {
 font-size: 2rem;
 }
-.about {
+/* .about {
   padding-right: 5rem;
   font-size: 2rem;
 }
 .work-link {
   padding-right: 4rem;
   font-size: 2rem;
-}
+} */
 .confetti {
   width: auto;
   height: 20rem;
