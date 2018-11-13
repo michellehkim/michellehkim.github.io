@@ -273,10 +273,10 @@ footer {
 h1 {
   font-size: 7rem;
   line-height: 9rem;
-  padding: 4rem 5rem 2rem 5rem;
+  padding: 4rem 5rem 4rem 5rem;
 }
 h2 {
-    font-size: 2.6rem;
+    font-size: 3rem;
     padding: 3rem 5rem;
   }
 p {
@@ -341,12 +341,13 @@ p {
 }
 @media (min-width: 1025px)  {
 h1 {
-  line-height: 7rem;
-  padding: 7rem 7rem 0 10rem;
+  font-size: 8rem;
+  line-height: 10rem;
+  padding: 7rem 7rem 5rem 10rem;
 }
 h2 {
   font-size: 2.8em;
-  padding: 3rem 7rem 10rem 10rem;
+  padding: 3rem 7rem 5rem 10rem;
 }
 p {
 font-size: 2rem;
@@ -356,7 +357,7 @@ font-size: 2rem;
   height: 53rem;
 }
 .main-text {
-  padding: 7rem 10rem 0 10rem;
+  padding: 5rem 10rem 0 10rem;
 }
 .extra-info {
   display: grid;
