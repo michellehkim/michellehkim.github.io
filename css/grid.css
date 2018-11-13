@@ -38,7 +38,8 @@ p {
   font-size: 1.6rem;
 }
 h1 {
-  color: #043043;
+  /* color: #043043; */
+  cursor: cell;
   font-size: 6rem;
   font-weight:800;
   letter-spacing: .2rem;
@@ -62,8 +63,6 @@ h1 span:nth-child(2n):hover {
 h1 span:nth-child(3n):hover {
   color: #00A4DD;
 }
-
-
 h2 {
   color: #000000;
   font-size: 3rem;
@@ -92,7 +91,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: #232323;
+  color: #fce5d6;
   transition: color 0.3s ease;
 }
 .container {
@@ -101,19 +100,25 @@ a {
   display: grid;
  }
 .work-link {
+  color: #000000;
   padding-right: 2.6rem;
   padding-top: .5rem;
-  font-size: 1.6rem;
-  color: #000000;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
 }
 .about {
+  color: #000000;
   padding-right: 4rem;
   padding-top: .5rem;
-  font-size: 1.6rem;
-  color: #000000;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
 }
 .about:hover, .work-link:hover {
   color: #FA7446;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
 }
 .nav {
   background-color: #FEE2DA;
@@ -314,14 +319,15 @@ button {
 /*----- contact -----*/
 .contact {
   padding: 3.5rem 2rem 1rem 2rem;
-  background-color: #181818;
+  background-color: #363636;
 }
 /*----- footer -----*/
 a {
-  color: #FFDBBA;
+  color: #fcd8d9;
+  text-decoration: none;
 }
 footer {
-  background-color: #181818;
+  background-color: #363636;
   padding: 2rem 3rem;
   text-align: center;
 }

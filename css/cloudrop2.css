@@ -39,7 +39,6 @@ h1{
     letter-spacing: .2rem;
     margin:1rem 0;
     text-align: center;
-    /* font-family: 'PlayfairDisplay; */
   }
 
 h2{
@@ -77,6 +76,9 @@ p {
 b{
   font-weight: 600;
 }
+a {
+  text-decoration: none;
+}
 .container {
   display: grid;
 }
@@ -106,26 +108,30 @@ section {
     margin-right: auto;
   }
   .logo {
-    height: 4.5rem;
+    height: 4.2rem;
     width: auto;
     float: left;
     align-items: center;
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 2.6rem;
   }
   .work-link {
-    padding-top: 2rem;
-    padding-right: 2rem;
-    font-size: 1.8rem;
+    padding-right: 2.6rem;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
   }
   .about {
-    padding-top: 2rem;
-    font-size: 1.8rem;
     padding-right: 4rem;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
   }
   .about:hover, .work-link:hover {
-    color: #FFCD49;
+    color: #FA7446;
+    font-weight: 600;
   }
+
   /* .sidebar.hero {
     background-color: #FEE2DA;
       padding: 3em 2em 3em 7em;
@@ -148,7 +154,7 @@ section {
 .mobile-prototype-top {
   background-color: white;
   border-radius: 3rem;
-  border: 1.5px solid white;
+  border: 1.5px solid #FF9272;
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
@@ -161,7 +167,7 @@ section {
   transition: transform .2s;
 }
 .prototype-top {
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 .hero-image {
   height: auto;
@@ -184,7 +190,7 @@ section {
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
   background-color: #efefef;
   border-radius: 3rem;
-  border: 1.5px solid #FFCD49;
+  border: 1.5px solid #FF9272;
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
@@ -196,9 +202,10 @@ section {
   cursor: pointer;
   transition: transform .2s;
   }
-.mobile-prototype:hover, .mobile-prototype-top:hover, .desktop-prototype:hover, .mobile-hifis:hover, .desktop-hifis:hover, .mobile-wireframes:hover {
-  background-color: #FFCD49;
-  border: 1.5px solid #FFCD49;
+.mobile-prototype:hover, .mobile-prototype-top:hover, .desktop-prototype:hover, .mobile-hifis:hover, .desktop-hifis:hover, .mobile-wireframes:hover, .user-stories-here:hover, .user-flows-here:hover, .site-map-here:hover, .mobile-wireframes:hover  {
+  color: white;
+  background-color: #FF9272;
+  border: 1.5px solid #FF9272;
   transform: scale(1.1);
   }
 .survey {
@@ -207,8 +214,9 @@ section {
     transition: transform .2s;
   }
 .survey:hover {
-  background-color: #FFCD49;
-  border: 1.5px solid #FFCD49;
+  color: white;
+  background-color: #FF9272;
+  border: 1.5px solid #FF9272;
   transform: scale(1.1);
 }
 .survey-button, .wireframe-button {
@@ -324,7 +332,7 @@ hr {
 }
 .type-image {
   width: auto;
-  height: 24rem;
+  height: 20rem;
 }
 .b-1, .b-2, .b-3 {
   width: auto;
@@ -415,7 +423,7 @@ hr {
 }
 .dots {
   width:auto;
-  height:29rem;
+  height:22rem;
   padding: 2rem 2rem;
 }
 .four-icon {
@@ -441,7 +449,7 @@ hr {
 .user-stories-here, .user-flows-here, .site-map-here {
   background-color: #efefef;
   border-radius: 3rem;
-  border: 1.5px solid #FFCD49;
+  border: 1.5px solid #FF9272;
   color: #043043;
   font-family: "Avenir";
   font-weight: 400;
@@ -474,15 +482,15 @@ hr {
 }
 /*----- FOOTER -----*/
 a {
-  color: #FFDBBA;
+  color: #fcd8d9;
 }
 .contact {
-  background-color: #181818;
+  background-color: #363636;
   padding: 3.5rem 2rem 1rem 2rem;
 
 }
 footer {
-  background-color: #181818;
+  background-color: #363636;
   padding: 2rem 3rem;
   text-align: center;
 }
@@ -788,6 +796,9 @@ footer {
     padding-right: 4rem;
     font-size: 2rem;
   }
+  .intro {
+    padding-top: 10rem;
+  }
   section {
     padding: 6rem 8rem;
   }
@@ -1002,8 +1013,13 @@ footer {
     padding-left: 30rem;
   }
   .footer-text-2 {
-    padding: 0 15rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    padding:2.5rem 15rem;
+  }
+  .copyright-text {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
   }
 }
 @media (min-width: 1281px) {
@@ -1269,8 +1285,13 @@ footer {
   .footer-text {
     font-size: 3.5rem;
   }
+  .footer-text-2 {
+    font-size: 3.4rem;
+    line-height: 6rem;
+    padding:5rem 20rem;
+  }
   .copyright-text {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 

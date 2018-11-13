@@ -29,7 +29,7 @@ html {
   font-weight: 200;
 }
 body {
-  background-color: #FFDBBA;
+  background-color: #fcd8d9;
   font-family: "Avenir"; "Nunito"; sans-serif;
 }
 /* header  */
@@ -41,18 +41,18 @@ body {
    padding: 3rem 3rem;
  }
  h1 {
-   color: #387E84;
-   /* font-family: PlayfairDisplay; */
+   color: black;
    font-size: 6rem;
    font-weight:800;
-   padding: 6rem 2rem 1rem 2rem;
+   padding: 3rem 1rem 1rem 1rem;
    letter-spacing: .1rem;
+   line-height: 6.5rem;
  }
  h2 {
    color: #FA7446;
-   font-size: 2.5rem;
+   font-size: 3rem;
    line-height: 4rem;
-   padding: 2rem 2rem 5rem 2rem;
+   padding: 1rem 2rem;
    font-style: italic;
  }
  h3 {
@@ -70,12 +70,11 @@ body {
    font-size: 2.4rem;
    line-height: 3rem;
  }
-.header {
-    background-color: #FFDBBA;
-    /* padding: 1rem 2rem; */
+header {
+    background-color: #c2e0ff;
 }
 .nav {
-  background-color: #FEE2DA;
+  background-color: #c2e0ff;
   overflow: hidden;
   padding: 1.5rem 1.5rem;
 }
@@ -102,12 +101,12 @@ nav ul li:first-child {
 }
 /* hero section */
 .hero {
-  background-color: #FFDBBA;
+  background-color: #fcd8d9;
 }
 .me {
   width: auto;
-  height: 39rem;
-  padding-top: 3rem;
+  height: 25rem;
+  padding: 2rem 2rem;
 }
 .me-me {
   text-align: center;
@@ -116,7 +115,7 @@ nav ul li:first-child {
   display: grid;
   line-height: 3rem;
   grid-template-columns: 1fr;
-  background-color: #FFDBBA;
+  background-color: #c2e0ff;
 }
 /* .work-link, .about {
   padding-right: 4rem;
@@ -138,96 +137,63 @@ nav ul li:first-child {
 .about:hover,.work-link:hover {
   color: #FA7446;
 }
+.start-text {
+ font-size: 2.5rem;
+ line-height: 3rem;
+ font-weight: 600;
+}
 /* about me text */
 .text {
-  background-color: white;
+  padding: 3rem 3rem;
+  background-color: #f5f5f5;
 }
 .intro {
-  background-color: #FFDBBA;
-}
-.main-text {
-  padding: 2rem 1.6rem 4rem 1.6rem;
+  padding: 2rem 2rem;
+  background: -webkit-linear-gradient(70deg, #e0fffe 60%, #c2e0ff 40%)  /* background-color: #fcd8d9; */
 }
 .main-1, .main-2, .main-3 {
   padding: 2rem 0;
 }
 /* extra info  */
 .info-title {
-  padding: 4rem 0;
-  font-size: 2rem;
+  padding: 3rem 0;
+  font-size: 1.8rem;
   color: #000000;
+  letter-spacing: .1rem;
 }
-.fav-tool, .for-fun {
+.fav-tool {
   text-align: center;
-  padding: 2rem 5rem 3rem 5rem;
+  padding: 4rem 3rem 3rem 3rem;
+}
+.for-fun {
+  text-align: center;
+  padding: 2rem 3rem 3rem 3rem;
 }
 .headphones {
   text-align: center;
-  padding: 2rem 5rem 8rem 5rem;
+  padding: 2rem 3rem 8rem 3rem;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
   height: 8rem;
   padding: 1rem 2rem;
   }
+
+/* footer  */
 .resume-button {
   background-color: white;
-}
-/* footer  */
-.form {
-    background-color:#B7B3FF;
-}
-.form h3 {
- padding: 0em 4em;
-    font-size:2em;
-}
-.contact {
-  background-color: #B7B3FF;
-}
-#contact-form {
-   padding: 1em 2em;
-    width:100%
-}
-#contact-form input,
-#contact-form textarea  {
-    border-radius: .2em;
-    border:none;
-    width: 100%;
-    padding: .5em;
-    margin-bottom: 1.5em;
-    box-sizing: border-box;
-    font-family: Avenir;
-    font-size: 1.6rem;
-}
-#contact-form textarea {
-   height: 5em;
-}
-/* a:hover {
-  background-color: #FFCD49;
-} */
-#contact-form button[type="submit"], .resume  {
-    background-color:white;
-    border-radius: 3rem;
-    /* border: 1px solid #FFCD49; */
-    border: none;
-    color: #043043;
-    font-family: "Avenir";
-    font-weight: 400;
-    font-size: 1.6rem;
-    letter-spacing: .09rem;
-    padding: .8rem .5rem;
-    text-align: center;
-    width: 11rem;
-    float: right;
-    cursor: pointer;
-}
-#contact-form button:hover {
-  cursor:pointer;
-  background-color: #FFCD49;
-}
-.resume-button {
-  align-items: center;
-  padding: 3rem 2rem 5rem 2rem;
+  border-radius: 3rem;
+  border: 1.5px solid #fcd8d9;
+  color: #043043;
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: .09rem;
+  padding: .8rem .5rem;
+  text-align: center;
+  width: 11rem;
+  cursor: pointer;
+  transition: transform .2s;
+  }
 }
 .resume:hover {
   background-color: #FFCD49;
@@ -235,60 +201,59 @@ nav ul li:first-child {
 .button {
   text-align: center;
 }
-.footer {
-  background-color: #B7B3FF;
+.contact {
+  padding: 3.5rem 2rem 1rem 2rem;
+  background-color: #363636;
+}
+a {
+  color: #fcd8d9;
+  text-decoration: none;
+}
+footer {
+  background-color: #363636;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.footer-text {
+  margin: 0;
+  font-size: 2.5rem;
+  text-align:center;
+  color: #FFDBBA;
+  letter-spacing: .2rem;
+}
+.copyright{
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
 }
 .copyright-text {
     font-size: 1.3rem;
-    padding-top: 1em;
+    /* padding-top: 1em; */
     text-align:center;
+    line-height: 1.8rem;
+    color: white;
   }
 .footer-message {
-    background-color: #B7B3FF;
-    padding: 4rem 3rem 3rem 3rem;
-  }
-.footer-text {
-    text-align: center;
-    font-size: 3rem;
-  }
+  background-color: #181818;
+}
 .footer-text-2 {
-  line-height: 2.5rem;
-  padding: 3rem 0 0 0;
-  font-size: 1.6rem;
+  line-height: 3.5rem;
+  padding: 2rem 1rem;
+  font-size: 2.3rem;
+  color: white;
+  text-align: left;
 }
-.social-links {
-  display: flex;
-  justify-content: center;
-}
-.footer-icon {
-  width: auto;
-  height:3rem;
-  padding: 0 1rem;
-  transition: transform .2s;
-}
-.footer-icon:hover {
-  transform: scale(1.3);
-}
+
 @media (min-width: 320px) and (max-width:767px) {
   .nav {
     background-color: #FEE2DA;
     overflow: hidden;
     padding: 1.5rem 1.5rem;
   }
-
-  h2 {
-    line-height: 5rem;
-    padding-bottom: 4rem;
-    font-size: 2rem;
-  }
   p {
     font-size: 2rem;
   }
   .main-1, .main-2, .main-3 {
-    line-height: 4rem;
-  }
-  .main-text {
-    padding: 3rem 3rem 3rem 3rem;
+    line-height: 3.3rem;
   }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
@@ -311,7 +276,7 @@ h1 {
   }
 h2 {
     font-size: 2.3rem;
-    padding: 2rem 4rem 5rem 7rem;
+    padding: 3rem 3rem;
   }
 p {
   font-size: 1.8rem;
@@ -342,14 +307,14 @@ p {
     display: grid;
     line-height: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 8rem 0 8rem;
+    padding: 0 3rem 0 3rem;
   }
   .info-title {
     padding: 3rem 0;
     font-size: 1.8rem;
   }
   .fav-tool, .for-fun, .headphones {
-    padding: 7rem 2rem 7rem 2rem;
+    padding: 4rem 2rem 4rem 2rem;
   }
   .invision, .figma, .sketch, .museums, .concerts, .hiking {
     width: auto;
@@ -357,55 +322,41 @@ p {
     padding: 1rem 1rem;
   }
 /* footer*/
-#contact-form input,
-#contact-form textarea  {
-    border-radius: .2em;
-    border:none;
-    width: 100%;
-    padding: .5em;
-    margin-bottom: 1.5em;
-    box-sizing: border-box;
-    font-family: Avenir;
-    font-size: 1.6rem;
+a {
+  color: #fcd8d9;
 }
-#contact-form textarea {
-   height: 5em;
-}
-.copyright-text {
-  font-size: 1.4rem;
+footer {
+  background-color: #363636;
+  padding: 2rem 3rem;
   text-align: center;
-  }
-.resume {
-  text-align: center;
-}
-.footer-message {
-  padding: 1.5rem 2rem;
-}
-.footer-text-2 {
-  line-height: 2.5rem;
-  text-align: left;
-  padding: 0 6rem 0 6rem;
-  font-size: 1.6rem;
-}
-.footer-message {
-  background-color: #B7B3FF;
-  padding: 3rem 2rem;
 }
 .footer-text {
-  padding: 2.5rem 0;
+  margin: 0;
+  font-size: 2.5rem;
+  text-align:center;
+  color: #FFDBBA;
+  letter-spacing: .2rem;
+}
+.copyright{
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+}
+.copyright-text {
+    font-size: 1.3rem;
+    /* padding-top: 1em; */
+    text-align:center;
+    line-height: 1.8rem;
+    color: white;
   }
-.footer-icon {
-  width: auto;
-  height: 2rem;
+.footer-message {
+  background-color: #181818;
 }
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 4rem 2rem 0 2rem;
-  background-color: #B7B3FF;
-}
-#contact-form {
-  padding: 3rem 5rem 3rem 1rem;
+.footer-text-2 {
+  line-height: 3.5rem;
+  padding: 2rem 1rem;
+  font-size: 2.3rem;
+  color: white;
+  text-align: left;
 }
 }
 @media (min-width: 1025px)  {
