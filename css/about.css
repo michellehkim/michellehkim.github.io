@@ -44,7 +44,7 @@ body {
    color: white;
    font-size: 6rem;
    font-weight:800;
-   padding: 3rem 1rem 1rem 1rem;
+   padding: 2rem 1rem 1rem 1rem;
    letter-spacing: .1rem;
    line-height: 6.5rem;
  }
@@ -182,7 +182,12 @@ a {
   height: 8rem;
   padding: 1rem 2rem;
   }
-
+  .resume-button:hover {
+  color: white;
+  background-color: #fcd8d9;
+  border: 1.5px solid #fcd8d9;
+  transform: scale(1.1);
+}
 /* footer  */
 .resume-button {
   background-color: white;
@@ -198,10 +203,6 @@ a {
   cursor: pointer;
   transition: transform .2s;
   }
-}
-.resume:hover {
-  background-color: #FFCD49;
-}
 .button {
   text-align: center;
 }
@@ -362,7 +363,7 @@ font-size: 2rem;
 }
  .work-link {
    font-size: 2rem;
-   padding-right: 4rem; 
+   padding-right: 4rem;
  }
 .me {
   width: auto;
