@@ -117,9 +117,6 @@ a {
   color: #FA7446;
   font-weight: 600;
 }
-a {
-  text-decoration: none;
-}
 .nav {
   background-color: #FEE2DA;
   overflow: hidden;
@@ -488,7 +485,7 @@ footer {
   .snippet {
     font-size: 3rem;
     line-height: 4.5rem;
-    padding: 0 0 20rem 0;
+    padding: 0 0 27rem 0;
   }
   .work-title {
     font-size: 2rem;
