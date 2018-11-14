@@ -74,7 +74,7 @@ body {
    font-weight: 600;
  }
 header {
-    background-color: #c2e0ff;
+    background-color: #aad4ff;
 }
 .nav {
   background-color: #c2e0ff;
@@ -118,7 +118,7 @@ nav ul li:first-child {
   display: grid;
   line-height: 3rem;
   grid-template-columns: 1fr;
-  background-color: #c2e0ff;
+  background-color: #aad4ff;
 }
 .about {
   padding-right: 4rem;
@@ -153,7 +153,7 @@ a {
 }
 .intro {
   padding: 2rem 2rem;
-  background: -webkit-linear-gradient(70deg, #e0fffe 60%, #c2e0ff 40%)  /* background-color: #fcd8d9; */
+  background: -webkit-linear-gradient(70deg, #e0fffe 60%, #aad4ff 40%)  /* background-color: #fcd8d9; */
 }
 .main-1, .main-2, .main-3 {
   padding: 2rem 0;
@@ -162,7 +162,7 @@ a {
 .info-title {
   padding: 3rem 0;
   font-size: 1.6rem;
-  color: #000000;
+  color: white;
   letter-spacing: .1rem;
 }
 .fav-tool {
@@ -184,16 +184,18 @@ a {
   }
   .resume-button:hover {
   color: white;
-  background-color: #fcd8d9;
-  border: 1.5px solid #fcd8d9;
+  background-color: #FF9272;
+  border: 1.5px solid #FF9272;
   transform: scale(1.1);
 }
 /* footer  */
 .resume-button {
   background-color: white;
   border-radius: 3rem;
-  border: 1.5px solid #fcd8d9;
+  border: 1.5px solid #FF9272;
+  color: #043043;
   font-size: 1.8rem;
+  font-family: "Avenir";
   letter-spacing: .09rem;
   padding: .6rem .5rem;
   text-align: center;
@@ -201,16 +203,23 @@ a {
   cursor: pointer;
   transition: transform .2s;
   margin: auto;
-  }
+}
 .resume {
     font-weight: 400;
-    color: #043043;
     font-family: 'Avenir';
-    font-size: 2rem;
+    font-size: 1.8rem;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 5rem;
+    margin: auto;
 }
-.button {
-  text-align: center;
+button {
+  background-color: white;
+  border-color: transparent;
+  border-radius: 5rem;
+  margin: auto;
 }
+
 .one-button {
   padding: 3rem 0;
 }
@@ -221,6 +230,7 @@ a {
 a {
   color: #fcd8d9;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 footer {
   background-color: #363636;
@@ -354,16 +364,17 @@ p {
 }
 @media (min-width: 1025px)  {
 h1 {
-  font-size: 8rem;
+  font-size: 9rem;
   line-height: 10rem;
-  padding: 7rem 7rem 5rem 10rem;
+  padding: 7rem 7rem 5rem 20rem;
 }
 h2 {
-  font-size: 2.8em;
-  padding: 3rem 7rem 5rem 10rem;
+  font-size: 3.1rem;
+  padding: 3rem 20rem 5rem 20rem;
 }
 p {
 font-size: 2rem;
+line-height: 4rem;
 }
 .about {
   font-size: 2rem;
@@ -375,10 +386,11 @@ font-size: 2rem;
  }
 .me {
   width: auto;
-  height: 53rem;
+  height: 50rem;
 }
 .main-text {
-  padding: 5rem 10rem 0 10rem;
+  /* padding: 5rem 10rem 0 10rem; */
+  padding:4rem 20rem 0 20rem;
 }
 .extra-info {
   display: grid;
@@ -397,6 +409,9 @@ font-size: 2rem;
   width: auto;
   height: 6rem;
   padding: 1rem 1rem;
+}
+.one-button {
+  padding: 6rem 0;
 }
 /* footer */
 .copyright-text {
