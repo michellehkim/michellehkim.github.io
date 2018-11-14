@@ -193,16 +193,21 @@ a {
   background-color: white;
   border-radius: 3rem;
   border: 1.5px solid #fcd8d9;
-  color: #043043;
-  font-weight: 400;
   font-size: 1.8rem;
   letter-spacing: .09rem;
   padding: .8rem .5rem;
   text-align: center;
-  width: 11rem;
+  width: 13rem;
   cursor: pointer;
   transition: transform .2s;
+  margin: auto;
   }
+.resume {
+    font-weight: 400;
+    color: #043043;
+    font-family: 'Avenir';
+    font-size: 2rem;
+}
 .button {
   text-align: center;
 }
