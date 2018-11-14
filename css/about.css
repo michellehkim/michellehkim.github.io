@@ -366,15 +366,15 @@ p {
 h1 {
   font-size: 9rem;
   line-height: 10rem;
-  padding: 7rem 7rem 5rem 20rem;
+  padding: 7rem 7rem 5rem 15rem;
 }
 h2 {
   font-size: 3.1rem;
-  padding: 3rem 20rem 5rem 20rem;
+  padding: 3rem 15rem 5rem 15rem;
 }
 p {
 font-size: 2rem;
-line-height: 4rem;
+line-height: 3.2rem;
 }
 .about {
   font-size: 2rem;
@@ -390,7 +390,7 @@ line-height: 4rem;
 }
 .main-text {
   /* padding: 5rem 10rem 0 10rem; */
-  padding:4rem 20rem 0 20rem;
+  padding:4rem 15rem 0 15rem;
 }
 .extra-info {
   display: grid;
