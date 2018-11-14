@@ -43,16 +43,14 @@ h1{
 
 h2{
   color: #043043;
-  font-family: 'Avenir';
   font-weight: 600;
-  font-size: 3.1rem;
+  font-size: 3.2rem;
   line-height: 5rem;
   letter-spacing: .2rem;
   padding: 1rem 0;
   }
 h3 {
   font-size: 2rem;
-  font-family: 'Avenir'
   letter-spacing: .1rem;
   font-weight: 600;
   padding: 2rem 0;
@@ -138,16 +136,17 @@ section {
 .intro{
   background-color: #E1F8FF;
   /* background-image: linear-gradient(to top, #FFF2E6 0%, #ffdbba 100%); */
-  padding: 6rem 2.2rem 5rem 2.2rem;
+  padding: 4rem 2.2rem 5rem 2.2rem;
 }
 .snip {
     color: #043043;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-style: italic;
+    font-weight: 400;
     line-height: 3rem;
     letter-spacing: 0;
     text-align: center;
-    padding: 1.5rem 0 3rem 0;
+    padding: 1.5rem 0 2rem 0;
   }
 .mobile-prototype-top {
   background-color: white;
@@ -165,12 +164,12 @@ section {
   transition: transform .2s;
 }
 .prototype-top {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 .hero-image {
   height: auto;
-  width: 33rem;
-  padding:3rem 1rem 2rem 1rem;
+  width: 36rem;
+  padding:3rem 0 1rem 1rem;
   align-items: center;
 }
 .hero, .prototype-top {
@@ -572,7 +571,7 @@ footer {
   }
   .hero-image {
     height: auto;
-    width: 37rem;
+    width: 52rem;
   }
   /* roles */
   .roles-etc {
@@ -685,7 +684,7 @@ footer {
   }
   .type-image {
     width: auto;
-    height: 28rem;
+    height: 30rem;
   }
   .colors-text-1 {
     display: grid;
