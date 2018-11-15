@@ -91,7 +91,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: #fce5d6;
+  color: #FA7446;
   transition: color 0.3s ease;
 }
 .container {
@@ -238,15 +238,6 @@ button {
   padding: 1rem 1rem;
   text-align: center;
 }
-/* .connect-button {
-  background-color: white;
-  border-radius: 3rem;
-  color: yellow;
-  display:inline-block;
-  margin-bottom: 4rem;
-  margin-top: 0;
-  width: 12rem;
-} */
 .project-screens {
   position: relative;
   width: 90%;
@@ -320,8 +311,9 @@ button {
 }
 /*----- footer -----*/
 a {
-  color: #fcd8d9;
+  color: #FA7446;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 footer {
   background-color: #363636;
@@ -349,10 +341,16 @@ footer {
 .footer-message {
   background-color: #181818;
 }
+.lets-connect {
+  font-size:3rem;
+  color: #aad4ff;
+  letter-spacing: .3rem;
+  padding: 2rem 1rem 0 1rem;
+}
 .footer-text-2 {
-  line-height: 3.5rem;
+  line-height: 3.2rem;
   padding: 2rem 1rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: white;
   text-align: left;
 }
@@ -453,6 +451,9 @@ footer {
   .footer-text {
     padding: 1.2rem 0 1.2rem 0;
   }
+  .lets-connect{
+    padding: 2rem 7rem 2rem 7rem
+  }
   }
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -533,4 +534,8 @@ footer {
     text-align: center;
     padding-top: 1em;
   }
+  .lets-connect {
+  padding: 3rem 23rem;
+  text-align: center;
   }
+}

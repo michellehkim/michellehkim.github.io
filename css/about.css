@@ -47,6 +47,7 @@ body {
    padding: 2rem 1rem 1rem 1rem;
    letter-spacing: .1rem;
    line-height: 6.5rem;
+   /* background-color: #fcd8d9; */
  }
  h2 {
    color: #FA7446;
@@ -138,7 +139,7 @@ nav ul li:first-child {
 }
 a {
   text-decoration: none;
-  color: #fce5d6;
+  color: #FA7446;
   transition: color 0.3s ease;
 }
 .start-text {
@@ -227,11 +228,7 @@ button {
   padding: 3.5rem 2rem 1rem 2rem;
   background-color: #363636;
 }
-a {
-  color: #fcd8d9;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+
 footer {
   background-color: #363636;
   padding: 2rem 3rem;
@@ -259,11 +256,17 @@ footer {
   background-color: #181818;
 }
 .footer-text-2 {
-  line-height: 3.5rem;
+  line-height: 3.2rem;
   padding: 2rem 1rem;
   font-size: 2.3rem;
   color: white;
   text-align: left;
+}
+.lets-connect {
+  font-size:3rem;
+  color: #aad4ff;
+  letter-spacing: .3rem;
+  padding: 2rem 1rem 0 1rem;
 }
 
 @media (min-width: 320px) and (max-width:767px) {
@@ -358,6 +361,10 @@ p {
   padding: 0 7rem 2rem 7rem;
   font-size: 2.5rem;
 }
+
+.lets-connect {
+  padding: 2rem 7rem 2rem 7rem;
+}
 .footer-text {
   padding: 1.2rem 0 1.2rem 0;
 }
@@ -391,6 +398,8 @@ line-height: 3.2rem;
 .main-text {
   /* padding: 5rem 10rem 0 10rem; */
   padding:4rem 15rem 0 15rem;
+  width: 80%;
+  margin: auto;
 }
 .extra-info {
   display: grid;
@@ -423,6 +432,10 @@ line-height: 3.2rem;
   padding: 0 23rem;
   text-align: center;
   font-size: 2.5rem;
+}
+.lets-connect {
+  padding: 3rem 23rem;
+  text-align: center;
 }
 .footer-message {
   background-color: #3B515A;

@@ -76,7 +76,7 @@ b{
 }
 a {
   text-decoration: none;
-  color: #fce5d6;
+  color: #FA7446;
   transition: color 0.3s ease;
   }
 .container {
@@ -158,6 +158,9 @@ section {
     letter-spacing: 0;
     text-align: center;
     padding: 1.5rem 0 2rem 0;
+  }
+  .overview-title {
+    font-size: 3rem;
   }
 .mobile-prototype-top {
   background-color: white;
@@ -491,9 +494,6 @@ hr {
   margin: auto
 }
 /*----- FOOTER -----*/
-a {
-  color: #fcd8d9;
-}
 .contact {
   background-color: #363636;
   padding: 3.5rem 2rem 1rem 2rem;
@@ -523,8 +523,14 @@ footer {
 .footer-message {
   background-color: #181818;
 }
+.lets-connect {
+  font-size:3rem;
+  color: #aad4ff;
+  letter-spacing: .3rem;
+  padding: 2rem 1rem 2rem 1rem;
+}
 .footer-text-2 {
-  line-height: 3.5rem;
+  line-height: 3.2rem;
   padding: 2rem 1rem;
   font-size: 2.3rem;
   color: white;
@@ -766,6 +772,15 @@ footer {
   }
   .pref-1-image, .pref-2-image {
     text-align: center;
+  }
+  .footer-text-2 {
+    line-height: 3.8rem;
+    text-align: left;
+    padding: 0 7rem 2rem 7rem;
+    font-size: 2.5rem;
+  }
+  .lets-connect{
+    padding: 2rem 7rem 2rem 7rem
   }
 }
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -1026,6 +1041,9 @@ footer {
     font-size: 3rem;
     line-height: 4.5rem;
     padding:2.5rem 15rem;
+  }
+  .lets-connect {
+    text-align: center;
   }
   .copyright-text {
     font-size: 1.6rem;
@@ -1296,9 +1314,14 @@ footer {
     font-size: 3.5rem;
   }
   .footer-text-2 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     line-height: 6rem;
-    padding:5rem 20rem;
+    padding: 5rem 20rem;
+  }
+  .lets-connect {
+    padding: 2rem 20rem 0rem 20rem;
+    text-align: center;
+    font-size: 3rem;
   }
   .copyright-text {
     font-size: 2rem;
