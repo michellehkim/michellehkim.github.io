@@ -131,7 +131,18 @@ section {
     color: #FA7446;
     font-weight: 600;
   }
+  #main-nav 			{ position: absolute; width: 100%; background: #bbb; z-index:1; height: 75px; left: 0; top:300px;} /* Height of header */
+  #main-nav.fixed		{ position: fixed; top:0;}
 
+  #main-nav li { float: left; text-align:center; width: 20%;}
+  #main-nav .current a { background: #aaa; color: #fff;}
+  #main-nav a	 { padding: 30px; display: block; color: #111; text-decoration: none; text-transform: uppercase;}
+  #main-nav a:hover { background: #ddd;}
+
+  /* Main Content */
+  #main-wrapper { width: 85%; margin: 0 auto;}
+
+  .wrapper		  { height: 375px; text-align: center; font-weight: bold; padding: 150px 0 0 0;} /* Height of nav bar added to total height: 300 */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
   background-color: #E1F8FF;
@@ -236,7 +247,7 @@ section {
   height:11rem;
   padding:2rem 2rem;
 }
-.dropbox-buttons, .prototype-buttons {
+.dropbox-buttons, .prototype-buttons  {
   display: flex;
   justify-content: space-between;
 }
@@ -393,6 +404,7 @@ hr {
   justify-content: space-around;
   padding: 2rem 1rem;
 }
+
 /******<!-- WIREFRAMES &TESTING -->*******/
 /* wireframes */
 .wireframes-testing {
@@ -459,9 +471,9 @@ hr {
   transition: transform .2s;
 }
 .user-flows-button {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding: 1.5rem 3rem 1.5rem 0;
+  /* padding: 1.5rem 3rem 1.5rem 0; */
 }
 .preferences {
     display: flex;
@@ -882,6 +894,8 @@ footer {
   }
  hr {
    margin: 0;
+   width: .2rem;
+   height: 110rem;
  }
   .p-header {
     font-size: 2rem;
@@ -932,6 +946,7 @@ footer {
   .user-flows-button, .dropbox-buttons {
     display:grid;
     grid-template-columns: 1fr;
+    padding: 0;
   }
   .prototype-buttons  {
     display:grid;
