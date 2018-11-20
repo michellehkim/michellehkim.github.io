@@ -757,22 +757,27 @@ footer {
   .mobile-hifi, .mobile-p, .user-flow-button {
     padding-bottom: 3.5rem;
   }
-  .prototype-buttons, .dropbox-buttons, .user-flows-button {
+  .prototype-buttons, .dropbox-buttons{
     padding: 2rem 0;
   }
-  .desktop-prototype {
-    padding: .8rem .8rem;
-  }
-  /* .mobile-hifi, .desktop-hifi {
-    padding: 1rem 0; */
-  .home-page {
-    grid-column: 2/ 3;
-  }
-  .testing, .hifi-mockups {
-    display: grid;
-    /* grid-gap: 4rem; */
-    grid-column-gap: 5rem;
-    grid-template-columns: 1fr 3fr;
+.user-flows-button {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem 0;
+}
+.desktop-prototype {
+  padding: .8rem .8rem;
+}
+.testing, .hifi-mockups {
+  display: grid;
+  /* grid-gap: 4rem; */
+  grid-column-gap: 5rem;
+  grid-template-columns: 1fr 3fr;
+}
+.dots {
+    width: auto;
+    height: 32rem;
+    padding: 3rem 2rem 1rem 2rem;
   }
  .testing-text{
     grid-column: 2;
@@ -787,7 +792,7 @@ footer {
     padding: 0 7rem 2rem 7rem;
     font-size: 2.5rem;
   }
-  .lets-connect{
+  .lets-connect {
     padding: 2rem 7rem 2rem 7rem
   }
 }
@@ -817,7 +822,6 @@ footer {
   .titles {
     line-height: 3.5rem;
   }
-
   .about {
     padding-right: 5rem;
     font-size: 2rem;
@@ -869,7 +873,7 @@ footer {
    }
   .survey-button {
     grid-column: 2;
-    padding: 0;
+    padding: 2rem 0;
   }
   .highlights-section {
     display: flex;
@@ -929,6 +933,9 @@ footer {
   .user-flows-button {
     padding: 0;
   }
+  .highlight {
+    padding: 0 2rem;
+  }
   /**** BRANDING ****/
   .branding-text {
     display: grid;
@@ -975,6 +982,15 @@ footer {
     display:grid;
     grid-template-columns: 1fr;
     padding: 0;
+  }
+  .mobile-hifi, .mobile-p {
+    padding-bottom: 3.5rem;
+  }
+  .user-flow-button {
+    padding: 2rem 0 3.5rem 0;
+  }
+  .prototype-buttons, .dropbox-buttons{
+    padding: 2rem 0;
   }
   /**** WIREFRAMES & TESTING ****/
   .wireframes-testing {
