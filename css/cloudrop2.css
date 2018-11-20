@@ -50,7 +50,7 @@ h2{
   padding: 1rem 0;
   }
 h3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   letter-spacing: .1rem;
   font-weight: 600;
   padding: 2rem 0;
@@ -171,7 +171,7 @@ section {
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: .09rem;
-  padding: .8rem .5rem;
+  padding: .8rem 1rem;
   text-align: center;
   width: 16rem;
   cursor: pointer;
@@ -207,12 +207,13 @@ section {
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: .09rem;
-  padding: .8rem .5rem;
+  padding: .8rem 1rem;
   text-align: center;
   width: 11rem;
   cursor: pointer;
   transition: transform .2s;
   }
+
 .mobile-prototype:hover, .mobile-prototype-top:hover, .desktop-prototype:hover, .mobile-hifis:hover, .desktop-hifis:hover, .mobile-wireframes:hover, .user-stories-here:hover, .user-flows-here:hover, .site-map-here:hover, .mobile-wireframes:hover  {
   color: white;
   background-color: #FF9272;
@@ -229,9 +230,6 @@ section {
   background-color: #FF9272;
   border: 1.5px solid #FF9272;
   transform: scale(1.1);
-}
-.survey-button, .wireframe-button {
-  padding: 1.5rem 0;
 }
 .highlight {
   display: grid;
@@ -253,6 +251,7 @@ section {
 .dropbox-buttons, .prototype-buttons  {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 0;
 }
 .competitive-analysis {
   background-color: #efefef;
@@ -260,7 +259,6 @@ section {
 }
 .comp-text {
   padding: 1rem 2rem;
-  /* text-align: left; */
 }
 .dropbox-img {
   display: block;
@@ -330,8 +328,26 @@ hr {
 .info-architecture {
   background-color: #efefef;
 }
-.user-flow-button, .site-map-button, .mobile-hifi, .desktop-hifi, .mobile-p, .desktop-p {
-  padding: .5rem 0;
+.user-stories-here, .user-flows-here, .site-map-here {
+  background-color: #efefef;
+  border-radius: 3rem;
+  border: 1.5px solid #FF9272;
+  color: #043043;
+  font-family: "Avenir";
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: .09rem;
+  padding: .8rem 1rem;
+  text-align: center;
+  width: 13rem;
+  cursor: pointer;
+  transition: transform .2s;
+}
+ /* .mobile-hifi, .desktop-hifi {
+  padding: 1rem 0;
+} */
+.user-stories-button, .user-flows-button, .wirefram-button, .survey-button, .wireframe-button {
+  padding: 2rem 0;
 }
 /* branding */
 .branding-image {
@@ -458,21 +474,7 @@ hr {
   font-size: 1.5rem;
 }
 /* testing */
-.user-stories-here, .user-flows-here, .site-map-here {
-  background-color: #efefef;
-  border-radius: 3rem;
-  border: 1.5px solid #FF9272;
-  color: #043043;
-  font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .09rem;
-  padding: .8rem .5rem;
-  text-align: center;
-  width: 13rem;
-  cursor: pointer;
-  transition: transform .2s;
-}
+
 .user-flows-button {
   display: flex;
   justify-content: space-between;
@@ -622,7 +624,7 @@ footer {
    }
   .survey-button {
     grid-column: 2;
-    padding: 0;
+    padding: 2rem 0;
   }
   .highlights-section {
     display: grid;
@@ -675,9 +677,6 @@ footer {
   .persona-name {
     padding-bottom: 2.5rem;
   }
-  .user-flows-button {
-    padding:0;
-  }
   /**** BRANDING ****/
   .branding-text {
     display: grid;
@@ -715,7 +714,7 @@ footer {
     grid-column-gap: 5rem;
     grid-template-columns: 1fr 3fr;
   }
-  .user-flows-button, .dropbox-buttons {
+ .dropbox-buttons {
     display:grid;
     grid-template-columns: 1fr;
   }
@@ -754,6 +753,15 @@ footer {
     width: auto;
     height: 38rem;
     padding: 3rem 5rem;
+  }
+  .mobile-hifi, .mobile-p, .user-flow-button {
+    padding-bottom: 3.5rem;
+  }
+  .prototype-buttons, .dropbox-buttons, .user-flows-button {
+    padding: 2rem 0;
+  }
+  .desktop-prototype {
+    padding: .8rem .8rem;
   }
   /* .mobile-hifi, .desktop-hifi {
     padding: 1rem 0; */
@@ -864,10 +872,10 @@ footer {
     padding: 0;
   }
   .highlights-section {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-gap: 3rem; */
-    padding: 0 4rem 5rem 4rem;
+    padding-bottom: 5rem;
   }
   .highlight {
     padding: 0 1rem;
@@ -1135,9 +1143,9 @@ footer {
     padding: 0;
   }
   .highlights-section {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0 2rem 5rem 2rem;
+    padding-bottom: 5rem;
   }
   .highlight {
     padding: 0 4rem;
