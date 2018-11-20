@@ -167,7 +167,7 @@ b {
 }
 .hero-image {
   height: auto;
-  width: 32rem;
+  width: 30rem;
   margin: auto;
 }
 .description {
@@ -388,7 +388,6 @@ footer {
     color: #000000;
     font-weight: 600;
     letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
   }
   .content-details p{
     color: #000000;
@@ -462,7 +461,6 @@ footer {
     bottom: 0;
     right: 0;
     opacity: 0;
-    /* width: 100%; */
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
@@ -501,7 +499,6 @@ footer {
     color: #000000;
     font-weight: 600;
     letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
   }
   .content-details p{
     color: #000000;
@@ -527,6 +524,9 @@ footer {
     padding-top: 3rem;
   }
     /* work section  */
+  .work {
+    padding: 4rem 1.6rem;
+  }
   .case-study, .connect {
     font-size: 1.6rem;
     }
@@ -611,6 +611,9 @@ footer {
     padding-bottom: 1rem;
   }
     /* work section  */
+  .work {
+    padding: 7rem 1.6rem;
+  }
   .case-study, .connect {
     font-size: 1.6rem;
   }
@@ -676,7 +679,6 @@ footer {
       color: #000000;
       font-weight: 600;
       letter-spacing: 0.15em;
-      margin-bottom: 0.5em;
     }
     .content-details p{
       color: #000000;
