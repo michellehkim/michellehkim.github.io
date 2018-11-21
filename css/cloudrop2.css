@@ -537,8 +537,14 @@ footer {
   .dropbox-buttons, .prototype-buttons {
     padding-left: 4rem;
   }
+  .hero-image {
+    padding-bottom: 4rem;
+  }
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .overview-title {
+    font-size: 2.4rem;
   }
   .branding-1, .branding-1 {
     text-align: center;
@@ -594,7 +600,8 @@ footer {
   }
   .hero-image {
     height: auto;
-    width: 52rem;
+    width: 65rem;
+    padding: 3rem 1rem 5rem;
   }
   /* roles */
   .roles-etc {
@@ -841,9 +848,9 @@ footer {
   h4 {
     font-size: 2rem;
   }
-.snip {
-  font-size: 3rem;
-}
+  .snip {
+    font-size: 3rem;
+  }
   p {
     font-size: 2rem;
     line-height: 3rem;
@@ -858,6 +865,11 @@ footer {
   .work-link {
     padding-right: 4rem;
     font-size: 2rem;
+  }
+  .hero-image {
+    height: auto;
+    width: 80rem;
+    padding: 3rem 1rem 5rem;
   }
   .intro {
     padding-top: 10rem;
@@ -877,8 +889,8 @@ footer {
   }
   .hero-image {
     height: auto;
-    width: 50rem;
-    padding-bottom: 5rem;
+    width: 60rem;
+    padding: 4rem 2rem;
   }
   /* roles */
   .roles-etc {
@@ -1150,6 +1162,11 @@ footer {
     padding-top: 2rem;
     font-size: 2rem;
   }
+  .hero-image {
+    height: auto;
+    width: 90rem;
+    padding: 3rem 1rem 5rem;
+  }
   section, .intro, .problem-solution, .user-personas, .competitive-analysis {
     padding: 8rem 8rem;
   }
@@ -1166,7 +1183,8 @@ footer {
     margin: 0 auto;
   }
   .hero-image {
-    width: 70rem;
+    height: auto;
+    width: 80rem;
     padding: 6rem 0;
   }
   .nav {
