@@ -33,7 +33,6 @@ body {
     font-family: "Avenir"; sans-serif;
   }
 h1{
-    color: #043043;
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: .2rem;
@@ -246,11 +245,6 @@ section {
   height:11rem;
   padding:2rem 2rem;
 }
-.dropbox-buttons, .prototype-buttons  {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 0;
-}
 .competitive-analysis {
   background-color: #efefef;
   padding-top: 4rem;
@@ -341,7 +335,8 @@ hr {
   cursor: pointer;
   transition: transform .2s;
 }
-.user-stories-button, .user-flows-button, .wirefram-button, .survey-button, .wireframe-button {
+
+.user-stories-button, .user-flows-button, .wireframe-button, .survey-button, .wireframe-button {
   padding: 2rem 0;
 }
 /* branding */
@@ -474,11 +469,11 @@ hr {
   font-size: 1.5rem;
 }
 /* testing */
-.user-flows-button {
+/* .user-flows-button {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
   /* padding: 1.5rem 3rem 1.5rem 0; */
-}
+
 .preferences {
     display: flex;
     flex-direction: row;
@@ -535,8 +530,7 @@ footer {
   color: white;
   text-align: left;
 }
-}
-@media (min-width: 320) and (max-width:767px) {
+@media (min-width: 320px) and (max-width:767px) {
   .logo {
     padding:
   }
@@ -544,7 +538,7 @@ footer {
     padding-left: 4rem;
   }
   h1 {
-    font-size: 8rem;
+    font-size: 4rem;
   }
   .branding-1, .branding-1 {
     text-align: center;
@@ -556,6 +550,11 @@ footer {
     height: auto;
     width: 16rem;
     text-align: center;
+  }
+  .dropbox-buttons, .prototype-buttons, .user-flows-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
   }
 }
 
@@ -1013,8 +1012,11 @@ footer {
     grid-template-columns: 1fr;
     padding: 0;
   }
-  .mobile-hifi, .mobile-p {
+ .mobile-p {
     padding-bottom: 3.5rem;
+  }
+  .mobile-hifi {
+    padding-top: 2rem;
   }
   .user-flow-button {
     padding: 2rem 0 3.5rem 0;
@@ -1338,6 +1340,15 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding: 5rem 5rem;
   }
+  .protoype-buttons {
+    display: grid;
+  }
+  .mobile-p, .mobile-hifi, .user-flow-button {
+    padding: 2rem 0 4rem 0;
+  }
+  .user-flows-button {
+    padding: 0;
+  }
   .home-page {
     width: auto;
     height: 38rem;
@@ -1376,7 +1387,7 @@ footer {
     width: auto;
     height: 50rem;
   }
-  .prototype-buttons, .testing-text{
+.testing-text{
     grid-column: 2;
     padding: 0;
   }

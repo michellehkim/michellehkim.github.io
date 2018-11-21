@@ -37,7 +37,7 @@ p {
   color: #043043;
   font-size: 1.6rem;
 }
-h1 {
+h1.landing-title {
   /* color: #043043; */
   cursor: cell;
   font-size: 6rem;
@@ -322,7 +322,7 @@ footer {
   text-align: left;
 }
 @media (min-width: 426px) and (max-width:767px) {
-  h1 {
+  h1.landing-title {
     padding: 0 1rem 2rem 1rem;
   }
   .snippet {
@@ -405,7 +405,7 @@ footer {
   */
 @media (min-width: 768px) and (max-width:1024px) {
 
-  h1 {
+  h1.landing-title {
     font-size: 10rem;
     padding-top: 7rem;
     line-height: 10rem;
@@ -562,7 +562,7 @@ footer {
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */
 @media (min-width: 1025px) {
-  h1 {
+  h1.landing-title {
     padding-top: 8rem;
     font-size: 10rem;
     line-height: 14rem;
