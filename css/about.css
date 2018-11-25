@@ -192,6 +192,9 @@ a {
   border: 1.5px solid #FF9272;
   transform: scale(1.1);
 }
+.resume:hover {
+  color: white;
+}
 /* footer  */
 .resume-button {
   background-color: white;
@@ -201,26 +204,11 @@ a {
   font-size: 1.8rem;
   font-family: "Avenir";
   letter-spacing: .09rem;
-  padding: .6rem .5rem;
+  padding: 1rem .5rem;
   text-align: center;
-  width: 13rem;
+  width: 12rem;
   cursor: pointer;
   transition: transform .2s;
-  margin: auto;
-}
-.resume {
-    font-weight: 400;
-    font-family: 'Avenir';
-    font-size: 1.8rem;
-    background-color: white;
-    border-color: transparent;
-    border-radius: 5rem;
-    margin: auto;
-}
-button {
-  background-color: white;
-  border-color: transparent;
-  border-radius: 5rem;
   margin: auto;
 }
 
