@@ -16,4 +16,4 @@ function makeSpans (selector) {
   })
 }
 
-makeSpans('h1')
+makeSpans('.mark')
