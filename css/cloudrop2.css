@@ -790,7 +790,6 @@ footer {
 }
 .testing, .hifi-mockups {
   display: grid;
-  /* grid-gap: 4rem; */
   grid-column-gap: 5rem;
   grid-template-columns: 1fr 3fr;
 }
@@ -1106,7 +1105,7 @@ footer {
     padding-left: 30rem;
   }
   .footer-text-2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 4.5rem;
     padding:2.5rem 15rem;
   }
@@ -1224,7 +1223,7 @@ footer {
   }
   .pricing, .collab, .inbox, .smile {
     width: auto;
-    height:16rem;
+    height:10rem;
     padding:2rem 2rem;
   }
   .comp-text {
@@ -1406,7 +1405,7 @@ footer {
     font-size: 3.5rem;
   }
   .footer-text-2 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     line-height: 6rem;
     padding: 5rem 20rem;
   }

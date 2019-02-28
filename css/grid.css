@@ -37,9 +37,8 @@ p {
   font-size: 1.6rem;
 }
 h1.landing-title {
-  /* color: #043043; */
   cursor: cell;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight:800;
   letter-spacing: .2rem;
   padding: 1rem 0;
@@ -86,6 +85,7 @@ b {
 }
 /*------ header ------*/
 header {
+  display: grid;
   background-color: #fcd8d9;
 }
 a {
@@ -100,16 +100,16 @@ a {
  }
 .work-link {
   color: #000000;
-  padding-right: 2.6rem;
+  padding-right: 1.6rem;
   padding-top: .5rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   letter-spacing: .1rem;
 }
 .about {
   color: #000000;
-  padding-right: 4rem;
+  padding-right: 1.6rem;
   padding-top: .5rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   letter-spacing: .1rem;
 }
 .about:hover, .work-link:hover {
@@ -135,27 +135,23 @@ nav ul li:first-child {
   margin-right: auto;
 }
 .logo {
-  height: 4.2rem;
+  height: 3.8rem;
   width: auto;
   float: left;
   align-items: center;
   padding-top: 1rem;
-  padding-left: 2.6rem;
+  padding-left: 1.6rem;
 }
-
 /*-----hero section -----*/
 .content-image {
-  /* background-color: #FEE2DA; */
   padding: 4rem 0 6rem 18rem;
   width: auto;
   height: 3rem;
 }
 .hero {
-  /* background-color: #FFDBBA; */
   padding: 5rem 1.6rem 2rem 1.6rem;
   width: 100%;
   background: -webkit-linear-gradient(-70deg, #fcd8d9 40%, #fce5d6 40%);
-  /* background-image: linear-gradient(to top, #FFF2E6 0%, #ffdbba 100%); */
 }
 b {
   font-weight: 600rem;
@@ -166,7 +162,7 @@ b {
 }
 .hero-image {
   height: auto;
-  width: 30rem;
+  width: 28rem;
   margin: auto;
 }
 .description {
@@ -204,7 +200,7 @@ b {
   font-size: 1.4rem;
   letter-spacing: .1rem;
 }
-.case-study {
+.case-study, .rumble-case-study {
   background-color: #ffffff;
   border-radius: 3rem;
   border: 1.5px solid #FF9272;
@@ -219,18 +215,27 @@ b {
   cursor: pointer;
   transition: transform .2s;
 }
-.case-study:hover {
+.case-study:hover, .rumble-case-study:hover {
   color: white;
   background-color: #FF9272;
   border: 1.5px solid #FF9272;
   transform: scale(1.1);
 }
-
 /*----- other sections -----*/
-.work {
+.work-1 {
+  background-color:#C4CDF3;
+  padding: 4rem 1.6rem;
+  width:100%;
+}
+.work-2 {
   background-color:#E1F8FF;
   padding: 4rem 1.6rem;
   width:100%;
+}
+.rumble-hero-image {
+  height: auto;
+  width: 24rem;
+  margin: 0;
 }
 .project-title{
   color: #043043;
@@ -269,11 +274,14 @@ button {
   display: flex;
   flex-direction: column;
 }
-
-/*----- contact -----*/
-.contact {
-  padding: 3.5rem 2rem 1rem 2rem;
-  background-color: #363636;
+.rumble-project {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 /*----- footer -----*/
 a {
@@ -298,27 +306,29 @@ footer {
   letter-spacing: .1rem;
 }
 .copyright-text {
-    font-size: 1.3rem;
-    /* padding-top: 1em; */
-    text-align:center;
-    line-height: 1.8rem;
-    color: white;
-  }
-.footer-message {
-  background-color: #181818;
+  font-size: 1.1rem;
+  letter-spacing: .01rem;
+  text-align:center;
+  line-height: 1.8rem;
+  color: white;
+}
+.contact {
+  padding: 2rem 8rem;
 }
 .lets-connect {
-  font-size:3rem;
+  font-size: 2.5rem;
   color: #aad4ff;
   letter-spacing: .3rem;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 0;
 }
 .footer-text-2 {
-  line-height: 3.2rem;
-  padding: 2rem 1rem;
-  font-size: 2rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
   color: white;
   text-align: left;
+}
+.contact {
+  background-color: #363636;
 }
 @media (min-width: 426px) and (max-width:767px) {
   h1.landing-title {
@@ -378,6 +388,15 @@ footer {
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
+  .rumble-hero-image {
+    height: auto;
+    width: 50rem;
+    margin: 0;
+  }
+  .hero-image {
+    height: auto;
+    width: 45rem;
+  }
   .project-screens:hover .content-details{
     top: 50%;
     left: 50%;
@@ -405,12 +424,12 @@ footer {
 @media (min-width: 768px) and (max-width:1024px) {
 
   h1.landing-title {
-    font-size: 10rem;
+    font-size: 8rem;
     padding-top: 7rem;
-    line-height: 10rem;
+    line-height: 8rem;
     }
   h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     }
   h3 {
     font-size: 2rem;
@@ -419,7 +438,7 @@ footer {
     }
     /* hero section */
   .logo {
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     width: auto;
     height: 5rem;
     padding-top: 2rem;
@@ -510,12 +529,14 @@ footer {
     top: 20%;
   }
   .about {
-    padding-right: 4rem;
+    padding-right: 2.5rem;
     padding-top: 1rem;
+    font-size: 1.6rem;
   }
   .work-link {
-    padding-right: 4rem;
+    padding-right: 2.5rem;
     padding-top: 1rem;
+    font-size: 1.6rem;
   }
   .work-title {
     font-size: 1.8rem;
@@ -525,6 +546,11 @@ footer {
     /* work section  */
   .work {
     padding: 4rem 1.6rem;
+  }
+  .rumble-hero-image {
+    height: auto;
+    width: 55rem;
+    margin: 0;
   }
   .case-study, .connect {
     font-size: 1.6rem;
@@ -539,35 +565,33 @@ footer {
   }
   .copyright-text {
     font-size: 1.5rem;
-    padding-top: 1rem;
     }
   .footer-message {
     padding: 0 2rem;
   }
   .footer-text-2 {
-    line-height: 3.8rem;
-    text-align: left;
-    padding: 0 7rem 2rem 7rem;
-    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 0 2rem;
+    font-size: 2rem;
   }
   .footer-text {
     padding: 1.2rem 0 1.2rem 0;
   }
   .lets-connect{
-    padding: 2rem 7rem 2rem 7rem
+    padding: 2rem 2rem;
   }
-  }
+}
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */
 @media (min-width: 1025px) {
   h1.landing-title {
     padding-top: 8rem;
-    font-size: 10rem;
+    font-size: 8rem;
     line-height: 14rem;
     }
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     }
   h3 {
     font-size: 2rem;
@@ -578,20 +602,25 @@ footer {
   }
   .about {
     padding-right: 5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .work-link {
     padding-right: 4rem;
-    /* padding-top: 1rem; */
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .logo {
+    height: 5.5rem;
+    width: auto;
+    padding-top: 2rem;
+    padding-left: 4rem;
   }
   .snippet {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 4.5rem;
     padding: 0 0 27rem 0;
   }
   .work-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
     /* hero section */
   .hero {
@@ -609,6 +638,11 @@ footer {
     width: 60rem;
     padding-bottom: 1rem;
   }
+  .rumble-hero-image {
+    height: auto;
+    width: 65rem;
+    margin: 0;
+  }
     /* work section  */
   .work {
     padding: 7rem 1.6rem;
@@ -620,85 +654,82 @@ footer {
     button-radius: 5rem;
     padding: 1rem 2rem;
   }
-
-    .project-screens {
-      position: relative;
-      width: 90%;
-      margin: auto;
-      overflow: hidden;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-    }
-    .project-screens .content-overlay {
-      background: #E1F8FF;
-      position: absolute;
-      height: 100%;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      opacity: 0;
-      /* width: 100%; */
-      -webkit-transition: all 0.4s ease-in-out 0s;
-      -moz-transition: all 0.4s ease-in-out 0s;
-      transition: all 0.4s ease-in-out 0s;
-    }
-    .project-screens:hover .content-overlay{
-      opacity: 1;
-    }
-    .content-image{
-      width: 100%;
-    }
-    .mobile-p {
-      padding: 4rem 0;
-    }
-    .content-details {
-      position: absolute;
-      text-align: center;
-      padding-left: 1em;
-      padding-right: 1em;
-      width: 100%;
-      top: 50%;
-      left: 50%;
-      opacity: 0;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      -webkit-transition: all 0.3s ease-in-out 0s;
-      -moz-transition: all 0.3s ease-in-out 0s;
-      transition: all 0.3s ease-in-out 0s;
-    }
-    .project-screens:hover .content-details{
-      top: 50%;
-      left: 50%;
-      opacity: 1;
-    }
-    .content-details h2{
-      color: #000000;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-    }
-    .content-details p{
-      color: #000000;
-      font-size: 1.8rem;
-      font-style: italic;
-      line-height: 3rem;
-      padding: 0 2rem;
-    }
-    .fadeIn-top{
-      top: 20%;
-    }
+  .project-screens {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-screens .content-overlay {
+    background: #E1F8FF;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    /* width: 100%; */
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .project-screens:hover .content-overlay{
+    opacity: 1;
+  }
+  .content-image{
+    width: 100%;
+  }
+  .mobile-p {
+    padding: 4rem 0;
+  }
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .project-screens:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details h2{
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+  }
+  .content-details p{
+    color: #000000;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 3rem;
+    padding: 0 2rem;
+  }
+  .fadeIn-top{
+    top: 20%;
+  }
     /* footer */
   .copyright-text {
     font-size: 1.4rem;
-    padding-top: 1rem;
     }
   .footer-text-2 {
-    line-height: 4rem;
-    padding: 0 23rem;
-    text-align: center;
-    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
   }
   .footer-message {
     background-color: #3B515A;
@@ -708,8 +739,10 @@ footer {
     text-align: center;
     padding-top: 1em;
   }
-  .lets-connect {
-    padding: 3rem 23rem;
-    text-align: center;
+  .contact {
+    padding: 5rem 15rem;
   }
-}
+  .lets-connect {
+    font-size: 3rem;
+  }
+  }
