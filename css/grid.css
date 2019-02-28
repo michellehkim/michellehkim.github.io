@@ -30,7 +30,7 @@ html {
 }
 body {
   background-color: #efefef;
-  font-family: "Avenir"; "Nunito"; sans-serif;
+  font-family: "Nunito"; sans-serif;
 }
 p {
   color: #043043;
@@ -79,6 +79,9 @@ h4 {
 b {
   font-weight: 600;
 }
+.sub {
+  padding-bottom: 2rem;
+}
 .work-button {
   padding-right: 4rem;
   padding-top: 0;
@@ -102,14 +105,14 @@ a {
   color: #000000;
   padding-right: 1.6rem;
   padding-top: .5rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   letter-spacing: .1rem;
 }
 .about {
   color: #000000;
   padding-right: 1.6rem;
   padding-top: .5rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   letter-spacing: .1rem;
 }
 .about:hover, .work-link:hover {
@@ -120,6 +123,9 @@ a {
   background-color: #FEE2DA;
   overflow: hidden;
   padding: 1.5rem 1.5rem;
+}
+.navbar-1 {
+  background-color: #E1F8FF;
 }
 nav ul {
     list-style-type: none;
@@ -152,6 +158,11 @@ nav ul li:first-child {
   padding: 5rem 1.6rem 2rem 1.6rem;
   width: 100%;
   background: -webkit-linear-gradient(-70deg, #fcd8d9 40%, #fce5d6 40%);
+}
+.hero-1 {
+  background-color: #E1F8FF;
+  padding: 5rem 1.6rem 2rem 1.6rem;
+  width: 100%;
 }
 b {
   font-weight: 600rem;
@@ -313,7 +324,7 @@ footer {
   color: white;
 }
 .contact {
-  padding: 2rem 8rem;
+  padding: 2rem 2rem;
 }
 .lets-connect {
   font-size: 2.5rem;
@@ -329,6 +340,38 @@ footer {
 }
 .contact {
   background-color: #363636;
+}
+/******<!-- PROJECT INTRO -->*******/
+.intro {
+  background-color: #E1F8FF;
+  padding: 4rem 2.2rem 5rem 2.2rem;
+}
+.snip {
+    color: #043043;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 1.5rem 0 2rem 0;
+  }
+  .overview-title {
+    font-size: 3rem;
+  }
+.hero-image-1 {
+  height: auto;
+  width: 36rem;
+  padding:3rem 0 1rem 1rem;
+  align-items: center;
+}
+.roles-etc {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.problem-solution {
+  background-color: #f4f4f4;
+  padding-top: 4rem;
 }
 @media (min-width: 426px) and (max-width:767px) {
   h1.landing-title {

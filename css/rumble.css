@@ -45,7 +45,7 @@ h2{
   font-size: 3rem;
   line-height: 5rem;
   letter-spacing: .2rem;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   color: #F64036;
   }
 h3 {
@@ -56,7 +56,7 @@ h3 {
   line-height: 5rem;
   }
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   }
 h6 {
@@ -79,14 +79,12 @@ a {
   color: #FA7446;
   transition: color 0.3s ease;
   }
-.container {
-  display: grid;
-}
 section {
     padding: 5rem 2.2rem;
   }
 /*++++-- NAV BAR-- *****/
 .header {
+  display: grid;
   background-color: #C4CDF3;
   }
 .nav {
@@ -108,23 +106,25 @@ section {
     margin-right: auto;
   }
   .logo {
-    height: 4.2rem;
+    height: 3.8rem;
     width: auto;
     float: left;
     align-items: center;
     padding-top: 1rem;
-    padding-left: 2.6rem;
+    padding-left: 1.6rem;
   }
   .work-link {
-    padding-right: 2.6rem;
+    color: #000000;
+    padding-right: 1.6rem;
     padding-top: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
   }
   .about {
-    padding-right: 4rem;
+    color: #000000;
+    padding-right: 1.6rem;
     padding-top: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
   }
   .about:hover, .work-link:hover {
@@ -155,9 +155,9 @@ section {
     text-align: center;
     padding: 2rem 0 0 0;
   }
-  .overview-title {
-    font-size: 3rem;
-  }
+.overview-title {
+  font-size: 3rem;
+}
 .mobile-prototype-top {
   background-color: white;
   border-radius: 3rem;
@@ -178,9 +178,13 @@ section {
 }
 .hero-image {
   height: auto;
-  width: 36rem;
+  width: 25rem;
   padding: 2rem 1rem;
   align-items: center;
+}
+.r-userflows {
+  width: auto;
+  height: 20rem;
 }
 .hero, .prototype-top {
   text-align: center;
@@ -235,6 +239,9 @@ section {
   height:11rem;
   padding:2rem 2rem;
 }
+.quotes {
+  font-style: italic;
+}
 .competitive-analysis {
   background-color: #f4f4f4;
   padding-top: 4rem;
@@ -247,14 +254,14 @@ section {
   height: auto;
   margin: auto;
   padding: 1rem 0;
-  width: 25rem;
+  width: 22rem;
   }
 .spotluck-img {
   display: block;
   height: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: 25rem;
+  width: 22rem;
   margin: 0 auto;
   text-aligh: center;
 }
@@ -263,8 +270,15 @@ section {
   height: auto;
   margin: auto;
   padding: 1rem 0;
-  width: 15rem;
+  width: 13rem;
 }
+.label {
+  padding: 0;
+}
+/* .type-image {
+  width:auto;
+  height: 24rem;
+} */
 .b-1, .b-2 {
   padding: 1rem 2rem;
 }
@@ -311,7 +325,8 @@ hr {
   background-color: #f4f4f4;
 }
 .r-userflows {
-  width
+  width: 20rem
+  height: auto;
 }
 .user-stories-button, .user-flows-button, .wireframe-button, .survey-button, .wireframe-button {
   padding: 2rem 0;
@@ -326,7 +341,7 @@ hr {
 }
 .type-image {
   width: auto;
-  height: 20rem;
+  height: 24rem;
 }
 .orange-1, .orange-2, .blue-1, grey-1 {
   width: auto;
@@ -391,16 +406,11 @@ hr {
   width: auto;
   height: 27rem;
   padding: 1rem 1rem;
-  /* text-align: center; */
 }
 /* hifi mockups */
 .hifi-images {
   display: flex;
   flex-direction: column;
-}
-.home-page {
-  width: auto;
-  height: 24.5rem;
 }
 .label, .label-1 {
   font-size: 1.5rem;
@@ -416,15 +426,10 @@ hr {
   margin: auto
 }
 .filter-2 {
-  height: 40rem;
+  height: 30rem;
   width: auto;
 }
 /*----- FOOTER -----*/
-.contact {
-  background-color: #363636;
-  padding: 3.5rem 2rem 1rem 2rem;
-
-}
 footer {
   background-color: #363636;
   padding: 2rem 3rem;
@@ -439,48 +444,79 @@ footer {
 }
 .copyright{
   font-size: 1.5rem;
+  letter-spacing: .1rem;
 }
 .copyright-text {
-    font-size: 1.3rem;
-    text-align:center;
-    line-height: 1.8rem;
-    color: white;
-  }
-.footer-message {
-  background-color: #181818;
+  font-size: 1.1rem;
+  letter-spacing: .01rem;
+  text-align:center;
+  line-height: 1.8rem;
+  color: white;
+}
+.contact {
+  padding: 2rem 2rem;
 }
 .lets-connect {
-  font-size:3rem;
+  font-size: 2.5rem;
   color: #aad4ff;
   letter-spacing: .3rem;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 0;
 }
 .footer-text-2 {
-  line-height: 3.2rem;
-  padding: 2rem 1rem;
-  font-size: 2.3rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
   color: white;
   text-align: left;
 }
+.contact {
+  background-color: #363636;
+}
 @media (min-width: 320px) and (max-width:767px) {
-  .logo {
-    padding:
-  }
+.logo {
+  height: 3.8rem;
+  width: auto;
+  float: left;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 1.6rem;
+}
   .dropbox-buttons, .prototype-buttons {
     padding-left: 4rem;
   }
+  .section {
+    padding: 2rem, 1.6rem;
+  }
   .hero-image {
-    padding-bottom: 4rem;
+    height: auto;
+    width: 30rem;
   }
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+  .snip {
+    font-size: 1.8rem;
   }
   .overview-title {
     font-size: 2.4rem;
   }
+  p {
+    font-size: 1.8rem;
+  }
   .branding-1, .branding-1 {
     text-align: center;
   }
+  .highlight {
+  padding: 2rem 2rem 0 2rem;
+  }
+  .highlight-text, .quotes {
+    font-size: 2rem;
+  }
+  .pricing, .inbox, .collab, .burger {
+  padding: 0;
+  width: auto;
+  height: 6rem;
+  }
+
   .landing-page-image, .home-page-image {
     text-align: center;
   }
@@ -489,10 +525,26 @@ footer {
     width: 16rem;
     text-align: center;
   }
+  .b-1, .b-2 {
+    height: auto;
+    width: 35rem;
+  }
   .dropbox-buttons, .prototype-buttons, .user-flows-button {
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
+  }
+  .r-userflows {
+    height: auto;
+    width: 35rem;
+  }
+  .filter-2 {
+    height: auto;
+    width: 10rem;
+  }
+  .w-image-1, .w-image-2, .w-image-3, .w-image-4, .w-image-5, .w-image-8,.w-image-9, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
+    height: auto;
+    width: 20rem;
   }
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
@@ -1066,7 +1118,7 @@ footer {
     letter-spacing: 1.5rem;
   }
   h2 {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     font-size: 2.5rem;
   }
   h3 {
@@ -1095,12 +1147,15 @@ footer {
   }
   .hero-image {
     height: auto;
-    width: 80rem;
+    width: 75rem;
     padding: 2rem 1rem;
   }
-  section, .intro, .problem-solution, .user-personas, .competitive-analysis {
+  section, .problem-solution, .user-personas, .competitive-analysis {
     padding: 8rem 40rem;
   }
+   .intro {
+     padding: 8rem 20rem;
+   }
   /**** INTRO ****/
   .overview-title {
     text-align: center;
@@ -1133,7 +1188,7 @@ footer {
   }
   /**** RESEARCH ****/
   /* user research */
-  .problem-solution, .user-flows, .insight, .testing {
+  .problem-solution, .user-flows, .testing {
     padding: 5rem 25rem;
     }
   .quotes {
@@ -1213,7 +1268,7 @@ footer {
     padding-top: 5rem;
   }
   .r-userflows {
-    width: 100rem;
+    width: 80rem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -1296,23 +1351,25 @@ footer {
     padding: 0;
   }
   /**** FOOTER ****/
-  footer {
-    padding: 3rem 10rem;
+  .copyright-text {
+    font-size: 1.4rem;
+    }
+  .footer-text-2 {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+  }
+  .footer-message {
+    background-color: #3B515A;
+    padding-bottom: 3rem;
   }
   .footer-text {
-    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 1em;
   }
-  .footer-text-2 {
-    font-size: 3.2rem;
-    line-height: 6rem;
-    padding: 5rem 20rem;
+  .contact {
+    padding: 5rem 15rem;
   }
   .lets-connect {
-    padding: 2rem 20rem 0rem 20rem;
-    text-align: center;
     font-size: 3rem;
-  }
-  .copyright-text {
-    font-size: 2rem;
-    line-height: 2.5rem;
   }

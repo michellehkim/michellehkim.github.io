@@ -84,6 +84,7 @@ section {
   }
 /*++++-- NAV BAR-- *****/
 .header {
+  display: grid;
   background-color: #E1F8FF;
   }
 .nav {
@@ -105,23 +106,25 @@ section {
     margin-right: auto;
   }
   .logo {
-    height: 4.2rem;
+    height: 3.8rem;
     width: auto;
     float: left;
     align-items: center;
     padding-top: 1rem;
-    padding-left: 2.6rem;
+    padding-left: 1.6rem;
   }
   .work-link {
-    padding-right: 2.6rem;
-    padding-top: 1.5rem;
-    font-size: 1.4rem;
+    color: #000000;
+    padding-right: 1.6rem;
+    padding-top: 2rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
   }
   .about {
-    padding-right: 4rem;
-    padding-top: 1.5rem;
-    font-size: 1.4rem;
+    color: #000000;
+    padding-right: 1.6rem;
+    padding-top: 2rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
   }
   .about:hover, .work-link:hover {
@@ -361,39 +364,46 @@ hr {
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
+  border-radius: 50%;
 }
 .blue-2 {
   background-color: #248199;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
+  border-radius: 50%;
 }
 .blue-3 {
   background-color: #489EB4;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
+  border-radius: 50%;
 }
 .orange {
   background-color: #F69B59;
+  border-radius: 50%;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
 }
 .blue-4 {
   background-color: #EAFBFF;
+  border-radius: 50%;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
 }
 .grey-1 {
   background-color: #EEEEEE;
+  border-radius: 50%;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
 }
 .grey-2 {
   background-color: #F8F8F8;
+  border-radius: 50%;
   width: 12rem;
   height: 12rem;
   transition: transform .2s;
@@ -478,10 +488,6 @@ hr {
   margin: auto
 }
 /*----- FOOTER -----*/
-.contact {
-  background-color: #363636;
-  padding: 3.5rem 2rem 1rem 2rem;
-}
 footer {
   background-color: #363636;
   padding: 2rem 3rem;
@@ -496,29 +502,34 @@ footer {
 }
 .copyright{
   font-size: 1.5rem;
+  letter-spacing: .1rem;
 }
 .copyright-text {
-    font-size: 1.3rem;
-    text-align:center;
-    line-height: 1.8rem;
-    color: white;
-  }
-.footer-message {
-  background-color: #181818;
+  font-size: 1.1rem;
+  letter-spacing: .01rem;
+  text-align:center;
+  line-height: 1.8rem;
+  color: white;
+}
+.contact {
+  padding: 2rem 8rem;
 }
 .lets-connect {
-  font-size:3rem;
+  font-size: 2.5rem;
   color: #aad4ff;
   letter-spacing: .3rem;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 0;
 }
 .footer-text-2 {
-  line-height: 3.2rem;
-  padding: 2rem 1rem;
-  font-size: 2.3rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
   color: white;
   text-align: left;
 }
+.contact {
+  background-color: #363636;
+}
+
 @media (min-width: 320px) and (max-width:767px) {
   .logo {
     padding:
@@ -551,6 +562,9 @@ footer {
     justify-content: space-between;
     padding: 2rem 0;
   }
+  footer-message {
+    padding: 2rem 2rem;
+  }
 }
 
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
@@ -561,6 +575,12 @@ footer {
   p {
     line-height:2.8rem;
   }
+  .logo {
+    padding-left: 2.5rem;
+    width: auto;
+    height: 5rem;
+    padding-top: 2rem;
+  }
   .container {
     display: grid;
     grid-auto-rows: minmax(100px, auto);
@@ -568,12 +588,22 @@ footer {
     justify-content: center;
   }
   .about {
-    padding-right: 4rem;
+    padding-right: 2.5rem;
     padding-top: 1rem;
+    font-size: 1.6rem;
   }
   .work-link {
-    padding-right: 4rem;
+    padding-right: 2.5rem;
     padding-top: 1rem;
+    font-size: 1.6rem;
+  }
+  .work-title {
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    padding-top: 3rem;
+  }
+  .work {
+    padding: 4rem 1.6rem;
   }
   section {
     padding: 4rem 2.5rem;
@@ -810,14 +840,22 @@ footer {
   .pref-1-image, .pref-2-image {
     text-align: center;
   }
-  .footer-text-2 {
-    line-height: 3.8rem;
-    text-align: left;
-    padding: 0 7rem 2rem 7rem;
-    font-size: 2.5rem;
+  .copyright-text {
+    font-size: 1.5rem;
+    }
+  .footer-message {
+    padding: 0 2rem;
   }
-  .lets-connect {
-    padding: 2rem 7rem 2rem 7rem
+  .footer-text-2 {
+    line-height: 3rem;
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+  .footer-text {
+    padding: 1.2rem 0 1.2rem 0;
+  }
+  .lets-connect{
+    padding: 2rem 2rem;
   }
 }
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -848,16 +886,28 @@ footer {
   }
   .about {
     padding-right: 5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .work-link {
     padding-right: 4rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .work-title {
+    font-size: 1.8rem;
+  }
+  .logo {
+    height: 5.5rem;
+    width: auto;
+    padding-top: 2rem;
+    padding-left: 4rem;
   }
   .hero-image {
     height: auto;
     width: 80rem;
     padding: 3rem 1rem 5rem;
+  }
+  .work {
+    padding: 7rem 1.6rem;
   }
   .intro {
     padding-top: 10rem;
@@ -1033,7 +1083,6 @@ footer {
     height: auto;
     margin: auto;
   }
-
   .wireframe-text {
     display: grid;
     grid-column-gap: 7rem;
@@ -1104,17 +1153,27 @@ footer {
   .primary-colors, .secondary-colors {
     padding-left: 30rem;
   }
+  .copyright-text {
+    font-size: 1.4rem;
+    }
   .footer-text-2 {
-    font-size: 2.5rem;
-    line-height: 4.5rem;
-    padding:2.5rem 15rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+  }
+  .footer-message {
+    background-color: #3B515A;
+    padding-bottom: 3rem;
+  }
+  .footer-text {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .contact {
+    padding: 5rem 15rem;
   }
   .lets-connect {
-    text-align: center;
-  }
-  .copyright-text {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1281px) {
@@ -1398,24 +1457,27 @@ footer {
     padding: 0;
   }
   /**** FOOTER ****/
-  footer {
-    padding: 3rem 10rem;
+  .copyright-text {
+    font-size: 1.4rem;
+    padding: 0;
+    }
+  .footer-text-2 {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+  }
+  .footer-message {
+    background-color: #3B515A;
+    padding-bottom: 3rem;
   }
   .footer-text {
-    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 1em;
   }
-  .footer-text-2 {
-    font-size: 2.5rem;
-    line-height: 6rem;
-    padding: 5rem 20rem;
+  .contact {
+    padding: 5rem 15rem;
   }
   .lets-connect {
-    padding: 2rem 20rem 0rem 20rem;
-    text-align: center;
     font-size: 3rem;
-  }
-  .copyright-text {
-    font-size: 2rem;
-    line-height: 2.5rem;
   }
 }
