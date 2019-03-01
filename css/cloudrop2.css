@@ -565,6 +565,12 @@ footer {
   footer-message {
     padding: 2rem 2rem;
   }
+  .contact {
+    padding: 2rem 1.6rem;
+  }
+  .copyright-text {
+    padding: 0;
+  }
 }
 
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */

@@ -271,12 +271,11 @@ section {
 }
 .label {
   padding: 0;
+  font-style: italic;
+
 }
 .b-1, .b-2 {
   padding: 1rem 2rem;
-}
-.hr {
-  margin: 2;
 }
 /******<!-- USER PERSONAS -->*******/
 .user-personas-all {
@@ -286,7 +285,8 @@ section {
   padding-top: 4rem;
 }
 .persona-age {
-  text-align: left;
+  text-align: center;
+  padding: 0;
 }
 .persona-info {
   text-align: center;
@@ -407,6 +407,10 @@ hr {
 .hifi-images {
   display: flex;
   flex-direction: column;
+}
+ul li {
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 .label, .label-1 {
   font-size: 1.5rem;
@@ -531,6 +535,9 @@ footer {
   width: auto;
   height: 26rem;
 }
+.light-orange, .dark-orange, .blue, .grey, .home-wireframes, .filter-wireframes, .r-home-image, .r-signup-image, .r-cta-image, .filter-images, .leave-review-image {
+  text-align: center;
+}
 .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
   width: auto;
   height: 40rem;
@@ -556,6 +563,9 @@ footer {
   .r-userflows {
     height: auto;
     width: 35rem;
+  }
+  .persona-name {
+    text-align: center;
   }
   .filter-2 {
     height: auto;
