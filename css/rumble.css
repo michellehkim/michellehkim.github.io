@@ -272,6 +272,7 @@ section {
 .label {
   padding: 0;
   font-style: italic;
+  padding: 1rem 0;
 
 }
 .b-1, .b-2 {
@@ -411,6 +412,8 @@ hr {
 ul li {
   font-size: 1.8rem;
   line-height: 3rem;
+  list-style-position: inside;
+  list-style-type: disc;
 }
 .label, .label-1 {
   font-size: 1.5rem;
@@ -538,10 +541,11 @@ footer {
 .light-orange, .dark-orange, .blue, .grey, .home-wireframes, .filter-wireframes, .r-home-image, .r-signup-image, .r-cta-image, .filter-images, .leave-review-image {
   text-align: center;
 }
-.w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
+/* .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
   width: auto;
-  height: 40rem;
-}
+  height: 17rem;
+  padding: .5rem, .5rem;
+} */
   .landing-page-image, .home-page-image {
     text-align: center;
   }
@@ -564,6 +568,9 @@ footer {
     height: auto;
     width: 35rem;
   }
+  .filter-hifi {
+    text-align: center;
+  }
   .persona-name {
     text-align: center;
   }
@@ -573,8 +580,8 @@ footer {
   }
   .w-image-1, .w-image-2, .w-image-3, .w-image-4, .w-image-5, .w-image-8,.w-image-9, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     height: auto;
-    width: 25rem;
-    padding: 1rem 0;
+    width: 17rem;
+    padding: 0 .5rem;
   }
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
