@@ -83,6 +83,9 @@ section {
     padding: 5rem 2.2rem;
   }
 /*++++-- NAV BAR-- *****/
+li.navi {
+ list-style: none;
+}
 .header {
   display: grid;
   background-color: #E1F8FF;
@@ -278,6 +281,12 @@ section {
   width: 10rem;
 }
 /******<!-- USER PERSONAS -->*******/
+ul li {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style-position: inside;
+  list-style-type: disc;
+}
 .user-personas-all {
   padding: 2rem 2rem 0 2rem;;
 }

@@ -27,9 +27,9 @@
           <a href= "index.html"><img class= "logo" src= "images/logo_homepage.png" alt= "homepage logo">
         </div>
         <div class= "links-right">
-          <ul>
-            <li><h4><a class= "work-link" href= "project2.html">WORK</a></h4></li>
-            <li><h4><a class= "about" href="about.html">ABOUT</a></h4></li>
+          <ul class= "navi">
+            <li class="navi"><h4><a class= "work-link" href= "project2.html">WORK</a></h4></li>
+            <li class="navi"><h4><a class= "about" href="about.html">ABOUT</a></h4></li>
           </ul>
         </div>
       </nav>
@@ -77,11 +77,12 @@
     </section>
     <section class="problem-solution">
         <h3 class="titles">THE PROBLEM</h3>
-        <p>Although Google Maps or Yelp can be used to search for restaurants, the time it takes to browse through dozens of places can be time consuming and lead to greater indecision.
-          An app that saves time and helps to shorten the decision making process would add great value for the average hungry human. </p>
+        <p>Although Google Maps or Yelp can be used to search for restaurants, browsing through dozens of places can be time consuming and lead to greater indecision.
+          An app that saves time would add great value for the average hungry human. </p>
         <h3 class= "titles">THE SOLUTION</h3>
         <p>Rumble generates a list of restaurants and randomly chooses where the user should dine out.
-          They can set their location and filter through food types, price point and other filter options. The decision making app creates an intuitive and personalized experience while helping local restaurants and saving users from indecision.</p>
+          They can set their location and filter through food types, price point and other filter options.
+          This decision making app creates an intuitive and personalized experience while helping local restaurants and saving users from indecision.</p>
     </section>
       <!--Research Section-->
     <section class= "research">
@@ -94,27 +95,26 @@
           I wanted to know current apps used and the value a decision-making app would have in their daily lives.</p>
       </div>
       <h3 class= "highlight-title">Key findings:</h3>
-      <div class= "hightlights-section">
-        <div class= "highlight">
+      <div class= "highlights-section">
+        <div class= "highlight-1">
           <div class= "burger-icon">
             <img class= "burger" src= "images/highlights/burger.png">
           </div>
           <p class="highlight-text"><b>88%</b> eat out at least once a week and up to four times a week, with more than half eating out with others. </p>
         </div>
-        <div class= "highlight">
+        <div class= "highlight-2">
           <div class= "pricing-icon">
             <img class= "pricing" src = "images/highlights/location.png">
           </div>
-          <p class= "highlight-text">Top three factors influencing dining decisions are <b>location</b> (80%), <b>cuisine</b> (73%) and <b>price point</b>(70%)
-          </p>
+          <p class= "highlight-text">Top three factors influencing dining decisions are <b>location</b> (80%), <b>cuisine</b> (73%) and <b>price point</b>(70%)</p>
         </div>
-        <div class= "highlight">
+        <div class= "highlight-3">
           <div class= "inbox-icon">
             <img class= "inbox" src = "images/highlights/rating.png">
           </div>
           <p class="highlight-text">90% say that <b>reviews and ratings</b> are important</p>
         </div>
-        <div class= "highlight">
+        <div class= "highlight-4">
           <div class= "collab-icon">
             <img class= "collab" src = "images/highlights/discount.png">
           </div>
@@ -176,22 +176,21 @@
              She is currently saving for future trips so discounts when going out is a plus.
              She mostly eats out with her partner, although deciding where to eat can be challenging at times.
              They mind going out of the ways for good food. She is active on social media, posting stories of her own and checking to see what her friends are up to.</p>
-
             <h3 class= "p-header">GOALS</h3>
             <ul id = "persona-list">
               <li>Saving money</li>
               <li>Quickly deciding on a place to eat</li>
               <li>recommend spots to others </li>
               <li>browsing and uploading photos and reviews </li>
-              <li> </li>
             </ul>
             <h3 class= "p-header">FRUSTRATIONS</h3>
-            <ul>
+            <ul id= "persona-list">
               <li>Has to check both school and social accounts separately</li>
               <li>Some plans are too expensive</li>
             </ul>
         </div>
-        <hr/>
+        <hr>
+        <!-- <div class= "vl"></div> -->
         <div class= "persona-2">
           <div class= "persona-info">
             <img class= "persona" src="images/personas/rpersona-2.png" alt= "kate diaz">
@@ -234,7 +233,7 @@
                Outside of work and family, he enjoys spending time outdoors. </p>
 
               <h3 class= "p-header">GOALS</h3>
-              <ul style="list-style-type:disc;" id = "persona-list">
+              <ul id = "persona-list">
                 <li>Finding a place that everyone in his family agrees on </li>
                 <li>Finding a place close by and easy to get to</li>
                 <li>Easily view restaurant information </li>
@@ -252,9 +251,7 @@
     <section class= "info-architecture">
       <h2>INFORMATION ARCHITECTURE</h2>
       <div class= "user-stories">
-        <p></p>
         <p>Thinking of the different functions and scenarios, I created a list of <a style= text-decoration:none; href= "https://docs.google.com/spreadsheets/d/1XKGvu59vYko318uLKjY7Bv5fJSFpFNpqDgekM_BHF74/edit?usp=sharing" a target="_blank">user stories</a>, highlighting the MVPs and prioritizing each task from high to low.</p>
-        <p></p>
         <p> Using Whimsical, five different tasks were mapped out into <a style= text-decoration:none; href="https://whimsical.co/Ax5FFFvBfbszNtmyxirrAk" a target="_blank">user flows</a>.
           I made sure to select a different range of tasks, from signing up to creating a list of restaurants through filters.
           The user flows were also combined into a <a style= text-decoration:none; href= "https://whimsical.co/YAreNZV1a9BCTdgUP2vNDT" a target="_blank">site map</a> to organize the overall information.</a><br>
@@ -323,7 +320,9 @@
             Pairing these two recognizably different fonts together create a modern feel that is dynamic and easy to digest. I used letter spacing to my advantage to create a spacious look.
             </p>
         <p></p>
-        <img class= "type-image" src="images/branding/rumble-type.png" alt= "typography">
+        <div class= "type">
+          <img class= "type-image" src="images/branding/rumble-type.png" alt= "typography">
+        </div>
       </div>
     </section>
     <!--Wireframes and Testing-->
@@ -341,39 +340,42 @@
         </p>
       </div>
       <div class= "wireframe-text">
+        <!-- <p></p> -->
         <p><b>Home Page:</b> I created three separate options to get a list of restuarants: a filtered list, a list of your own restaurants and a list of discounted restaurants.
           I decided to include a discount option on the homepage since the majority of participants said they were influenced by discounts.
           Through testing, I discovered that there was not enough information to clarify what each selection would yield.
           Having three differing options also caused confusion. To simplify the tasks, I eliminated the discount option and merged it with the filtered list option and added text to add more clairty and simplify the page.
         </p>
         <div class= "home-wireframes">
-          <p></p>
-          <img class= "w-image-1" src= "images/rumble-w/w1.png" alt= "homepage wireframe">
-          <img class= "w-image-2" src= "images/rumble-w/w2.png" alt= "homepage wireframe">
-          <p class= "label">Versions of the homepage</p>
+          <div>
+            <img class= "w-image-1" src= "images/rumble-w/w1.png" alt= "homepage wireframe">
+          </div>
+          <div>
+            <img class= "w-image-2" src= "images/rumble-w/w2.png" alt= "homepage wireframe">
+          </div>
         </div>
-        <p></p>
+        <p class= "label">Versions of the homepage</p>
         <p><b>Filter Page:</b> The filtered page consists of five sections that include setting a location, the distance from location, food types, discounts and other options.
           I created different versions, creating preference tests and seeing which screens worked best.
           In testing, users found the information to look too cluttered on one page. I decided to space each filter option onto separate screens, highlighting each selection.
           This change also led to a different approach in presenting the information. Instead of separating each filter section with a label, questions were presented to engage the user in conversation and humanize the app.</p>
           <p></p>
-          <div class= "filter-wireframes">
+          <div class= "filter-wireframes-1">
             <img class= "w-image-3" src= "images/rumble-w/w3.png" alt= "rumble wireframe">
             <img class= "w-image-10" src= "images/rumble-w/w10.png" alt= "rumble wireframe">
-            <p class= "label">All filters on one page</p>
-            <p></p>
+          </div>
+          <p class= "label">All filters on one page</p>
+          <div class= "filter-wireframes-2">
             <img class= "w-image-4" src= "images/rumble-w/w4.png" alt= "rumble wireframe">
             <img class= "w-image-5" src= "images/rumble-w/w5.png" alt= "rumble wireframe">
             <img class= "w-image-8" src= "images/rumble-w/w8.png" alt= "rumble wireframe">
             <img class= "w-image-9" src= "images/rumble-w/w9.png" alt= "rumble wireframe">
-            <p class= "label">Filters acrosse multiple screens</p>
           </div>
-          <p></p>
+          <p class= "label">Filters acrosse multiple screens</p>
         <p><b>Call-to-Actions</b> I made sure to deemphasize buttons on screens that had more than one button, highlighting the primary action to keep users focused.
           I also kept buttons that should not yet be used dormant.</p>
-          <p></p>
-          <p><b>Location access:</b> I made sure to ask users for access to their location after they clicked an action to set a location, rather than asking at the start when the user not yet browsed the different features.</p>
+          <!-- <p></p> -->
+          <p><b>Location access:</b> I asked users for access to their location after they clicked an action to set a location, rather than asking at the start when the user not yet browsed the different features.</p>
       </div>
       <div class= "hifi-mockups">
         <div>
@@ -381,7 +383,7 @@
         </div>
         <p>In the high fidelity mockups, I wanted to create a strong structural hierarchy via text size, color, and spacing while focusing on engagement and consistency.
           Another round of testing was done to test out changes made from the wireframes.</p>
-        <p></p>
+        <!-- <p></p> -->
           <p><b>Hierarchy and Clarity: </b><br>
             A screen was added before onboarding to give clarity and explain the decision making app.
             On the onboarding screens and homepage, anchor texts were kept consistent and a dark background was used to highlight call-to-actions.
@@ -405,28 +407,36 @@
               These changes proved to be helpful, with users experiencing little to no difficulty during testing. By choosing to get rid of these sections, more space was created to evenly display information onto a single screen and provide greater visibility.</p>
               <div class= "filter-hifi">
                 <img class= "filter-2" src= "images/rumble-w/filter-2.png" alt= "rumble wireframe">
-                <p class= "label">Filters back to a single screen<p>
+                <p class= "label">Filters back to a single screen</p>
               </div>
                 <p>I made different versions of the filter screen such as including images to break up the text.
                   The images worked on a smaller scale, but when added to all options, it gave a cluttered look.
                   I found that setting all filter selections to equal widths without images gave a clean look that was easy to read.</p>
-                <div class= "filter-images">
-                  <img class= "image-filter" src= "images/rumble-w/image-filter.png">
-                  <p class= "label">Version 1 with images</p>
-                  <img class= "filter" src="images/rumble-w/filter.png">
-                  <p class= "label">Final version with filters at equal widths</p>
+                <div class= "all-filter-images">
+                  <div class= "filter-images-1">
+                    <img class= "image-filter" src= "images/rumble-w/image-filter.png">
+                    <p class= "label">Version 1 with images</p>
+                  </div>
+                  <div class= "filter-images-2">
+                    <img class= "filter" src="images/rumble-w/filter.png">
+                    <p class= "label">Final version with filters at equal widths</p>
+                  </div>
                 </div>
-                <p></p>
+                <!-- <p></p> -->
                 <p><b>Leaving a Review:</b><br>
                   When asked to leave a review, some users were unsure of where to start.
                   It either created initial confusion or took some time to complete.
                   For greater visibility, I included a ‘History’ icon in the bottom nav where users could quickly view selected restaurants from the past, taking them directly to the restaurant page where they could leave a review.
                   WHen retested, all participants were able to quickly leave a review.</p>
                 <div class="leave-review-image">
-                  <img class= "bottom-nav-1" src= "images/rumble-w/4-icon.png">
-                  <p class= "label">4 icons</p>
+                  <div class= "rev-1">
+                    <img class= "bottom-nav-1" src= "images/rumble-w/4-icon.png">
+                    <p class= "label">4 icons</p>
+                </div>
+                <div class= "rev-2">
                   <img class= "bottom-nav-1" src= "images/rumble-w/r-home.png">
                   <p class= "label">Final version with new 'History' icon</p>
+                </div>
                 </div>
           </section>
     <!--Insights-->
