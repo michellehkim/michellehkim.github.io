@@ -153,7 +153,7 @@ a {
 /* about me text */
 .text {
   padding: 3rem 3rem;
-  background-color: #f5f5f5;
+  background-color: #fee2da;
 }
 .intro {
   padding: 2rem 2rem;
@@ -189,7 +189,7 @@ a {
   .resume-button:hover {
   color: white;
   background-color: #FF9272;
-  border: 1.5px solid #FF9272;
+  border: 1px solid #FF9272;
   transform: scale(1.1);
 }
 .resume:hover {
@@ -199,7 +199,7 @@ a {
 .resume-button {
   background-color: white;
   border-radius: 3rem;
-  border: 1.5px solid #FF9272;
+  border: 1px solid #FF9272;
   color: #043043;
   font-size: 1.8rem;
   font-family: "Avenir";
@@ -317,6 +317,9 @@ p {
   width: auto;
   height:45rem;
 }
+.filter-hifi {
+  text-align: center;
+}
 .text {
   padding: 4rem 6rem;
 }
@@ -405,9 +408,6 @@ line-height: 3.2rem;
   width: auto;
   height: 6rem;
   padding: 1rem 1rem;
-}
-.one-button {
-  padding: 6rem 0;
 }
 /* footer */
 .copyright-text {

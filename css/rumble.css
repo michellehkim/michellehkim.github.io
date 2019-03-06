@@ -88,10 +88,9 @@ section {
 /*++++-- NAV BAR-- *****/
 .header {
   display: grid;
-  background-color: #C4CDF3;
+  background-color: #ff9178;
   }
 .nav {
-  background-color: #C4CDF3;
   overflow: hidden;
   padding: 1rem 2rem;
 }
@@ -145,7 +144,7 @@ nav ul {
   .wrapper		  { height: 375px; text-align: center; font-weight: bold; padding: 150px 0 0 0;} /* Height of nav bar added to total height: 300 */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
-  background-color: #C4CDF3;
+  background-color: #ff9178;
   padding: 4rem 2.2rem 5rem 2.2rem;
 }
 .snip {
@@ -170,7 +169,7 @@ nav ul {
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: .09rem;
-  padding: .8rem 1rem;
+  padding: .8rem 2rem;
   text-align: center;
   width: 16rem;
   cursor: pointer;
@@ -178,6 +177,7 @@ nav ul {
 }
 .prototype-top {
   padding: 2rem 0;
+  text-align: center;
 }
 .hero-image {
   height: auto;
@@ -189,12 +189,13 @@ nav ul {
   width: auto;
   height: 20rem;
 }
-.hero, .prototype-top {
+.hero {
   text-align: center;
 }
 .roles-etc {
   padding-top: 5rem;
   padding-bottom: 3rem;
+  background-color: #ffe4c4;
 }
 .problem-solution {
   background-color: #f4f4f4;
@@ -227,6 +228,16 @@ nav ul {
   grid-template-columns: 1fr;
   background-color: #ffdbba;
 }
+.highlights-section {
+  background-color: #ffdbba;
+  text-align: center;
+}
+.quotes-all {
+  width: 80%;
+  text-align: center;
+  margin:auto;
+  padding-top: 3rem;
+}
 .hightlight-text {
   padding: 0 6rem;
 }
@@ -235,8 +246,8 @@ nav ul {
 }
 .pricing, .collab, .inbox, .burger {
   width: auto;
-  height:11rem;
-  padding:2rem 2rem;
+  height: 9rem;
+  padding: 1rem 1rem;
 }
 .quotes {
   font-style: italic;
@@ -325,8 +336,8 @@ hr {
   width: 20rem;
   height: auto;
 }
-.user-stories-button, .user-flows-button, .wireframe-button, .survey-button, .wireframe-button {
-  padding: 2rem 0;
+.r-user-flows {
+  text-align: center;
 }
 /* branding */
 .branding-image {
@@ -417,19 +428,10 @@ ul li {
   line-height: 3rem;
   list-style-position: inside;
   list-style-type: disc;
+  font-weight: 400;
 }
 .label, .label-1 {
   font-size: 1.5rem;
-}
-.preferences {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-}
- .landing-page-image, .home-page-image {
-  padding: 1rem 1rem;
-  margin: auto
 }
 .filter-2 {
   height: 30rem;
@@ -517,9 +519,11 @@ footer {
   p, .label {
     font-size: 1.8rem;
   }
-  /* .branding-1, .branding-1 {
-    text-align: center;
-  } */
+.hifi-images, .filter-wireframes-1, .filter-wireframes-2, .home-wireframes, .all-filter-images, .leave-review-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
   .highlight-text, .quotes {
     font-size: 2rem;
   }
@@ -585,7 +589,10 @@ footer {
   .w-image-1, .w-image-2, .w-image-3, .w-image-4, .w-image-5, .w-image-8,.w-image-9, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     height: auto;
     width: 17rem;
-    padding: 0 .5rem;
+    padding: 1rem .5rem;
+  }
+  .label {
+    font-size: 1.6rem;
   }
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
@@ -601,12 +608,6 @@ footer {
     line-height:2.8rem;
     font-size: 1.8rem;
   }
-  /* .container {
-    display: grid;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-columns: 1fr;
-    justify-content: center;
-  } */
   .about {
     padding-right: 4rem;
     padding-top: 1rem;
@@ -617,6 +618,12 @@ footer {
   }
   section {
     padding: 4rem 10rem;
+  }
+  .snip {
+    font-size: 1.8rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
   }
   /**** INTRO ****/
   .overview-title {
@@ -631,7 +638,7 @@ footer {
   .hero-image {
     height: auto;
     width: 65rem;
-    padding: 3rem 1rem 5rem;
+    padding: 3rem 1rem 2rem 1rem;
   }
   /* roles */
   .roles-etc {
@@ -699,12 +706,6 @@ footer {
     display: grid;
     grid-template-columns: 3fr .1fr 3fr;
   }
-  /* hr {
-    width: .2rem;
-    height: 80rem;
-    border-top: 1px solid #FF9272;
-    margin: auto;
-  } */
   .user-personas-all {
     padding: 0;
   }
@@ -727,7 +728,10 @@ footer {
   .filter-2 {
     padding: 2rem 0;
     width: auto;
-    height: 30rem;
+    height: 32rem;
+  }
+  .filter-hifi {
+    text-align: center;
   }
   .hifi-images, .filter-wireframes-1, .filter-wireframes-2, .home-wireframes, .all-filter-images, .leave-review-image {
     display: grid;
@@ -773,7 +777,7 @@ footer {
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
   h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   h2 {
     padding-bottom: 3rem;
@@ -789,7 +793,7 @@ footer {
     font-size: 2rem;
   }
   .snip {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   p {
     font-size: 1.8rem;
@@ -815,7 +819,7 @@ footer {
     padding-top: 10rem;
   }
   section {
-    padding: 6rem 8rem;
+    padding: 6rem 20rem;
   }
   /* intro  */
   .overview-title {
@@ -827,7 +831,6 @@ footer {
     padding: 0 2rem;
     margin: 0 auto;
   }
-
   .hero-image {
     height: auto;
     width: 60rem;
@@ -844,16 +847,28 @@ footer {
   .highlights-section {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-gap: 3rem; */
-    padding-bottom: 5rem;
+    grid-gap: 2rem;
+    /* padding-bottom: 5rem; */
+    background-color: #ffdbba;
   }
-  .highlight {
-    padding: 0 1rem;
-  }
-  .highlight-title {
-    padding-top: 8rem;
+  .highlight-1, .highlight-2, .highlight-3, .highlight-4 {
+    padding: 1rem 1rem;
   }
   /* competitive analysis */
+  .home-wireframes, .filter-wireframes-1, .hifi-images, .all-filter-images, .leave-review-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  .filter-hifi {
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  .filter-wireframes-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
   .comp-text {
     width: 28rem;
     margin: 0 auto;
@@ -877,10 +892,14 @@ footer {
     margin: 0 auto;
     padding-top: 4rem;
   }
+  .quotes-all {
+    padding: 2rem 10rem;
+  }
   /* user persona  */
   .user-personas-all {
     display: grid;
     grid-template-columns: 3fr .1fr 3fr .1fr 3fr;
+    padding: 2rem 0;
   }
   .user-flows-button {
     padding: 0;
@@ -891,12 +910,12 @@ footer {
   }
   .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     width: auto;
-    height:40rem;
+    height:42rem;
     padding: 2rem 2rem;
   }
   .w-image-4, .w-image-5,.w-image-8, .w-image-9, .w-image-3, .w-image-10 {
     width: auto;
-    height:30rem;
+    height:42rem;
     padding: 1rem 1rem;
   }
   .highlight {
@@ -915,50 +934,11 @@ footer {
     height: 30rem;
   }
   /**** WIREFRAMES & TESTING ****/
-  .wireframes-testing {
-    padding-bottom: 0;
-  }
   .r-userflows {
     width: 70rem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-  }
- .hifi-images {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-column-gap: 5rem;
-  }
-  .landing-page {
-    width: auto;
-    height: 100rem;
-  }
-  .home-page {
-    width: auto;
-    height: 35rem;
-  }
-  .label, .label-1 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-  .desktop-sketch {
-    display: flex;
-    padding: 3rem 0 3rem 28rem;
-  }
-  .desktop-sketch-1 {
-    width: auto;
-    height: 25rem;
-    padding-right: 1rem;
-  }
-   .desktop-sketch-2  {
-     width: auto;
-     height: 25rem;
-     padding-left: 1rem;
-   }
-  .testing, .hifi-mockups {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
   }
   .footer-text-2 {
     font-size: 3rem;
@@ -995,33 +975,56 @@ footer {
     font-size: 1.8rem;
     line-height: 3rem;
   }
+  .logo {
+    width: auto;
+    height: 5rem;
+  }
+  .navbar {
+    padding: 2rem 2rem;
+  }
   .about {
     padding-right: 5rem;
-    padding-top: 2rem;
     color: #043043;
     font-size: 2rem;
   }
   .work-link {
-    padding-right:4rem;
-    padding-top: 2rem;
     font-size: 2rem;
   }
   .hero-image {
     height: auto;
-    width: 75rem;
+    width: 85rem;
     padding: 2rem 1rem;
   }
   section, .problem-solution, .user-personas, .competitive-analysis {
-    padding: 8rem 40rem;
+    padding: 8rem 25rem;
   }
    .intro {
-     padding: 8rem 20rem;
+     padding: 8rem 25rem;
+   }
+   .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
+     width: auto;
+     height:50rem;
+     padding: 2rem 2rem;
+   }
+   .w-image-4, .w-image-5,.w-image-8, .w-image-9, .w-image-3, .w-image-10 {
+     width: auto;
+     height:50rem;
+     padding: 1rem 1rem;
+   }
+   .home-wireframes, .filter-wireframes-1, .hifi-images, .all-filter-images, .leave-review-image {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
+   }
+   .filter-wireframes-2 {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
    }
   /**** INTRO ****/
   .overview-title {
     text-align: center;
     font-size: 2.2rem;
-    padding: 0;
+    padding-top: 5rem;
   }
   .overview-text {
     width: 80rem;
@@ -1036,16 +1039,13 @@ footer {
     grid-gap: 7rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    padding: 8rem 22rem 6rem 22rem;
+    padding: 8rem 25rem 6rem 25rem;
   }
   .titles {
     padding: 1.5rem 0;
     line-height: 3rem;
     letter-spacing: .2rem;
     font-size: 2.2rem;
-  }
-  .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
-    font-size: 1.8rem;
   }
   /**** RESEARCH ****/
   /* user research */
@@ -1081,6 +1081,9 @@ footer {
     margin: 0 auto;
     padding: 0;
   }
+  /* hr {
+    margin: auto;
+  } */
   .label {
     text-align: center;
   }
@@ -1101,23 +1104,22 @@ footer {
   }
   .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     width: auto;
-    height:50rem;
+    height:43rem;
     padding: 1rem 1rem;
   }
   .w-image-4, .w-image-5,.w-image-8, .w-image-9, .w-image-3, .w-image-10 {
     width: auto;
-    height:35rem;
+    height:43rem;
     padding: .5rem .5rem;
+  }
+  .highlight-1, .highlight-2, .highlight-3, .highlight-4 {
+    padding: 0 1rem;
   }
   /* user persona  */
   .user-personas-all {
     display: grid;
-    grid-column-gap: 4rem;
-    grid-template-columns: 6fr 1fr 6fr;
+    grid-template-columns: 8fr .01fr 8fr;
     padding: 0;
-  }
-  .persona-1, .persona-2 {
-    padding: 0 6rem;
   }
   hr {
     width: 1px;
@@ -1140,76 +1142,24 @@ footer {
   }
   .b-1, .b-2 {
     width: auto;
-    height: 34rem;
+    height: 36rem;
   }
   .type-image {
     width:auto;
     height:40rem;
   }
   /**** WIREFRAMES & TESTING ****/
-  .wireframes-testing {
-    padding-bottom: 0;
-  }
   .b-1, .b-2 {
     width: auto;
-    height: 25rem;
-  }
- .hifi-images {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 5rem 0;
-  }
-  .desktop-sketch {
-    display: flex;
-    padding: 3rem 0 3rem 35rem;
-  }
-  .desktop-sketch-1, .desktop-sketch-2 {
-    width: auto;
     height: 30rem;
-  }
-  .landing-page {
-    width: auto;
-    height: 100rem;
-  }
-  .preferences {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    padding: 5rem 5rem;
-  }
-  .protoype-buttons {
-    display: grid;
-  }
-  .mobile-p, .mobile-hifi, .user-flow-button {
-    padding: 2rem 0 4rem 0;
-  }
-  .home-page {
-    width: auto;
-    height: 38rem;
-  }
- .preferences {
-    padding: 1rem 0;
-  }
-  .pref-1-image, .pref-2-image {
-    display: grid;
-    justify-content: center;
-    padding-bottom: 6rem;
-  }
-  .dots {
-    width:auto;
-    height: 45rem;
-  }
-  .label, .label-1 {
-    font-size: 2rem;
-  }
-  .p-1, .p-2 {
-    width: auto;
-    height: 50rem;
   }
   .testing-text{
     grid-column: 2;
     padding: 0;
+  }
+  .filter-2 {
+    width: auto;
+    height: 40rem;
   }
   /**** FOOTER ****/
   .copyright-text {
