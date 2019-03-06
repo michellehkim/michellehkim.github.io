@@ -36,7 +36,7 @@ body {
   list-style: none;
 }
 h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 600;
     letter-spacing: .2rem;
     margin:1rem 0;
@@ -79,7 +79,7 @@ b{
 }
 a {
   text-decoration: none;
-  color: #FA7446;
+  color: #292b34;
   transition: color 0.3s ease;
   }
 section {
@@ -116,14 +116,12 @@ nav ul {
     padding-left: 1.6rem;
   }
   .work-link {
-    color: #000000;
     padding-right: 1.6rem;
     padding-top: 1.5rem;
     font-size: 1.6rem;
     letter-spacing: .1rem;
   }
   .about {
-    color: #000000;
     padding-right: 1.6rem;
     padding-top: 1.5rem;
     font-size: 1.6rem;
@@ -161,10 +159,10 @@ nav ul {
   font-size: 3rem;
 }
 .mobile-prototype-top {
-  background-color: white;
+  background-color: #ff9178;
   border-radius: 3rem;
-  border: 1px solid #FF9272;
-  color: #043043;
+  border: 1px solid #292b34;
+  color: #292b34;
   font-family: "Avenir";
   font-weight: 400;
   font-size: 1.6rem;
@@ -351,6 +349,9 @@ hr {
   width: auto;
   height: 24rem;
 }
+.all-colors {
+  text-align: center;
+}
 .orange-1, .orange-2, .blue-1, grey-1 {
   width: auto;
   height: 30rem;
@@ -437,6 +438,9 @@ ul li {
   height: 30rem;
   width: auto;
 }
+.filter-hifi {
+  text-align: center;
+}
 /*----- FOOTER -----*/
 footer {
   background-color: #363636;
@@ -498,9 +502,6 @@ footer {
   .hero-image {
     height: auto;
     width: 30rem;
-  }
-  h1 {
-    font-size: 3.5rem;
   }
   h2 {
     line-height: 4rem;
@@ -704,10 +705,11 @@ footer {
   /* user persona  */
   .user-personas-all {
     display: grid;
-    grid-template-columns: 3fr .1fr 3fr;
-  }
-  .user-personas-all {
+    grid-template-columns: 1fr 1fr;
     padding: 0;
+  }
+  .persona-1, .persona-2, .persona-3 {
+    padding: 2rem 2rem;
   }
   .persona-name {
     padding-bottom: .5rem;
@@ -776,9 +778,6 @@ footer {
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  h1 {
-    font-size: 4.5rem;
-  }
   h2 {
     padding-bottom: 3rem;
     font-size: 3rem;
@@ -892,17 +891,14 @@ footer {
     margin: 0 auto;
     padding-top: 4rem;
   }
-  .quotes-all {
-    padding: 2rem 10rem;
-  }
   /* user persona  */
   .user-personas-all {
     display: grid;
-    grid-template-columns: 3fr .1fr 3fr .1fr 3fr;
-    padding: 2rem 0;
-  }
-  .user-flows-button {
+    grid-template-columns: 1fr 1fr;
     padding: 0;
+  }
+  .persona-1, .persona-2, .persona-3 {
+    padding: 2rem 1rem;
   }
   .r-userflows{
     height: auto;
@@ -996,10 +992,10 @@ footer {
     padding: 2rem 1rem;
   }
   section, .problem-solution, .user-personas, .competitive-analysis {
-    padding: 8rem 25rem;
+    padding: 8rem 20rem;
   }
    .intro {
-     padding: 8rem 25rem;
+     padding: 8rem 20rem;
    }
    .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
      width: auto;
@@ -1039,7 +1035,7 @@ footer {
     grid-gap: 7rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    padding: 8rem 25rem 6rem 25rem;
+    padding: 8rem 20rem 6rem 20rem;
   }
   .titles {
     padding: 1.5rem 0;
@@ -1050,7 +1046,7 @@ footer {
   /**** RESEARCH ****/
   /* user research */
   .problem-solution, .user-flows, .testing {
-    padding: 5rem 25rem;
+    padding: 5rem 20rem;
     }
   .quotes {
     font-size: 2.2rem;
@@ -1073,7 +1069,7 @@ footer {
   }
   .pricing, .collab, .inbox, .burger {
     width: auto;
-    height:14rem;
+    height:10rem;
     padding:2rem 2rem;
   }
   .comp-text {
@@ -1081,17 +1077,17 @@ footer {
     margin: 0 auto;
     padding: 0;
   }
-  /* hr {
-    margin: auto;
-  } */
-  .label {
-    text-align: center;
-  }
   .competitors {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 4rem;
+  }
+  .spotluck-img {
+    padding-top: 5rem;
+  }
+  .rr-img {
+    padding-top: 2rem;
   }
   .wireframe-visual {
     width: auto;
@@ -1104,12 +1100,12 @@ footer {
   }
   .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     width: auto;
-    height:43rem;
+    height:50rem;
     padding: 1rem 1rem;
   }
   .w-image-4, .w-image-5,.w-image-8, .w-image-9, .w-image-3, .w-image-10 {
     width: auto;
-    height:43rem;
+    height: 50rem;
     padding: .5rem .5rem;
   }
   .highlight-1, .highlight-2, .highlight-3, .highlight-4 {
@@ -1118,14 +1114,14 @@ footer {
   /* user persona  */
   .user-personas-all {
     display: grid;
-    grid-template-columns: 8fr .01fr 8fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0;
   }
-  hr {
-    width: 1px;
-    }
+  .persona-1, .persona-2, .persona-3 {
+    padding: 2rem 2rem;
+  }
   .persona-name {
-    padding-bottom: 2.5rem;
+    padding-bottom: 0;
   }
   .research-goals {
     padding-top: 5rem;
@@ -1151,7 +1147,7 @@ footer {
   /**** WIREFRAMES & TESTING ****/
   .b-1, .b-2 {
     width: auto;
-    height: 30rem;
+    height: 34rem;
   }
   .testing-text{
     grid-column: 2;
