@@ -79,7 +79,7 @@ b{
 }
 a {
   text-decoration: none;
-  color: #292b34;
+  color: #ff898c;
   transition: color 0.3s ease;
   }
 section {
@@ -107,25 +107,26 @@ nav ul {
   nav ul li:first-child {
     margin-right: auto;
   }
+  .navbar {
+    padding: .5rem 1.6rem;
+  }
   .logo {
-    height: 3.8rem;
+    height: 3.6rem;
     width: auto;
     float: left;
     align-items: center;
     padding-top: 1rem;
-    padding-left: 1.6rem;
   }
   .work-link {
-    padding-right: 1.6rem;
-    padding-top: 1.5rem;
-    font-size: 1.6rem;
-    letter-spacing: .1rem;
+   color: #000000;
+   font-size: 1.4rem;
+   letter-spacing: .1rem;
   }
   .about {
-    padding-right: 1.6rem;
-    padding-top: 1.5rem;
-    font-size: 1.6rem;
-    letter-spacing: .1rem;
+   color: #000000;
+   padding-right: 1.6rem;
+   font-size: 1.4rem;
+   letter-spacing: .1rem;
   }
   .about:hover, .work-link:hover {
     color: #FA7446;
@@ -199,6 +200,9 @@ nav ul {
   background-color: #f4f4f4;
   padding-top: 4rem;
 }
+.insights {
+  background-color: #f4f4f4;
+}
 /******<!-- RESEARCH SECTION-->*******/
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
   background-color: #efefef;
@@ -227,14 +231,15 @@ nav ul {
   background-color: #ffdbba;
 }
 .highlights-section {
-  background-color: #ffdbba;
   text-align: center;
 }
+.highlight-1, .highlight-2, .highlight-3, .highlight-4 {
+  background-color: #ffdbba;
+}
 .quotes-all {
-  width: 80%;
-  text-align: center;
+  text-align: left;
   margin:auto;
-  padding-top: 3rem;
+  padding: 2rem 2rem 0 2rem;
 }
 .hightlight-text {
   padding: 0 6rem;
@@ -344,6 +349,9 @@ hr {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+.branding-1 {
+  text-align: center;
 }
 .type-image {
   width: auto;
@@ -484,15 +492,8 @@ footer {
 .contact {
   background-color: #363636;
 }
+
 @media (min-width: 320px) and (max-width:767px) {
-  .logo {
-    height: 3.8rem;
-    width: auto;
-    float: left;
-    align-items: center;
-    padding-top: 1rem;
-    padding-left: 1.6rem;
-  }
   .section {
     padding: 2rem 1.6rem;
   }
@@ -506,6 +507,7 @@ footer {
   h2 {
     line-height: 4rem;
     font-size: 2.6rem;
+    padding-bottom: 2rem;
   }
   h3 {
     font-size: 2.4rem;
@@ -517,19 +519,31 @@ footer {
   .overview-title {
     font-size: 2.4rem;
   }
-  p, .label {
+  p {
     font-size: 1.8rem;
   }
-.hifi-images, .filter-wireframes-1, .filter-wireframes-2, .home-wireframes, .all-filter-images, .leave-review-image {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-}
+  .label {
+    font: 1.6rem;
+  }
+  .hifi-images, .filter-wireframes-1, .filter-wireframes-2, .home-wireframes, .all-filter-images, .leave-review-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  .home-wireframes-all, .filterw2-all, .filtehifi {
+   padding: 2rem 0;
+  }
+  .leave-review-image, .filter-w-all, .all-filter-images, .branding-1, .all-colors {
+   padding-top:2rem;
+  }
   .highlight-text, .quotes {
     font-size: 2rem;
   }
   .highlights-section {
-    background-color: #ffdbaa;
+    padding:2rem 0;
+  }
+  .hifi-images {
+    padding: 2rem 0 1rem 0;
   }
   .highlight-2, .highlight-3 {
     padding: 1rem 2rem;
@@ -548,6 +562,12 @@ footer {
   .user-personas-all {
     padding: 0;
   }
+  .branding-1 {
+    padding: 2rem 0;
+  }
+  .all-colors {
+    padding: 2rem 0;
+  }
   .type-image {
     width: auto;
     height: 26rem;
@@ -555,23 +575,10 @@ footer {
   .light-orange, .dark-orange, .blue, .grey, .home-wireframes, .filter-wireframes, .r-home-image, .r-signup-image, .r-cta-image, .filter-images, .leave-review-image {
     text-align: center;
   }
-  .landing-page-image, .home-page-image {
-    text-align: center;
-  }
-  .p-1, .p-2 {
-    height: auto;
-    width: 16rem;
-    text-align: center;
-  }
   .b-1, .b-2 {
     height: auto;
     width: 35rem;
     padding: 0;
-  }
-  .dropbox-buttons, .prototype-buttons, .user-flows-button {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 0;
   }
   .r-userflows {
     height: auto;
@@ -580,17 +587,19 @@ footer {
   .filter-hifi {
     text-align: center;
   }
-  .persona-name {
-    text-align: center;
-  }
   .filter-2 {
     height: auto;
     width: 32rem;
   }
-  .w-image-1, .w-image-2, .w-image-3, .w-image-4, .w-image-5, .w-image-8,.w-image-9, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
+  .w-image-1, .w-image-2, .w-image-3, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     height: auto;
     width: 17rem;
-    padding: 1rem .5rem;
+    padding: 0 .5rem;
+  }
+  .w-image-4, .w-image-5, .w-image-8,.w-image-9 {
+    height: auto;
+    width: 17rem;
+    padding: .5rem .5rem;
   }
   .label {
     font-size: 1.6rem;
@@ -599,7 +608,7 @@ footer {
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width:1024px) {
   h2 {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     font-size: 2.6rem;
   }
   h3 {
@@ -608,14 +617,7 @@ footer {
   p {
     line-height:2.8rem;
     font-size: 1.8rem;
-  }
-  .about {
-    padding-right: 4rem;
-    padding-top: 1rem;
-  }
-  .work-link {
-    padding-right: 4rem;
-    padding-top: 1rem;
+    padding: 2.5rem 0;
   }
   section {
     padding: 4rem 10rem;
@@ -650,7 +652,7 @@ footer {
     padding: 5rem 10rem;
   }
   .label {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   /* problem solution */
   .titles {
@@ -670,11 +672,11 @@ footer {
   }
   .highlight-1, .highlight-2, .highlight-3, .highlight-4 {
     padding: 0 2rem;
-    background-color: #ffdbba;
   }
   .highlights-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
   }
   .highlight-title {
     padding-top: 4rem;
@@ -687,7 +689,14 @@ footer {
     padding-top: 3.5rem;
   }
   .rr-img {
-    padding: 0;
+    padding-top: 2rem;
+    height: auto;
+    width: 10rem;
+
+  }
+  .yelp-img {
+    height: auto;
+    width: 20rem;
   }
   .competitors {
     display: grid;
@@ -721,11 +730,26 @@ footer {
     text-align: center;
   }
   /**** WIREFRAMES & TESTING ****/
-  .w-image-1, .w-image-2, .w-image-3, .w-image-4, .w-image-5, .w-image-8,.w-image-9, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
+  .r-home-image, .r-signup-image, .home-wireframes-all, .filter-w-all, .all-filter-images, .branding-1, .all-colors, .filter-hifi{
+      padding: 2rem 0;
+    }
+     .filterw2-all{
+       padding-bottom: 3rem;
+     }
+    .leave-review-image {
+      padding-top:3rem;
+    }
+
+  .w-image-1, .w-image-2, .w-image-3, .w-image-10, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     height: auto;
     width: 25rem;
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
     text-align: center;
+  }
+  .w-image-5, .w-image-8,.w-image-9, .w-image-4 {
+    padding: 1rem 0;
+    height: auto;
+    width: 25rem;
   }
   .filter-2 {
     padding: 2rem 0;
@@ -740,20 +764,10 @@ footer {
     grid-template-columns: 1fr 1fr;
     text-align: center;
   }
-  .landing-page-image, .home-page-image {
-    text-align: center;
-    }
-  .desktop-sketch {
-    display: flex;
-    padding-left: 20rem;
-  }
-  .desktop-sketch-1, .desktop-sketch-2 {
-    text-align: center;
+  .type-image {
+    padding: 1rem 0;
     width: auto;
-    height: 19rem;
-    margin: auto;
-    padding: 2rem 0;
-    transition: transform .2s;
+    height: 36rem;
   }
   .b-1 {
     width: auto;
@@ -800,14 +814,6 @@ footer {
   }
   .titles {
     line-height: 3.5rem;
-  }
-  .about {
-    padding-right: 5rem;
-    font-size: 2rem;
-  }
-  .work-link {
-    padding-right: 4rem;
-    font-size: 2rem;
   }
   .hero-image {
     height: auto;
@@ -861,12 +867,18 @@ footer {
   }
   .filter-hifi {
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 3rem 0;
   }
   .filter-wireframes-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+  }
+   .r-home-image, .r-signup-image, .home-wireframes-all, .filter-w-all, .all-filter-images, .branding-1, .all-colors, .filterw2-all {
+    padding: 3rem 0;
+  }
+  .leave-review-image {
+    padding-top:3rem;
   }
   .comp-text {
     width: 28rem;
@@ -907,7 +919,7 @@ footer {
   .w-image-1, .w-image-2, .w-image-6, .w-image-7, .r-home, .r-signup, .r-cta, .image-filter, .filter, .bottom-nav-1 {
     width: auto;
     height:42rem;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
   }
   .w-image-4, .w-image-5,.w-image-8, .w-image-9, .w-image-3, .w-image-10 {
     width: auto;
@@ -918,9 +930,6 @@ footer {
     padding: 0 2rem;
   }
   /**** BRANDING ****/
-  .typography {
-    padding-top: 5rem;
-  }
   .type-image {
     width: auto;
     height: 34rem;
@@ -971,21 +980,6 @@ footer {
     font-size: 1.8rem;
     line-height: 3rem;
   }
-  .logo {
-    width: auto;
-    height: 5rem;
-  }
-  .navbar {
-    padding: 2rem 2rem;
-  }
-  .about {
-    padding-right: 5rem;
-    color: #043043;
-    font-size: 2rem;
-  }
-  .work-link {
-    font-size: 2rem;
-  }
   .hero-image {
     height: auto;
     width: 85rem;
@@ -1016,6 +1010,15 @@ footer {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
    }
+   .r-home-image, .r-signup-image, .home-wireframes-all, .filter-w-all, .all-filter-images, .branding-1, .all-colors, .filter-hifi{
+    padding: 2rem 0;
+  }
+   .filterw2-all{
+     padding-bottom: 3rem;
+   }
+  .leave-review-image {
+    padding-top:3rem;
+  }
   /**** INTRO ****/
   .overview-title {
     text-align: center;
@@ -1056,7 +1059,8 @@ footer {
   .highlights-section {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
   .highlight {
     padding: 0 3rem;

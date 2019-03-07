@@ -10,11 +10,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <scrpit src="js/casestudy.js"
-
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129152213-1"></script>
   <script>
@@ -33,7 +30,7 @@
         </div>
         <div class= "links-right">
           <ul class= "navi">
-            <li class="navi"><h4><a class= "work-link" href= "project2.html">WORK</a></h4></li>
+            <li class="navi"><h4><a class= "work-link" href= "#works">WORK</a></h4></li>
             <li class="navi"><h4><a class= "about" href="about.html">ABOUT</a></h4></li>
           </ul>
         </div>
@@ -80,20 +77,16 @@
         <p class= "sub">8 weeks</p>
       </div>
     </section>
-      <!-- <script>
-  		ScrollReveal().reveal('.roles');
-  	</script> -->
-
-    <section class="problem-solution">
-        <h3 data-aos="fade-up" class="titles">THE PROBLEM</h3>
-        <p data-aos="fade-up">Although Google Maps or Yelp can be used to search for restaurants, browsing through dozens of places can be time consuming and lead to greater indecision.
+    <section data-aos="fade-up" class="problem-solution">
+        <h3 class="titles">THE PROBLEM</h3>
+        <p>Although Google Maps or Yelp can be used to search for restaurants, browsing through dozens of places can be time consuming and lead to greater indecision.
           An app that saves time would add great value for the average hungry human. </p>
-        <h3 data-aos="fade-up" class= "titles">THE SOLUTION</h3>
-        <p data-aos="fade-up">Rumble generates a list of restaurants and randomly chooses where the user should dine out.
+        <h3 class= "titles">THE SOLUTION</h3>
+        <p >Rumble generates a list of restaurants and randomly chooses where the user should dine out.
           They can set their location and filter through food types, price point and other filter options.
           This decision making app creates an intuitive and personalized experience while helping local restaurants and saving users from indecision.</p>
     </section>
-      <!--Research Section-->
+          <!--Research Section-->
     <section class= "research">
       <h2 data-aos="fade-up">RESEARCH</h2>
       <div class= "user-research">
@@ -135,20 +128,18 @@
         <p data-aos="fade-up"> I interviewed three participants asking more detailed questions about their decision making process when deciding to eat out.
           The top priorities for all three interviewees were type of food they were craving and location.
           Frustrations experienced were not knowing what to eat and nothing sounding appetizing.</p>
-          <div class= "quotes-all">
-        <p data-aos="zoom-in" class= "quotes"><b>“It frustrates me when me and the other person can't decide on the same place because we’re craving different things.” - Sharon</b></p>
-        <p></p>
-        <p data-aos="zoom-in" class= "quotes"><b>“Not being able to think of a place and eating out with picky eaters sets me back when making a decision” - Sean</b></p>
-        <p></p>
-        <p data-aos="zoom-in" class= "quotes"><b>“I rely heavily on reviews and ratings if I haven’t been there before.” - Christine</b></p>
-        </div.
+          <div data-aos="fade-up"class= "quotes-all">
+        <p class= "quotes"><b>“It frustrates me when me and the other person can't decide on the same place because we’re craving different things.” - Sharon</b></p>
+        <p class= "quotes"><b>“Not being able to think of a place and eating out with picky eaters sets me back when making a decision” - Sean</b></p>
+        <p class= "quotes"><b>“I rely heavily on reviews and ratings if I haven’t been there before.” - Christine</b></p>
+      </div>
     </div>
     </section>
       <!--competitive analysis-->
     <section class= "competitive-analysis">
-      <div class= "comp-analysis">
-        <h3 data-aos="fade-up" class= "titles">COMPETITIVE ANALYSIS</h3>
-        <p data-aos="fade-up">I looked into three existing apps and conducted a SWOT analysis to compare features and understand strengths and weaknesses across these platforms.
+      <div data-aos="fade-up" class= "comp-analysis">
+        <h3 class= "titles">COMPETITIVE ANALYSIS</h3>
+        <p>I looked into three existing apps and conducted a SWOT analysis to compare features and understand strengths and weaknesses across these platforms.
           <b>Yelp</b> was most widely used by participants to find restaurants.
           It is used to find businesses outside of just restaurants and has advanced search capabilities with various filters.
           It has a strong review system but is criticized for having unreliable reviews. <b>Spotluck</b> and <b>Restaurant Roulette</b> also help find restaurants but are closer to a decision-making application.
@@ -349,49 +340,56 @@
           Through testing, I discovered that there was not enough information to clarify what each selection would yield.
           Having three differing options also caused confusion. To simplify the tasks, I eliminated the discount option and merged it with the filtered list option and added text to add more clairty and simplify the page.
         </p>
-        <div class= "home-wireframes">
-          <div>
-            <img data-aos="fade-up"class= "w-image-1" src= "images/rumble-w/w1.png" alt= "homepage wireframe">
+      </div>
+        <div class= "home-wireframes-all">
+          <div class= "home-wireframes">
+            <div>
+              <img data-aos="fade-up"class= "w-image-1" src= "images/rumble-w/w1.png" alt= "homepage wireframe">
+            </div>
+            <div>
+              <img data-aos="fade-up"class= "w-image-2" src= "images/rumble-w/w2.png" alt= "homepage wireframe">
+            </div>
           </div>
-          <div>
-            <img data-aos="fade-up"class= "w-image-2" src= "images/rumble-w/w2.png" alt= "homepage wireframe">
-          </div>
+          <p data-aos="fade-up"class= "label">Versions of the homepage</p>
         </div>
-        <p data-aos="fade-up"class= "label">Versions of the homepage</p>
         <p data-aos="fade-in"><b>Filter Page:</b> The filtered page consists of five sections that include setting a location, the distance from location, food types, discounts and other options.
           I created different versions, creating preference tests and seeing which screens worked best.
           In testing, users found the information to look too cluttered on one page. I decided to space each filter option onto separate screens, highlighting each selection.
           This change also led to a different approach in presenting the information. Instead of separating each filter section with a label, questions were presented to engage the user in conversation and humanize the app.</p>
-          <div class= "filter-wireframes-1">
+          <div class= "filter-w-all">
+            <div class= "filter-wireframes-1">
+                <div>
+                <img data-aos="fade-up" class= "w-image-3" src= "images/rumble-w/w3.png" alt= "rumble wireframe">
+              </div>
               <div>
-              <img data-aos="fade-up" class= "w-image-3" src= "images/rumble-w/w3.png" alt= "rumble wireframe">
+                <img data-aos="fade-up"class= "w-image-10" src= "images/rumble-w/w10.png" alt= "rumble wireframe">
+              </div>
             </div>
-            <div>
-              <img data-aos="fade-up"class= "w-image-10" src= "images/rumble-w/w10.png" alt= "rumble wireframe">
+            <p data-aos="fade-up" class= "label">All filters on one page</p>
+          </div>
+          <div class= "filterw2-all">
+            <div class= "filter-wireframes-2">
+              <div>
+                <img data-aos="fade-up" class= "w-image-4" src= "images/rumble-w/w4.png" alt= "rumble wireframe">
+              </div>
+              <div>
+                <img data-aos="fade-up" class= "w-image-5" src= "images/rumble-w/w5.png" alt= "rumble wireframe">
+              </div>
+              <div>
+                <img data-aos="fade-up" class= "w-image-8" src= "images/rumble-w/w8.png" alt= "rumble wireframe">
+              </div>
+              <div>
+                <img data-aos="fade-up" class= "w-image-9" src= "images/rumble-w/w9.png" alt= "rumble wireframe">
+              </div>
             </div>
-          </div>
-          <p data-aos="fade-up" class= "label">All filters on one page</p>
-          <div class= "filter-wireframes-2">
-            <div>
-            <img data-aos="fade-up" class= "w-image-4" src= "images/rumble-w/w4.png" alt= "rumble wireframe">
+              <p data-aos="fade-up"class= "label">Filters across multiple screens</p>
             </div>
-            <div>
-            <img data-aos="fade-up" class= "w-image-5" src= "images/rumble-w/w5.png" alt= "rumble wireframe">
-          </div>
-          <div>
-            <img data-aos="fade-up" class= "w-image-8" src= "images/rumble-w/w8.png" alt= "rumble wireframe">
-          </div>
-          <div>
-            <img data-aos="fade-up" class= "w-image-9" src= "images/rumble-w/w9.png" alt= "rumble wireframe">
-          </div>
-          </div>
-          <p data-aos="fade-up"class= "label">Filters acrosse multiple screens</p>
-        <p data-aos="fade-up"><b>Call-to-Actions</b> I made sure to deemphasize buttons on screens that had more than one button, highlighting the primary action to keep users focused.
-          I also kept buttons that should not yet be used dormant.</p>
+            <p data-aos="fade-up"><b>Call-to-Actions</b> I made sure to deemphasize buttons on screens that had more than one button, highlighting the primary action to keep users focused.
+              I also kept buttons that should not yet be used dormant.</p>
           <!-- <p></p> -->
           <p data-aos="fade-up"><b>Location access:</b> I asked users for access to their location after they clicked an action to set a location, rather than asking at the start when the user not yet browsed the different features.</p>
       </div>
-      <div class= "hifi-mockups">
+      <section class= "hifi-mockups">
         <div>
           <h3 data-aos="fade-up" class= "titles">MOCKUPS & TESTING</h3>
         </div>
@@ -478,7 +476,7 @@
       <p data-aos="fade-up" class="copyright-text">© 2018 | Designed & Developed by Michelle Kim</p>
     </div>
   </footer>
-  <script type= text/javascript src="project2.js"></script>
+  <script type= text/javascript src="homepage.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
