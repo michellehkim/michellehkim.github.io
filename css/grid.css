@@ -30,7 +30,7 @@ html {
 }
 body {
   background-color: #efefef;
-  font-family: "Avenir", "Nunito"; sans-serif;
+  font-family: "Fredoka One", "Nunito"; sans-serif;
 }
 p {
   color: #043043;
@@ -615,7 +615,10 @@ footer {
   .lets-connect{
     padding: 2rem 2rem;
   }
-}
+  .contact {
+    padding: 2rem 8rem;
+  }
+
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */

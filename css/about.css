@@ -44,16 +44,16 @@ body {
    color: white;
    font-size: 6rem;
    font-weight:800;
-   padding: 2rem 1rem 3rem 1rem;
+   padding: 2rem  0;
    letter-spacing: .1rem;
    line-height: 6.5rem;
    /* background-color: #fcd8d9; */
  }
  h2 {
    color: #FA7446;
-   font-size: 3rem;
-   line-height: 4rem;
-   padding: 1rem 2rem;
+   font-size: 2rem;
+   line-height: 3rem;
+   /* padding: 1rem 1rem; */
    font-style: italic;
  }
  h3 {
@@ -126,7 +126,7 @@ span.background {
 .me {
   width: auto;
   height: 25rem;
-  padding: 1rem 1rem;
+  padding: 3rem 0;
 }
 .me-me {
   text-align: center;
@@ -170,17 +170,11 @@ a {
   color: white;
   letter-spacing: .1rem;
 }
-.fav-tool {
+.fav-tool, .for-fun, .headphones {
   text-align: center;
-  padding: 4rem 3rem 3rem 3rem;
 }
-.for-fun {
-  text-align: center;
-  padding: 2rem 3rem 3rem 3rem;
-}
-.headphones {
-  text-align: center;
-  padding: 2rem 3rem 8rem 3rem;
+.extra-info {
+  padding: 2rem 1.6rem;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;

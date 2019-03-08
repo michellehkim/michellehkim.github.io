@@ -119,11 +119,13 @@ section {
    color: #000000;
    font-size: 1.4rem;
    letter-spacing: .1rem;
+   padding-top: 1rem;
   }
   .about {
    color: #000000;
    padding-right: 1.6rem;
    font-size: 1.4rem;
+   padding-top: 1rem;
    letter-spacing: .1rem;
   }
   .about:hover, .work-link:hover {
@@ -583,9 +585,6 @@ footer {
     grid-template-columns: 1fr;
     justify-content: center;
   }
-  .about, .work-link {
-    padding-top: 1rem;
-  }
   section {
     padding: 4rem 2.5rem;
   }
@@ -870,13 +869,7 @@ footer {
     width: 80rem;
     padding: 3rem 1rem 5rem;
   }
-  .about, .work-link {
-    padding-top: 1rem;
-  }
-  /* .work {
-    padding: 7rem 1.6rem;
-  } */
-  .intro {
+   {
     padding-top: 10rem;
   }
   section {
@@ -1166,15 +1159,11 @@ footer {
     line-height: 3.3rem;
   }
   .about {
-    padding-right: 5rem;
-    padding-top: 2rem;
-    color: #043043;
-    font-size: 2rem;
+    padding-right: 1.6rem;
+    padding-top: 1rem;
   }
   .work-link {
-    padding-right:4rem;
-    padding-top: 2rem;
-    font-size: 2rem;
+    padding-top: 1rem;
   }
   .hero-image {
     height: auto;
