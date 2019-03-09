@@ -452,7 +452,7 @@ ul li {
 /*----- FOOTER -----*/
 footer {
   background-color: #363636;
-  padding: 2rem 3rem;
+  padding: 1.6rem 3rem;
   text-align: center;
   overflow: hidden;
 }
@@ -463,10 +463,6 @@ footer {
   color: #FFDBBA;
   letter-spacing: .2rem;
 }
-.copyright{
-  font-size: 1.5rem;
-  letter-spacing: .1rem;
-}
 .copyright-text {
   font-size: 1.1rem;
   letter-spacing: .01rem;
@@ -476,7 +472,8 @@ footer {
   color: white;
 }
 .contact {
-  padding: 2rem 2rem;
+  padding: 2rem 1.6rem;
+  background-color: #363636;
 }
 .lets-connect {
   font-size: 2.5rem;
@@ -489,9 +486,7 @@ footer {
   font-size: 1.6rem;
   color: white;
   text-align: left;
-}
-.contact {
-  background-color: #363636;
+  padding: 0;
 }
 @media (min-width: 320px) and (max-width:767px) {
   .section {
@@ -603,6 +598,16 @@ footer {
   }
   .label {
     font-size: 1.6rem;
+  }
+  .footer-message {
+    padding: 0;
+  }
+  .footer-text-2 {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .footer-text {
+    padding: 1.2rem 0;
   }
 }
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
@@ -779,14 +784,18 @@ footer {
     height: 25rem;
     padding: 1rem 0;
   }
-  .footer-text-2 {
-    line-height: 3.8rem;
-    text-align: left;
-    padding: 0 7rem 2rem 7rem;
-    font-size: 2.5rem;
+  .footer-message {
+    padding: 0 2rem;
   }
-  .lets-connect {
-    padding: 2rem 7rem 2rem 7rem
+  .footer-text-2 {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .footer-text {
+    padding: 1.2rem 0;
+  }
+  .contact {
+    padding: 2rem 8rem;
   }
 }
 /*##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
@@ -946,16 +955,20 @@ footer {
     margin-right: auto;
   }
   .footer-text-2 {
-    font-size: 3rem;
-    line-height: 4.5rem;
-    padding:2.5rem 15rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+    padding: 0;
+  }
+  .footer-message {
+    background-color: #3B515A;
+    padding-bottom: 3rem;
+  }
+  .contact {
+    padding: 5rem 25rem;
   }
   .lets-connect {
-    text-align: center;
-  }
-  .copyright-text {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1281px) {
@@ -1162,9 +1175,6 @@ footer {
     height: 40rem;
   }
   /**** FOOTER ****/
-  .copyright-text {
-    font-size: 1.4rem;
-    }
   .footer-text-2 {
     line-height: 3.5rem;
     font-size: 2rem;
@@ -1174,12 +1184,8 @@ footer {
     background-color: #3B515A;
     padding-bottom: 3rem;
   }
-  .footer-text {
-    text-align: center;
-    padding-top: 1em;
-  }
   .contact {
-    padding: 5rem 15rem;
+    padding: 5rem 25rem;
   }
   .lets-connect {
     font-size: 3rem;

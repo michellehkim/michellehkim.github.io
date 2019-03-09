@@ -68,8 +68,8 @@ body {
  }
  p {
    color: #043043;
-   font-size: 2.4rem;
-   line-height: 3rem;
+   font-size: 1.8rem;
+   line-height: 2.8rem;
  }
  b {
    font-weight: 600;
@@ -146,6 +146,9 @@ a {
   color: #FA7446;
   transition: color 0.3s ease;
 }
+.resume {
+  color: #043043;
+}
 .start-text {
  font-size: 2.5rem;
  line-height: 3rem;
@@ -153,8 +156,8 @@ a {
 }
 /* about me text */
 .text {
-  padding: 3rem 3rem;
-  background-color: #fee2da;
+  padding: 2rem 1.6rem;
+  background-color: #fff4f1;
 }
 .intro {
   padding: 2rem 2rem;
@@ -165,26 +168,31 @@ a {
 }
 /* extra info  */
 .info-title {
-  padding: 3rem 0;
+  padding: 2rem 0;
   font-size: 1.6rem;
   color: white;
   letter-spacing: .1rem;
 }
-.fav-tool, .for-fun, .headphones {
+.fav-tool, .for-fun {
+  text-align: center;
+}
+.headphones {
+  padding-bottom: 2rem;
   text-align: center;
 }
 .extra-info {
   padding: 2rem 1.6rem;
+  background-color: #c2e0ff;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
-  height: 8rem;
+  height: 6rem;
   padding: 1rem 2rem;
   }
   .resume-button:hover {
   color: white;
-  background-color: #FF9272;
-  border: 1px solid #FF9272;
+  background-color: #043043;
+  border: 1px solid #043043;
   transform: scale(1.1);
 }
 .resume:hover {
@@ -192,9 +200,9 @@ a {
 }
 /* footer  */
 .resume-button {
-  background-color: white;
+  background-color: #fff4f1;
   border-radius: 3rem;
-  border: 1px solid #FF9272;
+  border: 1px solid #043043;
   color: #043043;
   font-size: 1.8rem;
   font-family: "Avenir";
@@ -206,18 +214,12 @@ a {
   transition: transform .2s;
   margin: auto;
 }
-
 .one-button {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
-.contact {
-  padding: 3.5rem 2rem 2rem 2rem;
-  background-color: #363636;
-}
-
 footer {
   background-color: #363636;
-  padding: 2rem 3rem;
+  padding: 1.6rem 3rem;
   text-align: center;
 }
 .footer-text {
@@ -227,129 +229,114 @@ footer {
   color: #FFDBBA;
   letter-spacing: .2rem;
 }
-.copyright{
-  font-size: 1.5rem;
-  letter-spacing: .1rem;
-}
 .copyright-text {
-    font-size: 1.3rem;
-    /* padding-top: 1em; */
-    text-align:center;
-    line-height: 1.8rem;
-    color: white;
-  }
-.footer-message {
-  background-color: #181818;
-}
-.footer-text-2 {
-  line-height: 3.4rem;
-  padding: 2rem 1rem 1rem 1rem;
-  font-size: 2.3rem;
+  font-size: 1.1rem;
+  letter-spacing: .01rem;
+  text-align:center;
+  line-height: 1.8rem;
+  padding: 0;
   color: white;
-  text-align: left;
+}
+.contact {
+  padding: 2rem 2rem;
+  background-color: #363636;
 }
 .lets-connect {
-  font-size:3rem;
+  font-size: 2.5rem;
   color: #aad4ff;
   letter-spacing: .3rem;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 0;
 }
-
+.footer-text-2 {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  color: white;
+  text-align: left;
+  padding: 0;
+}
 @media (min-width: 320px) and (max-width:767px) {
   .nav {
     background-color: #FEE2DA;
     overflow: hidden;
     padding: 1.5rem 1.5rem;
   }
+  .main-1, .main-2, .main-3 {
+    line-height: 2.8rem;
+  }
+  .footer-message {
+    padding: 0;
+  }
+  .footer-text {
+    padding: 1.2rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+  h1 {
+    font-size: 8rem;
+    line-height: 9rem;
+    padding: 4rem 5rem 4rem 5rem;
+  }
+  h2 {
+      font-size: 3rem;
+      padding: 3rem 5rem;
+    }
   p {
+    font-size: 1.8rem;
+  }
+  .me {
+    width: auto;
+    height:45rem;
+  }
+  .filter-hifi {
+    text-align: center;
+  }
+  .text {
+    padding: 4rem 10rem;
+  }
+  .extra-info {
+    display: grid;
+    line-height: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2rem 0 2rem;
+  }
+  .info-title {
+    padding: 3rem 0;
+    font-size: 1.6rem;
+  }
+  .fav-tool, .for-fun, .headphones {
+    padding: 3rem 2rem 4rem 2rem;
+  }
+  .invision, .figma, .sketch, .museums, .concerts, .hiking {
+    width: auto;
+    height: 5rem;
+    padding: 1rem 1rem;
+  }
+  /* footer*/
+  .footer-message {
+    padding: 0 2rem;
+  }
+  .footer-text-2 {
+    line-height: 3rem;
     font-size: 2rem;
   }
-  .main-1, .main-2, .main-3 {
-    line-height: 3.3rem;
+  .footer-text {
+    padding: 1.2rem 0;
   }
-.invision, .figma, .sketch, .museums, .concerts, .hiking {
-  width: auto;
-  height: 7rem;
-  padding: 1rem 2rem;
+  .contact {
+    padding: 2rem 8rem;
   }
-.footer-icon {
-    width: auto;
-    height:2rem;
-  }
-.footer {
-    padding: 2rem 2rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width:1024px) {
-h1 {
-  font-size: 8rem;
-  line-height: 9rem;
-  padding: 4rem 5rem 4rem 5rem;
-}
-h2 {
-    font-size: 3rem;
-    padding: 3rem 5rem;
-  }
-p {
-  font-size: 1.8rem;
-}
-.me {
-  width: auto;
-  height:45rem;
-}
-.filter-hifi {
-  text-align: center;
-}
-.text {
-  padding: 4rem 6rem;
-}
-.extra-info {
-  display: grid;
-  line-height: 3rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 2rem 0 2rem;
-}
-.info-title {
-  padding: 3rem 0;
-  font-size: 1.6rem;
-}
-.fav-tool, .for-fun, .headphones {
-  padding: 3rem 2rem 4rem 2rem;
-}
-.invision, .figma, .sketch, .museums, .concerts, .hiking {
-  width: auto;
-  height: 5rem;
-  padding: 1rem 1rem;
-}
-/* footer*/
-.copyright-text {
-  font-size: 1.5rem;
-  }
-.footer-message {
-  padding: 0 2rem;
-}
-.footer-text-2 {
-  line-height: 3.8rem;
-  text-align: left;
-  padding: 0 7rem 1rem 7rem;
-}
-.lets-connect {
-  padding: 2rem 7rem 2rem 7rem;
-}
-.footer-text {
-  padding: 1.2rem 0 1.2rem 0;
-}
 }
 @media (min-width: 1025px)  {
 h1 {
   font-size: 9rem;
   line-height: 10rem;
-  padding: 7rem 7rem 5rem 15rem;
+}
+.intro {
+  padding: 6rem 20rem;
 }
 h2 {
-  font-size: 3.1rem;
-  padding: 3rem 15rem 5rem 15rem;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 p {
 font-size: 2rem;
@@ -359,10 +346,8 @@ line-height: 3.2rem;
   width: auto;
   height: 50rem;
 }
-.main-text {
-  padding:4rem 10rem 0 10rem;
-  width: 80%;
-  margin: auto;
+.text {
+  padding: 4rem 20rem;
 }
 .extra-info {
   display: grid;
@@ -372,10 +357,10 @@ line-height: 3.2rem;
 }
 .info-title {
   font-size: 2rem;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .fav-tool, .for-fun, .headphones {
-  padding: 2rem 2rem 7rem 2rem;
+  padding: 2rem 2rem 6rem 2rem;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
@@ -383,24 +368,19 @@ line-height: 3.2rem;
   padding: 1rem 1rem;
 }
 /* footer */
-.copyright-text {
-  font-size: 1.4rem;
-  }
 .footer-text-2 {
-  line-height: 3.8rem;
-  padding: 0 23rem;
-  text-align: center;
-  font-size: 2.5rem;
-}
-.lets-connect {
-  padding: 3rem 23rem;
-  text-align: center;
+  line-height: 3.5rem;
+  font-size: 2rem;
+  letter-spacing: .05rem;
+  padding: 0;
 }
 .footer-message {
   background-color: #3B515A;
   padding-bottom: 3rem;
 }
-.footer-text {
-  text-align: center;
-  padding-top: 1em;
+.contact {
+  padding: 5rem 25rem;
+}
+.lets-connect {
+  font-size: 3rem;
 }
