@@ -48,8 +48,6 @@ h2{
   font-size: 3rem;
   line-height: 5rem;
   letter-spacing: .2rem;
-  /* padding: 1rem 0; */
-  color: #F64036;
   }
 h3 {
   font-size: 2.4rem;
@@ -66,7 +64,7 @@ h6 {
   font-size: 4rem;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.8rem;
   padding: 1rem 0;
   font-weight: 200;
@@ -154,7 +152,7 @@ nav ul {
     line-height: 3rem;
     letter-spacing: 0;
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding-top: 2rem;
   }
 .overview-title {
   font-size: 3rem;
@@ -321,6 +319,7 @@ nav ul {
   font-weight: 400;
   margin-bottom: 0;
   letter-spacing: normal;
+  padding-bottom: 0;
 }
 .p-header{
   font-size: 1.8rem;
@@ -488,13 +487,10 @@ footer {
   text-align: left;
   padding: 0;
 }
+.section {
+  padding: 2rem 1.6rem;
+}
 @media (min-width: 320px) and (max-width:767px) {
-  .section {
-    padding: 2rem 1.6rem;
-  }
-  p {
-    font-sizex: 2rem;
-  }
   .hero-image {
     height: auto;
     width: 30rem;
@@ -513,9 +509,6 @@ footer {
   }
   .overview-title {
     font-size: 2.4rem;
-  }
-  p {
-    font-size: 1.8rem;
   }
   .label {
     font: 1.6rem;
@@ -727,6 +720,15 @@ footer {
   }
   .persona-name {
     padding-bottom: .5rem;
+  }
+  .persona-age {
+    padding: 0 0 2rem 0;
+  }
+  .p-header{
+    padding: 1rem 0 0 0;
+  }
+  ul {
+    padding: 2.5rem 0;
   }
   /**** BRANDING ****/
   .type-image {
