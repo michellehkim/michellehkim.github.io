@@ -86,7 +86,7 @@ section {
 /*++++-- NAV BAR-- *****/
 .header {
   display: grid;
-  background-color: #ff9178;
+  background-color: #fd8164;
   }
 .nav {
   overflow: hidden;
@@ -141,7 +141,7 @@ nav ul {
   .wrapper		  { height: 375px; text-align: center; font-weight: bold; padding: 150px 0 0 0;} /* Height of nav bar added to total height: 300 */
 /******<!-- PROJECT INTRO -->*******/
 .intro{
-  background-color: #ff9178;
+  background-color: #fd8164;
   padding: 4rem 2.2rem 5rem 2.2rem;
 }
 .snip {
@@ -451,7 +451,7 @@ ul li {
 /*----- FOOTER -----*/
 footer {
   background-color: #363636;
-  padding: 1.6rem 3rem;
+  padding: 1.6rem 2rem;
   text-align: center;
   overflow: hidden;
 }
