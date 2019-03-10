@@ -618,7 +618,7 @@ footer {
     padding: 2.5rem 0;
   }
   section {
-    padding: 4rem 10rem;
+    padding: 4rem 5rem;
   }
   .snip {
     font-size: 1.8rem;
@@ -647,7 +647,7 @@ footer {
     grid-gap: 5rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    padding: 5rem 10rem;
+    padding: 5rem 5rem;
   }
   .label {
     font-size: 1.6rem;
@@ -805,7 +805,6 @@ footer {
 @media (min-width: 1025px) and (max-width: 1280px) {
   h2 {
     padding-bottom: 3rem;
-    font-size: 3rem;
   }
   h3 {
     font-size: 2rem;
@@ -835,7 +834,7 @@ footer {
     padding-top: 10rem;
   }
   section {
-    padding: 6rem 20rem;
+    padding: 6rem 15rem;
   }
   /* intro  */
   .overview-title {
@@ -967,7 +966,7 @@ footer {
     padding-bottom: 3rem;
   }
   .contact {
-    padding: 5rem 25rem;
+    padding: 5rem 15rem;
   }
   .lets-connect {
     font-size: 3rem;
@@ -1187,7 +1186,7 @@ footer {
     padding-bottom: 3rem;
   }
   .contact {
-    padding: 5rem 25rem;
+    padding: 5rem 20rem;
   }
   .lets-connect {
     font-size: 3rem;

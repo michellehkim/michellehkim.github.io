@@ -613,6 +613,7 @@ footer {
   .contact {
     padding: 2rem 8rem;
   }
+}
   /*
   ##Device = Laptops, Desktop;  ##Screen = B/w 1025px to 1280px
   */
@@ -620,7 +621,7 @@ footer {
   h1.landing-title {
     padding-top: 8rem;
     font-size: 8rem;
-    line-height: 14rem;
+    line-height: 10rem;
     }
   h2 {
     font-size: 3rem;
@@ -633,14 +634,14 @@ footer {
     font-size: 2rem;
   }
   .snippet {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 4.5rem;
     padding: 0 0 27rem 0;
   }
+  .hero, .work-1, .work-2 {
+    padding: 4rem 20rem;
+  }
     /* hero section */
-  .hero {
-    padding: 7rem 8rem;
-    }
   .description {
     font-size: 2.5rem;
     line-height: 4rem;
@@ -748,7 +749,7 @@ footer {
     padding-bottom: 3rem;
   }
   .contact {
-    padding: 5rem 25rem;
+    padding: 5rem 20rem;
   }
   .lets-connect {
     font-size: 3rem;

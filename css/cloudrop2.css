@@ -77,8 +77,14 @@ a {
   color: #ff898c;
   transition: color 0.3s ease;
   }
+/* .container {
+  display: grid;
+} */
 .container {
   display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 section {
     padding: 5rem 1.6rem;
@@ -597,6 +603,9 @@ footer {
   .footer-text {
     padding: 1.2rem 0;
   }
+  .contact {
+    padding: 2rem 1.6rem;
+  }
 }
 
 /* ##Device = Tablets, Ipads (landscape); ##Screen = B/w 768px to 1024px */
@@ -620,7 +629,7 @@ footer {
     padding: 2.5rem 0;
   }
   section {
-    padding: 4rem 10rem;
+    padding: 4rem 5rem;
   }
   /* .container {
     display: grid;
@@ -649,7 +658,7 @@ footer {
     grid-gap: 5rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    padding: 5rem 10rem;
+    padding: 5rem 5rem;
   }
   /* problem solution */
   .titles {
@@ -755,28 +764,25 @@ footer {
   }
   /**** WIREFRAMES & TESTING ****/
   .wireframe-visual {
-    width: 48rem;
+    width: 60rem;
     height: auto;
     margin: auto;
-  }
-  .wireframes-testing {
-    padding-bottom: 0;
   }
  .preferences {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    padding: 5rem 0;
   }
   .landing-page-image, .home-page-image {
     text-align: center;
+    padding: 0;
     }
   .desktop-sketch {
     display: flex;
   }
   .desktop-sketch-1, .desktop-sketch-2 {
     width: auto;
-    height: 22rem;
+    height: 26rem;
     margin: auto;
     transition: transform .2s;
   }
@@ -813,6 +819,7 @@ footer {
   }
   .pref-1-image, .pref-2-image {
     text-align: center;
+    padding-top: 3rem;
   }
   .footer-message {
     padding: 0 2rem;
@@ -835,21 +842,14 @@ footer {
     font-size: 4.5rem;
   }
   h2 {
-    padding-bottom: 4rem;
-    font-size: 3.6rem;
+    padding-bottom: 3rem;
+    /* font-size: 2rem; */
   }
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   h4 {
     font-size: 2rem;
-  }
-  .snip {
-    font-size: 3rem;
-  }
-  p {
-    font-size: 2rem;
-    line-height: 3rem;
   }
   .titles {
     line-height: 3.5rem;
@@ -858,9 +858,6 @@ footer {
     height: auto;
     width: 80rem;
     padding: 3rem 1rem 5rem;
-  }
-   {
-    padding-top: 10rem;
   }
   section {
     padding: 6rem 8rem;
@@ -888,18 +885,6 @@ footer {
     margin: 0 auto;
   }
   /* user research */
-  .problem-solution, .user-stories, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups  {
-    display: grid;
-    grid-gap: 4rem;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-  }
-   .user-research {
-     display: grid;
-     grid-gap: 4rem;
-     grid-column-gap: 7rem;
-     grid-template-columns: 1fr 3fr;
-   }
   .survey-button {
     grid-column: 2;
     padding: 2rem 0;
@@ -944,9 +929,11 @@ footer {
   .user-personas-all {
     display: grid;
     grid-column-gap: 4rem;
-    grid-template-columns: 6fr 1fr 6fr;
+    grid-template-columns: 6fr .1fr 6fr;
     padding: 0;
-    padding: 3rem 5rem 5rem 5rem;
+  }
+  .persona-age {
+    padding: 0;
   }
  hr {
    margin: 0;
@@ -956,9 +943,6 @@ footer {
   .p-header {
     font-size: 2rem;
   }
-  .persona-name {
-    padding-bottom: 2.5rem;
-  }
   .user-flows-button {
     padding: 0;
   }
@@ -966,17 +950,6 @@ footer {
     padding: 0 2rem;
   }
   /**** BRANDING ****/
-  .branding-text {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-  }
-  .branding-image {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 2rem;
-    grid-column-gap: 7rem;
-  }
  .b-3, .b-4 {
     width: auto;
     height: 30rem;
@@ -992,25 +965,17 @@ footer {
     width: auto;
     height: 34rem;
   }
-  .colors-text-1 {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-  }
-  .colors-text-2 , .wireframe-image {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-  }
   .user-flows-button, .dropbox-buttons {
     display:grid;
     grid-template-columns: 1fr;
     padding: 0;
   }
   .prototype-buttons  {
-    display:grid;
-    grid-template-columns: 1fr;
+    display: flex;
     padding: 0;
+  }
+  .desktop-p {
+    padding-left: 2rem;
   }
  .mobile-p {
     padding-bottom: 3.5rem;
@@ -1022,7 +987,7 @@ footer {
     padding: 2rem 0 3.5rem 0;
   }
   .prototype-buttons, .dropbox-buttons{
-    padding: 2rem 0;
+    padding-top: 2rem;
   }
   /**** WIREFRAMES & TESTING ****/
   .wireframes-testing {
@@ -1033,22 +998,11 @@ footer {
     height: auto;
     margin: auto;
   }
-  .wireframe-text {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-    height: auto;
-  }
   .preferences {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
     padding: 5rem 0;
-  }
- .hifi-images {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-column-gap: 5rem;
   }
   .landing-page {
     width: auto;
@@ -1067,10 +1021,6 @@ footer {
     height: 38rem;
     padding-top: 3rem;
   }
-  .desktop-sketch {
-    display: flex;
-    padding: 3rem 0 3rem 28rem;
-  }
   .desktop-sketch-1 {
     width: auto;
     height: 25rem;
@@ -1081,11 +1031,6 @@ footer {
      height: 25rem;
      padding-left: 1rem;
    }
-  .testing, .hifi-mockups {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-  }
   .testing-text{
     grid-column: 2;
     padding-top:4rem;
@@ -1099,9 +1044,6 @@ footer {
   }
   .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
     font-size: 1.8rem;
-  }
-  .primary-colors, .secondary-colors {
-    padding-left: 30rem;
   }
   .copyright-text {
     font-size: 1.4rem;
@@ -1161,7 +1103,7 @@ footer {
     padding: 3rem 1rem 5rem;
   }
   section, .intro, .problem-solution, .user-personas, .competitive-analysis {
-    padding: 8rem 8rem;
+    padding: 8rem 20rem;
   }
   /**** INTRO ****/
   .overview-title {
@@ -1189,7 +1131,7 @@ footer {
     grid-gap: 5rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    padding: 8rem 8rem;
+    padding: 8rem 20rem;
   }
   .titles {
     padding: 1.5rem 0;
@@ -1202,12 +1144,6 @@ footer {
   }
   /**** RESEARCH ****/
   /* user research */
-  .problem-solution, .user-stories, .user-research, .research-overall, .comp-analysis, .research-goals, .branding-story, .typography, .insight, .wireframes, .hifi-mockups {
-    display: grid;
-    grid-gap: 4rem;
-    grid-column-gap: 10rem;
-    grid-template-columns: 1fr 3fr;
-  }
   .survey-button {
     grid-column: 2;
     padding: 0;
@@ -1246,27 +1182,14 @@ footer {
     width: auto;
     height: 60rem;
   }
-  .wireframe-image {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-column-gap: 10rem;
-  }
-  .wireframe-text {
-    display: grid;
-    grid-column-gap: 7rem;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr auto;
-    height: auto;
-  }
   /* user persona  */
   .user-personas-all {
     display: grid;
-    grid-column-gap: 4rem;
-    grid-template-columns: 6fr 1fr 6fr;
+    grid-template-columns: 6fr .1fr 6fr;
     padding: 0;
   }
   .persona-1, .persona-2 {
-    padding: 0 6rem;
+    padding: 0 2rem;
   }
   hr {
     width: 1px;
@@ -1278,17 +1201,6 @@ footer {
     padding-top: 5rem;
   }
   /**** BRANDING ****/
-  .branding-text {
-    display: grid;
-    grid-column-gap: 10rem;
-    grid-template-columns: 1fr 3fr;
-  }
-  .branding-image {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 2rem;
-    grid-column-gap: 10rem;
-  }
  .b-3, .b-4 {
     width: auto;
     height: 35rem;
@@ -1300,46 +1212,19 @@ footer {
   .typography {
     padding-top: 5rem;
   }
-  .colors-text-1, .colors-text-2 {
-    display: grid;
-    grid-column-gap: 10rem;
-    grid-template-columns: 1fr 3fr;
-  }
-  .colors-text-2.1 {
-    grid-column-start: 3;
-  }
-  .primary-colors {
-    padding-left: 30rem;
-  }
-  .secondary-colors {
-    padding-left: 35rem;
-  }
   .type-image {
     width:auto;
     height:40rem;
   }
   /**** WIREFRAMES & TESTING ****/
-  .wireframes-testing {
-    padding-bottom: 0;
-  }
-  .wireframe-text {
-    display: grid;
-    grid-column-gap: 10rem;
-    grid-template-columns: 1fr 3fr;
-  }
- .hifi-images {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    padding: 5rem 0;
-  }
   .desktop-sketch {
-    display: flex;
-    padding: 3rem 0 3rem 35rem;
+    text-align: center;
   }
   .desktop-sketch-1, .desktop-sketch-2 {
     width: auto;
-    height: 30rem;
+    height: 40rem;
+    padding: 3rem 3rem;
+    text-align: center;
   }
   .landing-page {
     width: auto;
@@ -1364,28 +1249,20 @@ footer {
     width: auto;
     height: 38rem;
   }
-  .hifi-images {
+  .testing-images {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 0;
   }
  .preferences {
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
   .dropbox-buttons {
     padding: 0;
   }
-  .testing {
-    display: grid;
-    grid-gap: 4rem;
-    grid-column-gap: 10rem;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1 3fr;
-  }
   .pref-1-image, .pref-2-image {
     display: grid;
     justify-content: center;
-    padding-bottom: 6rem;
   }
   .dots {
     width:auto;
@@ -1413,7 +1290,7 @@ footer {
     padding-bottom: 3rem;
   }
   .contact {
-    padding: 5rem 25rem;
+    padding: 5rem 20rem;
   }
   .lets-connect {
     font-size: 3rem;
