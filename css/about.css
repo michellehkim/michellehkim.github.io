@@ -106,12 +106,12 @@ nav ul li:first-child {
   padding-top: 1rem;
 }
 .work-link {
- color: #000000;
+ color: #7d7d7d;
  font-size: 1.4rem;
  letter-spacing: .1rem;
 }
 .about {
- color: #000000;
+ color: #7d7d7d;
  padding-right: 1.6rem;
  font-size: 1.4rem;
  letter-spacing: .1rem;
@@ -197,7 +197,7 @@ a {
 /* footer  */
 .resume-button {
   background-color: #fff4f1;
-  border-radius: 3rem;
+  /* border-radius: 3rem; */
   border: 1px solid #000000;
   color: #043043;
   font-size: 1.8rem;
@@ -207,7 +207,7 @@ a {
   text-align: center;
   width: 12rem;
   cursor: pointer;
-  transition: transform .2s;
+  transition: transform .5s;
   margin: auto;
 }
 .one-button {
@@ -215,7 +215,7 @@ a {
 }
 footer {
   background-color: #363636;
-  padding: 1.6rem 3rem;
+  padding: 1rem 1rem;
   text-align: center;
 }
 .footer-text {
@@ -264,6 +264,9 @@ footer {
   }
   .footer-text {
     padding: 1.2rem 0;
+  }
+  .contact {
+    padding: 2rem 3rem;
   }
 }
 @media (min-width: 768px) and (max-width:1024px) {

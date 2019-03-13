@@ -74,7 +74,7 @@ b{
 }
 a {
   text-decoration: none;
-  color: #ff898c;
+  color: #FA7446;
   transition: color 0.3s ease;
   }
 /* .container {
@@ -126,13 +126,13 @@ li.navi {
     padding-top: 1rem;
   }
   .work-link {
-   color: #000000;
+   color: #7d7d7d;
    font-size: 1.4rem;
    letter-spacing: .1rem;
    padding-top: 1rem;
   }
   .about {
-   color: #000000;
+   color: #7d7d7d;
    padding-right: 1.6rem;
    font-size: 1.4rem;
    padding-top: 1rem;
@@ -172,7 +172,6 @@ li.navi {
   }
 .mobile-prototype-top {
   background-color: #E1F8FF;
-  border-radius: 3rem;
   border: 1px solid #292b34;
   color: #292b34;
   font-family: "Avenir";
@@ -208,7 +207,6 @@ li.navi {
 /******<!-- RESEARCH SECTION-->*******/
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
   background-color: #f4f4f4;
-  border-radius: 3rem;
   border: 1.5px solid #FF9272;
   color: #043043;
   font-family: "Avenir";
@@ -226,6 +224,7 @@ li.navi {
   background-color: #FF9272;
   border: 1.5px solid #FF9272;
   transform: scale(1.1);
+
   }
 .survey {
     width: 14rem;
@@ -516,7 +515,7 @@ hr {
 /*----- FOOTER -----*/
 footer {
   background-color: #363636;
-  padding: 1.6rem 2rem;
+  padding: 1rem 1rem;
   text-align: center;
   overflow: hidden;
 }
@@ -536,7 +535,7 @@ footer {
   color: white;
 }
 .contact {
-  /* padding: 2rem 1.6rem; */
+  padding: 2rem 1.6rem;
   background-color: #363636;
 }
 .lets-connect {
@@ -596,15 +595,11 @@ footer {
   .footer-message {
     padding: 0;
   }
-  .footer-text-2 {
-    line-height: 3rem;
-    font-size: 2rem;
-  }
   .footer-text {
     padding: 1.2rem 0;
   }
   .contact {
-    padding: 2rem 1.6rem;
+    padding: 2rem 3rem;
   }
 }
 
@@ -1064,9 +1059,9 @@ footer {
   .contact {
     padding: 5rem 15rem;
   }
-  .lets-connect {
+  /* .lets-connect {
     font-size: 3rem;
-  }
+  } */
 }
 @media (min-width: 1281px) {
   h1 {
@@ -1292,7 +1287,7 @@ footer {
   .contact {
     padding: 5rem 20rem;
   }
-  .lets-connect {
+  /* .lets-connect {
     font-size: 3rem;
-  }
+  } */
 }
