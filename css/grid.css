@@ -30,7 +30,7 @@ html {
 }
 body {
   background-color: #efefef;
-  font-family: "Helvetica", "Nunito"; sans-serif;
+  font-family: "Avenir", "Nunito"; sans-serif;
 }
 p {
   font-size: 1.6rem;
@@ -311,39 +311,30 @@ a {
   transition: color 0.3s ease;
 }
 footer {
-  background-color: #363636;
-  padding: 1rem 1rem;
+  background-color: #fff2ef;
+  padding: .5rem .5rem;
   text-align: center;
-}
-.footer-text {
-  margin: 0;
-  font-size: 2.5rem;
-  text-align:center;
-  color: #FFDBBA;
-  letter-spacing: .2rem;
 }
 .copyright-text {
   font-size: 1.1rem;
   letter-spacing: .01rem;
   text-align:center;
   line-height: 1.8rem;
-  color: white;
 }
 .contact {
   padding: 2rem 1.6rem;
-  background-color: #363636;
+  background-color: #fff2ef;
 }
 .lets-connect {
-  font-size: 2.5rem;
-  color: #aad4ff;
+  font-size: 2rem;
   letter-spacing: .3rem;
   padding: 2rem 0;
+  text-align: center;
 }
 .footer-text-2 {
   line-height: 2.5rem;
   font-size: 1.6rem;
-  color: white;
-  text-align: left;
+  text-align: center;
 }
 .c-button {
   padding: 1rem 0;
@@ -362,15 +353,6 @@ footer {
   width: 11rem;
   cursor: pointer;
   transition: transform .2s;
-}
-.linkedin-logo, .github-logo, .email-logo{
-  width: auto;
-  height: 2.8rem;
-  padding: .5rem 1rem;
-}
-.icons {
-  text-align: center;
-  margin: 1rem 0;
 }
 @media (min-width: 426px) and (max-width:767px) {
   h1.landing-title {
@@ -646,11 +628,8 @@ footer {
     padding: 0 2rem;
   }
   .footer-text-2 {
-    line-height: 3rem;
-    font-size: 2rem;
-  }
-  .footer-text {
-    padding: 1.2rem 0;
+    font-size: 1.6rem;
+    padding: 0 10rem;
   }
   .contact {
     padding: 2rem 8rem;
@@ -806,7 +785,7 @@ footer {
   }
     /* footer */
   .footer-text-2 {
-    line-height: 3.5rem;
+    line-height: 3rem;
     font-size: 2rem;
     letter-spacing: .05rem;
   }
@@ -817,7 +796,7 @@ footer {
   .contact {
     padding: 5rem 20rem;
   }
-  /* .lets-connect {
-    font-size: 3rem;
-  } */
+  .lets-connect {
+    font-size: 2.5rem;
+  }
   }
