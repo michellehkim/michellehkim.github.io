@@ -539,6 +539,20 @@ footer {
 .section {
   padding: 2rem 1.6rem;
 }
+#back-top {
+position: fixed;
+display:none;
+font-size: 1.3rem;
+text-decoration: underline;
+color: rgba(0,0,0,0.5);
+bottom: 20px;
+right:20px;
+width:auto;}
+a#back-top:active {background:none;}
+a#back-top {display: block; text-decoration: none;}
+.topup {bottom:5px;}
+#back-top i {display: block;}
+
 @media (min-width: 320px) and (max-width:767px) {
   .hero-image {
     padding-bottom: 4rem;

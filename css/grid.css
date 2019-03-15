@@ -60,6 +60,12 @@ h1 span:nth-child(2n):hover {
 h1 span:nth-child(3n):hover {
   color: #00A4DD;
 }
+/* .backtop {
+  text-align: center;
+  text-decoration: underline;
+  color: #000000;
+  font-size: 2rem;
+} */
 h2 {
   color: #000000;
   font-size: 3rem;
@@ -365,6 +371,22 @@ footer {
   width: 11rem;
   cursor: pointer;
   transition: transform .2s;
+}
+#back-top {
+position: fixed;
+display:none;
+font-size: 1.2rem;
+text-decoration: underline;
+color: rgba(0,0,0,0.5);
+bottom: 5px;
+right:10px;
+width:auto;}
+a#back-top:active {background:none;}
+a#back-top {display: block; text-decoration: none;}
+.topup {bottom:5px;}
+#back-top i {display: block;}
+#back-top:hover {
+color: pink;
 }
 @media (min-width: 426px) and (max-width:767px) {
   h1.landing-title {

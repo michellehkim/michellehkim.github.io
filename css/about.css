@@ -248,6 +248,20 @@ footer {
   font-size: 1.6rem;
   text-align: center;
 }
+#back-top {
+position: fixed;
+display:none;
+font-size: 1.3rem;
+text-decoration: underline;
+color: rgba(0,0,0,0.5);
+bottom: 20px;
+right:20px;
+width:auto;}
+a#back-top:active {background:none;}
+a#back-top {display: block; text-decoration: none;}
+.topup {bottom:5px;}
+#back-top i {display: block;}
+
 @media (min-width: 320px) and (max-width:767px) {
   .nav {
     background-color: #FEE2DA;
@@ -295,9 +309,8 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 2rem 0 2rem;
   }
-  .info-title {
-    padding: 3rem 0;
-    /* font-size: 1.6rem; */
+  .one-button {
+    padding:3rem 0 0 0;
   }
   .fav-tool, .for-fun, .headphones {
     padding: 3rem 2rem 4rem 2rem;
