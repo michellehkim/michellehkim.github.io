@@ -29,7 +29,7 @@ html {
   font-weight: 200;
 }
 body {
-    color: #043043;
+    /* color: #043043; */
     font-family: "Avenir"; sans-serif;
   }
 h1{
@@ -40,7 +40,7 @@ h1{
     text-align: center;
   }
 h2{
-  color: #043043;
+  /* color: #043043; */
   font-weight: 600;
   font-size: 3rem;
   line-height: 5rem;
@@ -123,13 +123,15 @@ li.navi {
     padding-top: 1rem;
   }
   .work-link {
-   color: #7d7d7d;
+   /* color: #7d7d7d; */
+   color: #000;
    font-size: 1.4rem;
    letter-spacing: .1rem;
    padding-top: 1rem;
   }
   .about {
-   color: #7d7d7d;
+   /* color: #7d7d7d; */
+   color: #000;
    padding-right: 1.6rem;
    font-size: 1.4rem;
    padding-top: 1rem;
@@ -155,7 +157,6 @@ li.navi {
   padding: 4rem 2.2rem 5rem 2.2rem;
 }
 .snip {
-    color: #043043;
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
@@ -169,15 +170,15 @@ li.navi {
   }
 .mobile-prototype-top {
   background-color: #E1F8FF;
-  border: 1px solid #292b34;
-  color: #292b34;
+  border: 1px solid #000000;
+  color: #000000;
   font-family: "Avenir";
   font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .09rem;
-  padding: .8rem 2rem;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  padding: .8rem 1rem;
   text-align: center;
-  width: 16rem;
+  width: 11rem;
   cursor: pointer;
   transition: transform .2s;
 }
@@ -204,12 +205,12 @@ li.navi {
 /******<!-- RESEARCH SECTION-->*******/
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
   background-color: #f4f4f4;
-  border: 1.5px solid #FF9272;
-  color: #043043;
+  border: 1px solid #000000;
+  color: #000000;
   font-family: "Avenir";
   font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .09rem;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
   padding: .8rem 1rem;
   text-align: center;
   width: 11rem;
@@ -218,22 +219,17 @@ li.navi {
   }
 .mobile-prototype:hover, .mobile-prototype-top:hover, .desktop-prototype:hover, .mobile-hifis:hover, .desktop-hifis:hover, .mobile-wireframes:hover, .user-stories-here:hover, .user-flows-here:hover, .site-map-here:hover, .mobile-wireframes:hover  {
   color: white;
-  background-color: #FF9272;
-  border: 1.5px solid #FF9272;
+  background-color: #000000;
+  border: 1.5px solid #000000;
   transform: scale(1.1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
 
   }
-.survey {
-    width: 14rem;
-    background-color: white;
-    transition: transform .2s;
-  }
-.survey:hover {
-  color: white;
-  backgroun d-color: #FF9272;
-  border: 1.5px solid #FF9272;
-  transform: scale(1.1);
-}
 .highlight {
   display: grid;
   grid-template-columns: 1fr;
@@ -820,7 +816,6 @@ footer {
   }
   h2 {
     padding-bottom: 3rem;
-    /* font-size: 2rem; */
   }
   h3 {
     font-size: 2rem;
@@ -1047,8 +1042,7 @@ footer {
 }
 @media (min-width: 1281px) {
   h1 {
-    font-size: 5.5rem;
-    letter-spacing: 1.5rem;
+    font-size: 4.5rem;
   }
   h2 {
     padding-bottom: 5rem;
@@ -1059,9 +1053,6 @@ footer {
   }
   h4 {
     font-size: 2.2rem;
-  }
-  .snip {
-    font-size: 3.2rem;
   }
   p {
     font-size: 2rem;

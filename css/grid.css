@@ -105,12 +105,14 @@ a {
    padding: .5rem 1.6rem;
  }
 .work-link {
-  color: #7d7d7d;
+  /* color: #7d7d7d; */
+  color: #000;
   font-size: 1.4rem;
   letter-spacing: .1rem;
 }
 .about {
-  color: #7d7d7d;
+  /* color: #7d7d7d; */
+  color: #000;
   padding-right: 1.6rem;
   font-size: 1.4rem;
   letter-spacing: .1rem;
@@ -213,13 +215,14 @@ b {
 .case-study {
   background-color: #E1F8FF;
   /* border-radius: 3rem; */
-  border: 1px solid #000000;
+  border: 1.5px solid #000000;
   color: #000000;
   font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  padding: .8rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: .8rem 1rem;
   text-align: center;
+  letter-spacing: .1rem;
   width: 11rem;
   cursor: pointer;
   transition: transform .2s;
@@ -227,22 +230,29 @@ b {
 .rumble-case-study {
   background-color: #fd8164;
   /* border-radius: 3rem; */
-  border: 1px solid #000000;
+  border: 1.5px solid #000000;
   color: #000000;
   font-family: "Avenir";
-  font-weight: 400;
-  font-size: 1.6rem;
-  padding: .8rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  padding: .8rem 1rem;
   text-align: center;
   width: 11rem;
   cursor: pointer;
   transition: transform .2s;
 }
 .case-study:hover, .rumble-case-study:hover {
-  color: #000000;
-  background-color: #ffd356;
-  border: 1px solid #ffd356;
+  color: #fff;
+  background-color: #000;
+  border: 1.5px solid #000;
   transform: scale(1.1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
 }
 /*----- other sections -----*/
 .work-1 {
@@ -519,10 +529,6 @@ footer {
     width: 45rem;
     margin: 0;
   }
-  /* .all-work {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  } */
   .project-screens {
     position: relative;
     width: 90%;
@@ -615,7 +621,7 @@ footer {
   .work {
     padding: 4rem 1.6rem;
   }
-  .case-study, .connect {
+ .connect {
     font-size: 1.6rem;
     }
   button {
@@ -688,7 +694,7 @@ footer {
   .work {
     padding: 7rem 1.6rem;
   }
-  .case-study, .connect {
+ .connect {
     font-size: 1.6rem;
   }
   button {
