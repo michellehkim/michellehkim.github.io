@@ -516,6 +516,7 @@ footer {
   letter-spacing: .01rem;
   text-align:center;
   line-height: 1.8rem;
+  COLOR: #808080;
   padding: 0;
 }
 .contact {
@@ -533,7 +534,7 @@ footer {
   font-size: 1.6rem;
   text-align: center;
   padding: 0;
-  color: #808080;
+  color: #000000;
 }
 .section {
   padding: 2rem 1.6rem;
@@ -641,13 +642,6 @@ footer {
   }
   /**** RESEARCH ****/
   /* user research */
-  .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
-    font-size: 1.6rem;
-  }
-  .survey-button {
-    grid-column: 2;
-    padding: 2rem 0;
-  }
   .highlights-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1014,9 +1008,6 @@ footer {
     width:auto;
     height: 40rem;
   }
-  .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
-    font-size: 1.8rem;
-  }
   .copyright-text {
     font-size: 1.4rem;
     }
@@ -1107,9 +1098,9 @@ footer {
     letter-spacing: .2rem;
     font-size: 3rem;
   }
-  .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
+  /* .mobile-prototype, .mobile-prototype-top, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey, .user-stories-here, .user-flows-here, .site-map-here {
     font-size: 1.8rem;
-  }
+  } */
   /**** RESEARCH ****/
   /* user research */
   .survey-button {
@@ -1207,9 +1198,9 @@ footer {
   .protoype-buttons {
     display: grid;
   }
-  .mobile-p, .mobile-hifi, .user-flow-button {
+  /* .mobile-p, .mobile-hifi, .user-flow-button {
     padding: 2rem 0 4rem 0;
-  }
+  } */
   .user-flows-button {
     padding: 0;
   }

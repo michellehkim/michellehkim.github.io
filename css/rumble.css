@@ -161,16 +161,15 @@ nav ul {
 }
 .mobile-prototype-top {
   background-color: #fd8164;
-  border-radius: 3rem;
-  border: 1px solid #292b34;
-  color: #292b34;
+  border: 1px solid #000000;
+  color: #000000;
   font-family: "Avenir";
   font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: .09rem;
-  padding: .8rem 2rem;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  padding: .8rem 1rem;
   text-align: center;
-  width: 16rem;
+  width: 11rem;
   cursor: pointer;
   transition: transform .2s;
 }
@@ -204,7 +203,7 @@ nav ul {
   background-color: #f4f4f4;
 }
 /******<!-- RESEARCH SECTION-->*******/
-.mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
+.mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes{
   background-color: #efefef;
   border-radius: 3rem;
   border: 1px solid #FF9272;
@@ -221,9 +220,15 @@ nav ul {
   }
 .mobile-prototype:hover, .mobile-prototype-top:hover, .desktop-prototype:hover, .mobile-hifis:hover, .desktop-hifis:hover, .mobile-wireframes:hover, .user-stories-here:hover, .user-flows-here:hover, .site-map-here:hover, .mobile-wireframes:hover  {
   color: white;
-  background-color: #FF9272;
-  border: 1px solid #FF9272;
+  background-color: #000000;
+  border: 1px solid #000000;
   transform: scale(1.1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
   }
 .highlight {
   display: grid;
