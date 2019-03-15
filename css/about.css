@@ -47,7 +47,6 @@ body {
    padding: 2rem  0;
    letter-spacing: .1rem;
    line-height: 6.5rem;
-   /* background-color: #fcd8d9; */
  }
  h2 {
    color: #FA7446;
@@ -64,10 +63,8 @@ body {
  h4 {
    font-size: 2rem;
    font-weight: 400;
-   color: #043043;
  }
  p {
-   color: #043043;
    font-size: 1.8rem;
    line-height: 2.8rem;
  }
@@ -182,12 +179,12 @@ a {
 }
 .extra-info {
   padding: 2rem 1.6rem;
-  background-color: #c2e0ff;
+  background-color: #ffe1d3;
 }
 .invision, .figma, .sketch, .museums, .concerts, .hiking {
   width: auto;
-  height: 6rem;
-  padding: 1rem 2rem;
+  height: 5rem;
+  padding: 1rem 1rem;
   }
   .resume-button:hover {
   color: #000000;
@@ -214,19 +211,19 @@ a {
   padding-top: 1rem;
 }
 footer {
-  background-color: #fff2ef;
+  background-color: #d4efe3;
   padding: .5rem .5rem;
   text-align: center;
 }
 .copyright-text {
   font-size: 1.1rem;
-  letter-spacing: .01rem;
   text-align:center;
   line-height: 1.8rem;
+  color: #808080;
 }
 .contact {
   padding: 2rem 1.6rem;
-  background-color: #fff2ef;
+  background-color: #d4efe3;
 }
 .lets-connect {
   font-size: 2rem;
@@ -352,14 +349,17 @@ line-height: 3.2rem;
 }
 /* footer */
 .contact {
-  padding: 5rem 20rem;
+  padding: 5rem 25rem;
 }
 .lets-connect  {
   font-size: 2.5rem
 }
 .footer-text-2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 3rem;
   letter-spacing: .05rem;
+}
+.copyright-text {
+  font-size: 1.4rem;
 }
 }

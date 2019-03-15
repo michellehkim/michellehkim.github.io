@@ -33,7 +33,7 @@ body {
   font-family: "Avenir", "Nunito"; sans-serif;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 h1.landing-title {
   cursor: cell;
@@ -87,7 +87,7 @@ b {
 /*------ header ------*/
 header {
   display: grid;
-  background-color: #fcd8d9;
+  background-color: #ffdae7;
 }
 a {
   text-decoration: none;
@@ -99,6 +99,7 @@ a {
   background-color: white;
   height: 100vh;
   display: grid;
+  /* border: 20px solid #fff; */
  }
  .navbar {
    padding: .5rem 1.6rem;
@@ -155,7 +156,7 @@ nav ul li:first-child {
 .hero {
   padding: 5rem 1.6rem 2rem 1.6rem;
   width: 100%;
-  background: -webkit-linear-gradient(-70deg, #fcd8d9 45%, #fce5d6 45%);
+  background: -webkit-linear-gradient(-70deg, #ffdae7 45%, #fce5d6 45%);
 }
 .hero-1 {
   background-color: #E1F8FF;
@@ -311,7 +312,7 @@ a {
   transition: color 0.3s ease;
 }
 footer {
-  background-color: #fff2ef;
+  background-color: #d4efe3;
   padding: .5rem .5rem;
   text-align: center;
 }
@@ -320,10 +321,11 @@ footer {
   letter-spacing: .01rem;
   text-align:center;
   line-height: 1.8rem;
+  color: #808080;
 }
 .contact {
   padding: 2rem 1.6rem;
-  background-color: #fff2ef;
+  background-color: #d4efe3;
 }
 .lets-connect {
   font-size: 2rem;
@@ -786,7 +788,7 @@ footer {
     /* footer */
   .footer-text-2 {
     line-height: 3rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     letter-spacing: .05rem;
   }
   .footer-message {
@@ -794,7 +796,7 @@ footer {
     padding-bottom: 3rem;
   }
   .contact {
-    padding: 5rem 20rem;
+    padding: 5rem 25rem;
   }
   .lets-connect {
     font-size: 2.5rem;
