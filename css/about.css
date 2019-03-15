@@ -55,6 +55,7 @@ body {
    /* padding: 1rem 1rem; */
    font-style: italic;
  }
+
  h3 {
    font-weight: 600;
    font-size: 2rem;
@@ -219,7 +220,7 @@ a {
   transition: all 0.1s ease-in-out 0s;
 }
 .one-button {
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0;
   text-align: center;
 }
 footer {
@@ -358,7 +359,7 @@ line-height: 3.2rem;
   display: grid;
   line-height: 3rem;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 2rem 0 2rem;
+  padding: 0 15rem;
 }
 .info-title {
   /* font-size: 2rem; */

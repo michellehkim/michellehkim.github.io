@@ -372,22 +372,6 @@ footer {
   cursor: pointer;
   transition: transform .2s;
 }
-#back-top {
-position: fixed;
-display:none;
-font-size: 1.2rem;
-text-decoration: underline;
-color: rgba(0,0,0,0.5);
-bottom: 5px;
-right:10px;
-width:auto;}
-a#back-top:active {background:none;}
-a#back-top {display: block; text-decoration: none;}
-.topup {bottom:5px;}
-#back-top i {display: block;}
-#back-top:hover {
-color: pink;
-}
 @media (min-width: 426px) and (max-width:767px) {
   h1.landing-title {
     padding: 4rem 1rem 2rem 1rem;
@@ -687,7 +671,7 @@ color: pink;
   .snippet {
     font-size: 2rem;
     line-height: 4.5rem;
-    padding: 0 0 27rem 0;
+    padding: 0 0 36rem 0;
   }
   .hero, .work-1 {
     padding: 4rem 20rem;
