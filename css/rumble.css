@@ -481,7 +481,6 @@ footer {
   line-height: 2.5rem;
   font-size: 1.6rem;
   text-align: center;
-  color: #808080;
 }
 .section {
   padding: 2rem 1.6rem;
@@ -796,8 +795,9 @@ a#back-top {display: block; text-decoration: none;}
     padding: 0 2rem;
   }
   .footer-text-2 {
-    line-height: 3rem;
-    font-size: 2rem;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    padding: 0;
   }
   .footer-text {
     padding: 1.2rem 0;
