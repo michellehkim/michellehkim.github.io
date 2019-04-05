@@ -202,6 +202,9 @@ li.navi {
   background-color: #f4f4f4;
   padding-top: 4rem;
 }
+.dropbox-buttons {
+  display: flex;
+}
 /******<!-- RESEARCH SECTION-->*******/
 .mobile-prototype, .desktop-prototype, .mobile-hifis, .desktop-hifis, .mobile-wireframes, .survey {
   background-color: #f4f4f4;
