@@ -220,7 +220,7 @@ a {
   transition: all 0.1s ease-in-out 0s;
 }
 .one-button {
-  padding: 2rem 0;
+  padding-top: 2rem;
   text-align: center;
 }
 footer {
